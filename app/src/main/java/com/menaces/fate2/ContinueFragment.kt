@@ -28,12 +28,12 @@ class ContinueFragment : Fragment() {
         // reference for button
         continueBtn = view.findViewById(R.id.continue_button)
 
-        // create object of com.menaces.fate2.SharedViewModel
-//        val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
+        // create object of SharedViewModel
+        val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
 
         // call function "sendMessage" defined in SharedVieModel
         // to store the value in message.
-//        var counter = 0
-//        continueBtn.setOnClickListener {model.sendMessage(updateNarration.)}
+        var counter = 0
+        continueBtn.setOnClickListener { model.updateNarration(counter) }
     }
 }

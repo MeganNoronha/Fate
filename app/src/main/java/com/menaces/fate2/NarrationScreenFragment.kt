@@ -28,16 +28,16 @@ class NarrationScreenFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        // reference for the container declared above
         narrationText = view.findViewById(R.id.narration_text)
 
-//        // reference for the container declared above
-//        narrationText = view.findViewById(R.id.narration_text)
-//        // create object of com.menaces.fate2.SharedViewModel
-//        val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
-//        // observing the change in the message declared in com.menaces.fate2.SharedViewModel
-//        model.message.observe(viewLifecycleOwner, Observer {
-//            // updating data in displayMsg
-//            narrationText.text = it
-//        })
+        // create object of com.menaces.fate2.SharedViewModel
+        val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
+
+        // observing the change in the message declared in com.menaces.fate2.SharedViewModel
+        model.message.observe(viewLifecycleOwner, Observer {
+            // updating narration text
+            narrationText.text = it
+        })
     }
 }
