@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 
 class SharedViewModel : ViewModel() {
 
-    private val storyText: List<String> = listOf("Narration 1", "Narration 2", "Narration 3")
+//    private val storyText: List<String> = listOf("Narration 1", "Narration 2", "Narration 3")
 
     // variable to contain message whenever
     // it gets changed/modified(mutable)
@@ -13,6 +13,7 @@ class SharedViewModel : ViewModel() {
 
     // function to send message
     fun sendMessage(textID: Int) {
-        message.value = storyText[textID]
+//        message.value = storyText[textID]
+        message.value = textID.toString()
     }
 }

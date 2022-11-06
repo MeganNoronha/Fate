@@ -1,6 +1,6 @@
 package com.menaces.fate2
 
-import NarrationScreenFragment
+//import NarrationScreenFragment
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -13,10 +13,10 @@ import androidx.lifecycle.ViewModelProvider
 class ContinueFragment : Fragment() {
 
     // to send message
-    private lateinit var continueBtn: Button
+//    private lateinit var continueBtn: Button
 
     // to write message
-    private lateinit var updateNarration: EditText
+//    private lateinit var updateNarration: EditText
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -30,15 +30,15 @@ class ContinueFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         // reference for button and EditText
-        continueBtn = view.findViewById(R.id.continue_button)
-        updateNarration = view.findViewById(R.id.narration_text)
+//        continueBtn = view.findViewById(R.id.continue_button)
+//        updateNarration = view.findViewById(R.id.narration_text)
 
         // create object of com.menaces.fate2.SharedViewModel
-        val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
+//        val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
 
         // call function "sendMessage" defined in SharedVieModel
         // to store the value in message.
-        var counter = 0
-        continueBtn.setOnClickListener {model.sendMessage(updateNarration.)}
+//        var counter = 0
+//        continueBtn.setOnClickListener {model.sendMessage(updateNarration.)}
     }
 }
