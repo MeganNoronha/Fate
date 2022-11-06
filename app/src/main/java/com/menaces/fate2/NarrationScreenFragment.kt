@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -13,8 +14,11 @@ import com.menaces.fate2.SharedViewModel
 
 class NarrationScreenFragment : Fragment() {
 
-    // to contain and display shared message
+    // to contain and display narration text
     lateinit var narrationText: TextView
+
+    // to contain and display story image
+    lateinit var storyImg: ImageView
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -28,16 +32,23 @@ class NarrationScreenFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // reference for the container declared above
+        // reference for the containers declared above
         narrationText = view.findViewById(R.id.narration_text)
+        storyImg = view.findViewById(R.id.narration_img)
 
         // create object of com.menaces.fate2.SharedViewModel
         val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
 
-        // observing the change in the message declared in com.menaces.fate2.SharedViewModel
+        // observing the change in the message declared in SharedViewModel
         model.message.observe(viewLifecycleOwner, Observer {
             // updating narration text
             narrationText.text = it
         })
+
+        model.image.observe(viewLifecycleOwner, Observer {
+            // updating story image
+            storyImg.setImageResource(it)
+        })
+
     }
 }

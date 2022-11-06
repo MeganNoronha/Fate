@@ -32,8 +32,9 @@ class ContinueFragment : Fragment() {
         val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
 
         // call function "sendMessage" defined in SharedVieModel
-        // to store the value in message.
+        // to store the value in narration/image.
         var counter = 0
-        continueBtn.setOnClickListener { model.updateNarration(counter) }
+        continueBtn.setOnClickListener { model.updateScreen(counter) }
+
     }
 }
