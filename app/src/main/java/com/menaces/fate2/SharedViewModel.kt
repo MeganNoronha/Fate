@@ -8,8 +8,7 @@ class SharedViewModel : ViewModel() {
 
     private val storyText: List<String> = listOf("Narration 1", "Narration 2", "Narration 3")
 
-    // variable to contain message whenever
-    // it gets changed/modified(mutable)
+    // variable to contain message whenever it gets changed/modified(mutable)
     val message = MutableLiveData<String>()
 
     // function to send message
