@@ -12,8 +12,10 @@ import com.menaces.fate2.R
 import com.menaces.fate2.SharedViewModel
 
 class NarrationScreenFragment : Fragment() {
+
     // to contain and display shared message
-//    private lateinit var narrationText: TextView
+    lateinit var narrationText: TextView
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -25,6 +27,8 @@ class NarrationScreenFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        narrationText = view.findViewById(R.id.narration_text)
 
 //        // reference for the container declared above
 //        narrationText = view.findViewById(R.id.narration_text)

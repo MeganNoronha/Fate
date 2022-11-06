@@ -1,5 +1,6 @@
 package com.menaces.fate2
 
+import android.widget.Toast
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
@@ -13,7 +14,8 @@ class SharedViewModel : ViewModel() {
 
     // function to send message
     fun sendMessage(textID: Int) {
+        message.value = "Narration changed!"
 //        message.value = storyText[textID]
-        message.value = textID.toString()
+//        message.value = textID.toString()
     }
 }
