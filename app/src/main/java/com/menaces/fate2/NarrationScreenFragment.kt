@@ -40,7 +40,7 @@ class NarrationScreenFragment : Fragment() {
         val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
 
         // observing the change in the message declared in SharedViewModel
-        model.message.observe(viewLifecycleOwner, Observer {
+        model.narration.observe(viewLifecycleOwner, Observer {
             // updating narration text
             narrationText.text = it
         })
