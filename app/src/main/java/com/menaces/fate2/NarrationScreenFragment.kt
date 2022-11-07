@@ -59,7 +59,7 @@ class NarrationScreenFragment : Fragment() {
         var counter = 0
         continueBtn.setOnClickListener {
             findNavController().navigate(R.id.action_narrationScreenFragment_to_choicesFragment)
-            model.updateScreen(counter)
+//            model.updateScreen(counter)
         }
     }
 }
