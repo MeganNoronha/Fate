@@ -37,4 +37,6 @@ class ContinueFragment : Fragment() {
         continueBtn.setOnClickListener { model.updateScreen(counter) }
 
     }
+
+
 }
