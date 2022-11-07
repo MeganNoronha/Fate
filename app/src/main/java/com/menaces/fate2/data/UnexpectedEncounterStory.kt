@@ -11,7 +11,14 @@ object UnexpectedEncounterStory {
             R.drawable.trees_story,
             "Left",
             "Right",
-            true
-        )
+            false
+        ),
+        Screen(
+            "Narration 2",
+            R.drawable.unexpected_encounter_image,
+            "Left",
+            "Right",
+            false
+        ),
     )
 }

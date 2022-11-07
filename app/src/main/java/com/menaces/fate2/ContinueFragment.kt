@@ -33,8 +33,9 @@ class ContinueFragment : Fragment() {
 
         // call function "sendMessage" defined in SharedVieModel
         // to store the value in narration/image.
-        var counter = 0
-        continueBtn.setOnClickListener { model.updateScreen(counter) }
+//        var counter = 0 // TODO: wait this might need to be here and not in SharedViewModel
+
+        continueBtn.setOnClickListener { model.updateScreen(model.counter) }
 
     }
 

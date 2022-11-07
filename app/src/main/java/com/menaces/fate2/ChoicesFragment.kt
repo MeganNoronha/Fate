@@ -26,8 +26,8 @@ class ChoicesFragment : Fragment() {
 
         leftBtn = view.findViewById(R.id.left_button)
         rightBtn = view.findViewById(R.id.right_button)
-        // create object of com.menaces.fate2.SharedViewModel
-        val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
+
+        // button functionality
         leftBtn.setOnClickListener {
             goToNextScreen()
         }
@@ -43,7 +43,16 @@ class ChoicesFragment : Fragment() {
 
     // TODO: slide animation still going to be included?
     fun goToNextScreen() {
-        // TODO: Navigate to the AccompanimentMenuFragment
-        findNavController().navigate(R.id.action_choicesFragment_to_narrationScreenFragment)
+        val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
+
+        // If next screen is choice, move to choice screen
+        if (model.nextScreenIsChoice()) {
+
+        } else { // Else, move to next narration screen
+            findNavController().navigate(R.id.action_choicesFragment_to_narrationScreenFragment)
+
+            // Update narration data in the counter
+            model.updateScreen(model.counter)
+        }
     }
 }
