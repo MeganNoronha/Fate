@@ -29,13 +29,19 @@ class ChoicesFragment : Fragment() {
         // create object of com.menaces.fate2.SharedViewModel
         val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
         leftBtn.setOnClickListener {
-            findNavController().navigate(R.id.action_choicesFragment_to_narrationScreenFragment)
+            goToNextScreen()
         }
         rightBtn.setOnClickListener {
-            findNavController().navigate(R.id.action_choicesFragment_to_narrationScreenFragment)
+            goToNextScreen()
         }
     }
 
+    // TODO: will need to change later to include an if statement checking the next screen
+    // object to see which screen needs to be brought up based on your decision
+    // would need access to lists and counter (should those be in the view model or nah)
+
+
+    // TODO: slide animation still going to be included?
     fun goToNextScreen() {
         // TODO: Navigate to the AccompanimentMenuFragment
         findNavController().navigate(R.id.action_choicesFragment_to_narrationScreenFragment)
