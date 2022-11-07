@@ -11,6 +11,7 @@ import androidx.navigation.fragment.findNavController
 
 class ChoicesFragment : Fragment() {
     lateinit var leftBtn: Button
+    lateinit var rightBtn: Button
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -24,9 +25,13 @@ class ChoicesFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         leftBtn = view.findViewById(R.id.left_button)
+        rightBtn = view.findViewById(R.id.right_button)
         // create object of com.menaces.fate2.SharedViewModel
         val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
         leftBtn.setOnClickListener {
+            findNavController().navigate(R.id.action_choicesFragment_to_narrationScreenFragment)
+        }
+        rightBtn.setOnClickListener {
             findNavController().navigate(R.id.action_choicesFragment_to_narrationScreenFragment)
         }
     }
