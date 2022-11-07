@@ -43,10 +43,13 @@ class ChoicesFragment : Fragment() {
 
     // TODO: slide animation still going to be included?
     fun goToNextScreen() {
+        // TODO: counter might need to be updated here
+
         val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
 
         // If next screen is choice, move to choice screen
         if (model.nextScreenIsChoice()) {
+            model.updateScreen(model.counter)
 
         } else { // Else, move to next narration screen
             findNavController().navigate(R.id.action_choicesFragment_to_narrationScreenFragment)

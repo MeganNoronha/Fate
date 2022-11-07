@@ -18,6 +18,13 @@ object UnexpectedEncounterStory {
             R.drawable.unexpected_encounter_image,
             "Left",
             "Right",
+            true
+        ),
+        Screen(
+            "Narration 3",
+            R.drawable.bittern,
+            "Left",
+            "Right",
             false
         ),
     )
