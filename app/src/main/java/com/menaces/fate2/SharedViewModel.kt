@@ -23,19 +23,30 @@ class SharedViewModel : ViewModel() {
 
     var counter = 0 // TODO: maybe needs to be a parameter
 
-    // function to updated narration and image
-    fun updateScreen() {
+    // function to updated narration and image, returns new counter value??
+    fun updateScreen(increment: Int) : Int {
         // check that story is not at the end screen
         if (counter < unexpectedEncounterScreens.size) {
             narration.value = unexpectedEncounterScreens[counter].narration
             image.value = unexpectedEncounterScreens[counter].imageID
             leftText.value = unexpectedEncounterScreens[counter].leftButton
             rightText.value = unexpectedEncounterScreens[counter].rightButton
-            counter++
+            counter += increment
         }
+
+        return counter
     }
 
     fun isChoiceScreen() : Boolean {
         return unexpectedEncounterScreens[counter].isChoice
+    }
+
+    // returns increment value based on left/right
+    fun getIncrementVal(leftClicked : Boolean) : Int {
+        if (leftClicked) {
+            return unexpectedEncounterScreens[counter].leftValue
+        } else {
+            return unexpectedEncounterScreens[counter].leftValue
+        }
     }
 }

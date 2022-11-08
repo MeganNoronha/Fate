@@ -31,7 +31,7 @@ class ContinueFragment : Fragment() {
         continueBtn = view.findViewById(R.id.continue_button)
         continueBtn.setOnClickListener {
             // update narration information
-            model.updateScreen()
+            model.updateScreen(1) // increment value of continue always 1
 
             // switch buttons if necessary
             switchScreens()
@@ -40,17 +40,16 @@ class ContinueFragment : Fragment() {
 
     private fun switchScreens () {
         // TODO: update data to data to be displayed next (counter, get from list)
-
         val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
 
         // Change to choice screen if updated data indicates it
 //        if (model.isChoiceScreen()) {
-            activity?.supportFragmentManager?.commit {
-                val choicesFragment = ChoicesFragment()
-                replace(R.id.fragmentContainer, choicesFragment)
-                setReorderingAllowed(true)
-                addToBackStack(null)
-            }
+        activity?.supportFragmentManager?.commit {
+            val choicesFragment = ChoicesFragment()
+            replace(R.id.fragmentContainer, choicesFragment)
+            setReorderingAllowed(true)
+            addToBackStack(null)
+        }
 //        }
     }
 }

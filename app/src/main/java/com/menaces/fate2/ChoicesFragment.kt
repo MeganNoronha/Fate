@@ -33,18 +33,22 @@ class ChoicesFragment : Fragment() {
         // update button text
         updateButtonText()
 
+        val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
+
         // button functionality
         leftBtn.setOnClickListener {
-            updateContent()
+            val increment = model.getIncrementVal(true)
+            updateContent(increment)
         }
         rightBtn.setOnClickListener {
-            updateContent()
+            val increment = model.getIncrementVal(false)
+            updateContent(increment)
         }
     }
 
-    fun updateContent() {
+    private fun updateContent(increment: Int) {
         val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
-        model.updateScreen()
+        model.updateScreen(increment)
 
         // TODO: update data to data to be displayed next (counter, get from list)
 
@@ -60,7 +64,7 @@ class ChoicesFragment : Fragment() {
         }
     }
 
-    fun updateButtonText() {
+    private fun updateButtonText() {
         // button text changes
         val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
         model.leftText.observe(viewLifecycleOwner, Observer {
