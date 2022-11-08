@@ -14,8 +14,6 @@ class ContinueFragment : Fragment() {
     lateinit var continueBtn: Button
 
     // create object of SharedViewModel
-    private val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -26,6 +24,8 @@ class ContinueFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
 
         // button functionality
         continueBtn = view.findViewById(R.id.continue_button)
@@ -40,6 +40,8 @@ class ContinueFragment : Fragment() {
 
     private fun switchScreens () {
         // TODO: update data to data to be displayed next (counter, get from list)
+
+        val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
 
         // Change to choice screen if updated data indicates it
 //        if (model.isChoiceScreen()) {
