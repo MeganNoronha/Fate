@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.commit
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 
 class ChoicesFragment : Fragment() {
@@ -28,6 +29,9 @@ class ChoicesFragment : Fragment() {
         // references for buttons
         leftBtn = view.findViewById(R.id.left_button)
         rightBtn = view.findViewById(R.id.right_button)
+
+        // update button text
+        updateButtonText()
 
         // button functionality
         leftBtn.setOnClickListener {
@@ -54,5 +58,19 @@ class ChoicesFragment : Fragment() {
             setReorderingAllowed(true)
             addToBackStack(null)
         }
+    }
+
+    fun updateButtonText() {
+        // button text changes
+        val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
+        model.leftText.observe(viewLifecycleOwner, Observer {
+            // updating left button text
+            leftBtn.text = it
+        })
+
+        model.rightText.observe(viewLifecycleOwner, Observer {
+            // updating right button text
+            rightBtn.text = it
+        })
     }
 }

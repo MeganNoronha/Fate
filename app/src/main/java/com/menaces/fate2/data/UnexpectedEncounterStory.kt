@@ -9,22 +9,28 @@ object UnexpectedEncounterStory {
         Screen(
             "Narration 1",
             R.drawable.trees_story,
-            "Left",
-            "Right",
+            "Left1",
+            "Right1",
+            0,
+            0,
             true
         ),
         Screen(
             "Narration 2",
             R.drawable.unexpected_encounter_image,
-            "Left",
-            "Right",
-            true
+            "",
+            "",
+            0,
+            0,
+            false,
         ),
         Screen(
             "Narration 3",
             R.drawable.bittern,
-            "Left",
-            "Right",
+            "Left2",
+            "Right2",
+            0,
+            0,
             true
         )
     )

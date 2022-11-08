@@ -13,6 +13,9 @@ class ContinueFragment : Fragment() {
     // continue button for next screen (updated narration/img)
     lateinit var continueBtn: Button
 
+    // create object of SharedViewModel
+    private val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -24,29 +27,28 @@ class ContinueFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // reference for button
+        // button functionality
         continueBtn = view.findViewById(R.id.continue_button)
-
-        // create object of SharedViewModel
-        val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
         continueBtn.setOnClickListener {
+            // update narration information
             model.updateScreen()
+
             // switch buttons if necessary
             switchScreens()
         }
     }
 
-    fun switchScreens () {
+    private fun switchScreens () {
         // TODO: update data to data to be displayed next (counter, get from list)
 
-        // TODO: check if the screen to be displayed is a choice screen (using Screen object)
-        // Switch screens if necessary
-
-        activity?.supportFragmentManager?.commit {
-            val choicesFragment = ChoicesFragment()
-            replace(R.id.fragmentContainer, choicesFragment)
-            setReorderingAllowed(true)
-            addToBackStack(null)
-        }
+        // Change to choice screen if updated data indicates it
+//        if (model.isChoiceScreen()) {
+            activity?.supportFragmentManager?.commit {
+                val choicesFragment = ChoicesFragment()
+                replace(R.id.fragmentContainer, choicesFragment)
+                setReorderingAllowed(true)
+                addToBackStack(null)
+            }
+//        }
     }
 }
