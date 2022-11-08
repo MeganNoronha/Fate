@@ -23,7 +23,7 @@ class SharedViewModel : ViewModel() {
     val image = MutableLiveData<Int>()
     // TODO: add button text? maybe? for choices?? idk
 
-    var counter = 0
+    var counter = 0 // TODO: maybe need to be a parameter
 
     // function to updated narration and image
     fun updateScreen() {

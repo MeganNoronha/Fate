@@ -5,8 +5,15 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import androidx.fragment.app.commit
+import androidx.lifecycle.ViewModelProvider
 
 class ChoicesFragment : Fragment() {
+
+    lateinit var leftBtn: Button
+    lateinit var rightBtn: Button
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -17,5 +24,35 @@ class ChoicesFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        // references for buttons
+        leftBtn = view.findViewById(R.id.left_button)
+        rightBtn = view.findViewById(R.id.right_button)
+
+        // button functionality
+        leftBtn.setOnClickListener {
+            updateContent()
+        }
+        rightBtn.setOnClickListener {
+            updateContent()
+        }
+    }
+
+    fun updateContent() {
+        val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
+        model.updateScreen()
+
+        // TODO: update data to data to be displayed next (counter, get from list)
+
+        // TODO: check if the screen to be displayed is a choice screen (using Screen object)
+
+        // TODO: if condition
+        // switch screens if necessary
+        activity?.supportFragmentManager?.commit {
+            val continueFragment = ContinueFragment()
+            replace(R.id.fragmentContainer, continueFragment)
+            setReorderingAllowed(true)
+            addToBackStack(null)
+        }
     }
 }

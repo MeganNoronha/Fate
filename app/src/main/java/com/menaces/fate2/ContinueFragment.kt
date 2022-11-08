@@ -1,12 +1,10 @@
 package com.menaces.fate2
 
 import android.os.Bundle
-import android.text.TextUtils.replace
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.TextView
 import androidx.fragment.app.*
 import androidx.lifecycle.ViewModelProvider
 
@@ -50,11 +48,5 @@ class ContinueFragment : Fragment() {
             setReorderingAllowed(true)
             addToBackStack(null)
         }
-//
-//        childFragmentManager.commit {
-//            val continueFragment = childFragmentManager.findFragmentById(R.id.fragmentContainer)
-//            setReorderingAllowed(true)
-//            addToBackStack(null)
-//        }
     }
 }
