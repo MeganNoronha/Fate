@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph"
-    app:startDestination="@id/narrationScreenFragment">
+    android:id="@+id/nav_graph">
+<!--    app:startDestination="@id/narrationScreenFragment"-->
 
-    <fragment
-        android:id="@+id/narrationScreenFragment"
-        android:name="com.menaces.fate2.NarrationScreenFragment"
-        android:label="NarrationScreenFragment" >
-        <action
-            android:id="@+id/action_narrationScreenFragment_to_choicesFragment"
-            app:destination="@id/choicesFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/choicesFragment"
-        android:name="com.menaces.fate2.ChoicesFragment"
-        android:label="ChoicesFragment" >
-        <action
-            android:id="@+id/action_choicesFragment_to_narrationScreenFragment"
-            app:destination="@id/narrationScreenFragment" />
-    </fragment>
+<!--    <fragment-->
+<!--        android:id="@+id/narrationScreenFragment"-->
+<!--        android:name="com.menaces.fate2.NarrationScreenFragment"-->
+<!--        android:label="NarrationScreenFragment" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_narrationScreenFragment_to_choicesFragment"-->
+<!--            app:destination="@id/choicesFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/choicesFragment"-->
+<!--        android:name="com.menaces.fate2.ChoicesFragment"-->
+<!--        android:label="ChoicesFragment" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_choicesFragment_to_narrationScreenFragment"-->
+<!--            app:destination="@id/narrationScreenFragment" />-->
+<!--    </fragment>-->
 </navigation>

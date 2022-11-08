@@ -11,7 +11,7 @@ object UnexpectedEncounterStory {
             R.drawable.trees_story,
             "Left",
             "Right",
-            false
+            true
         ),
         Screen(
             "Narration 2",
@@ -25,7 +25,7 @@ object UnexpectedEncounterStory {
             R.drawable.bittern,
             "Left",
             "Right",
-            false
-        ),
+            true
+        )
     )
 }
