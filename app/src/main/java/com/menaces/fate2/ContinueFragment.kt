@@ -37,7 +37,8 @@ class ContinueFragment : Fragment() {
         continueBtn = view.findViewById(R.id.continue_button)
         continueBtn.setOnClickListener {
             // increment value of continue always 1
-            model.incrementCounter(1)
+            val increment = model.getIncrementVal(true) // left is a stand in for continue
+            model.incrementCounter(increment)
             model.updateScreen()
 
             // switch buttons if necessary
