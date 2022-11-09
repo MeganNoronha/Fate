@@ -27,7 +27,7 @@ class ContinueFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
-        Log.d("COUNTER AT LOAD", model.returnCounter().toString())
+//        Log.d("COUNTER AT LOAD", model.returnCounter().toString())
 
         // button functionality
         continueBtn = view.findViewById(R.id.continue_button)

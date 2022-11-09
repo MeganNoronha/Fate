@@ -41,8 +41,8 @@ object UnexpectedEncounterStory {
             "Surprisingly, he’s into getting hot drinks thrown at him, coffee being his " +
                     "number one. He asks you on a date.",
             R.drawable.bittern,
-            "Left3",
-            "Right3",
+            "",
+            "",
             1,
             0,
             false

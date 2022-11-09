@@ -1,6 +1,7 @@
 package com.menaces.fate2
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -34,22 +35,34 @@ class ChoicesFragment : Fragment() {
         updateButtonText()
 
         val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
+//        Log.d("OLD COUNTER:", model.returnCounter().toString())
 
         // button functionality
         leftBtn.setOnClickListener {
             val increment = model.getIncrementVal(true)
-            updateContent(increment)
+//            Log.d("INCREMENT:", increment.toString())
+
+//            val counter = model.incrementCounter(increment)
+//            Log.d("NEW COUNTER:", counter.toString())
+            model.incrementCounter(1)
+
+            updateContent()
         }
         rightBtn.setOnClickListener {
             val increment = model.getIncrementVal(false)
-            updateContent(increment)
+//            Log.d("INCREMENT:", increment.toString())
+
+//            val counter = model.incrementCounter(increment)
+//            Log.d("NEW COUNTER:", counter.toString())
+            model.incrementCounter(1)
+
+            updateContent()
         }
     }
 
-    private fun updateContent(increment: Int) {
+    private fun updateContent() {
         val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
         model.updateScreen()
-        model.incrementCounter(increment)
 
         // TODO: update data to data to be displayed next (counter, get from list)
 

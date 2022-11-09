@@ -37,8 +37,15 @@ class SharedViewModel : ViewModel() {
 //        return counter
     }
 
-    fun incrementCounter(increment: Int) {
+    // Increments and returns counter
+    fun incrementCounter(increment: Int) : Int {
+        Log.d("OLD COUNTER:", counter.toString())
         counter += increment
+
+        Log.d("INCREMENT:", increment.toString())
+        Log.d("NEW COUNTER:", counter.toString())
+
+        return counter
     }
 
     fun isChoiceScreen() : Boolean {
@@ -54,6 +61,7 @@ class SharedViewModel : ViewModel() {
         }
     }
 
+    // debug function
     fun returnCurrentScreen() : Screen {
         return unexpectedEncounterScreens[counter]
     }
