@@ -1,6 +1,7 @@
 package com.menaces.fate2
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -26,30 +27,33 @@ class ContinueFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
+        Log.d("COUNTER AT LOAD", model.returnCounter().toString())
 
         // button functionality
         continueBtn = view.findViewById(R.id.continue_button)
         continueBtn.setOnClickListener {
-            // update narration information
-            model.updateScreen(1) // increment value of continue always 1
+            if (model.returnCounter() != 0) {
+                // update narration information
+                model.updateScreen()
 
-            // switch buttons if necessary
-            switchScreens()
+                // switch buttons if necessary
+                if (model.isChoiceScreen()) {
+                    switchScreens()
+                }
+            } else {
+                model.updateScreen()
+            }
+            // increment value of continue always 1
+            model.incrementCounter(1)
         }
     }
 
     private fun switchScreens () {
-        // TODO: update data to data to be displayed next (counter, get from list)
-        val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
-
-        // Change to choice screen if updated data indicates it
-//        if (model.isChoiceScreen()) {
         activity?.supportFragmentManager?.commit {
             val choicesFragment = ChoicesFragment()
             replace(R.id.fragmentContainer, choicesFragment)
             setReorderingAllowed(true)
             addToBackStack(null)
         }
-//        }
     }
 }

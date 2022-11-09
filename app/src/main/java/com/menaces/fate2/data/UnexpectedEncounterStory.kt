@@ -7,7 +7,7 @@ import com.menaces.fate2.model.Screen
 object UnexpectedEncounterStory {
 
     val screens: List<Screen> = listOf(
-        Screen(
+         Screen(
             "You are sitting in the coffee shop, and you really need to get to business " +
                     "and study for your basket weaving class. Chad is the barista.",
             R.drawable.trees_story,

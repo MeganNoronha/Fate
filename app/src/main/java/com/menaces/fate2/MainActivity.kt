@@ -8,6 +8,7 @@ import android.os.Handler
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.fragment.app.commit
+import androidx.lifecycle.ViewModelProvider
 import com.menaces.fate2.data.UnexpectedEncounterStory
 import com.menaces.fate2.model.Screen
 
@@ -32,6 +33,5 @@ class MainActivity : AppCompatActivity() {
             val continueFragment = ContinueFragment()
             replace(R.id.fragmentContainer, continueFragment, "con")
         }
-
     }
 }

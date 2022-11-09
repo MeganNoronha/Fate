@@ -48,7 +48,8 @@ class ChoicesFragment : Fragment() {
 
     private fun updateContent(increment: Int) {
         val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
-        model.updateScreen(increment)
+        model.updateScreen()
+        model.incrementCounter(increment)
 
         // TODO: update data to data to be displayed next (counter, get from list)
 
