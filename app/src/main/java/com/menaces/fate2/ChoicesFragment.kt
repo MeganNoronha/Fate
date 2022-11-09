@@ -35,41 +35,29 @@ class ChoicesFragment : Fragment() {
         updateButtonText()
 
         val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
-//        Log.d("OLD COUNTER:", model.returnCounter().toString())
 
         // button functionality
         leftBtn.setOnClickListener {
-            val increment = model.getIncrementVal(true)
-//            Log.d("INCREMENT:", increment.toString())
+            val inc = model.getIncrementVal(true)
+            model.incrementCounter(inc)
+            model.updateScreen()
 
-//            val counter = model.incrementCounter(increment)
-//            Log.d("NEW COUNTER:", counter.toString())
-            model.incrementCounter(1)
-
-            updateContent()
+            if (!model.isChoiceScreen()) {
+                switchScreens()
+            }
         }
         rightBtn.setOnClickListener {
-            val increment = model.getIncrementVal(false)
-//            Log.d("INCREMENT:", increment.toString())
+            val inc = model.getIncrementVal(false)
+            model.incrementCounter(inc)
+            model.updateScreen()
 
-//            val counter = model.incrementCounter(increment)
-//            Log.d("NEW COUNTER:", counter.toString())
-            model.incrementCounter(1)
-
-            updateContent()
+            if (!model.isChoiceScreen()) {
+                switchScreens()
+            }
         }
     }
 
-    private fun updateContent() {
-        val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
-        model.updateScreen()
-
-        // TODO: update data to data to be displayed next (counter, get from list)
-
-        // TODO: check if the screen to be displayed is a choice screen (using Screen object)
-
-        // TODO: if condition
-        // switch screens if necessary
+    private fun switchScreens() {
         activity?.supportFragmentManager?.commit {
             val continueFragment = ContinueFragment()
             replace(R.id.fragmentContainer, continueFragment)

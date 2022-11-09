@@ -57,7 +57,7 @@ class SharedViewModel : ViewModel() {
         if (leftClicked) {
             return unexpectedEncounterScreens[counter].leftValue
         } else {
-            return unexpectedEncounterScreens[counter].leftValue
+            return unexpectedEncounterScreens[counter].rightValue
         }
     }
 
@@ -65,8 +65,8 @@ class SharedViewModel : ViewModel() {
     fun returnCurrentScreen() : Screen {
         return unexpectedEncounterScreens[counter]
     }
-
-    fun returnCounter() : Int {
-        return counter
-    }
+//
+//    fun returnCounter() : Int {
+//        return counter
+//    }
 }

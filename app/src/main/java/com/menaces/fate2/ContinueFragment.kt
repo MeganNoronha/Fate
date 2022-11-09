@@ -25,26 +25,25 @@ class ContinueFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
-//        Log.d("COUNTER AT LOAD", model.returnCounter().toString())
+//        Log.d("SCREEN BEFORE UPDATE:", model.returnCurrentScreen().narration)
+
+        // update first screen, remove the default values
+        model.updateScreen()
+
+//        Log.d("SCREEN AFTER UPDATE:", model.returnCurrentScreen().narration)
 
         // button functionality
         continueBtn = view.findViewById(R.id.continue_button)
         continueBtn.setOnClickListener {
-            if (model.returnCounter() != 0) {
-                // update narration information
-                model.updateScreen()
-
-                // switch buttons if necessary
-                if (model.isChoiceScreen()) {
-                    switchScreens()
-                }
-            } else {
-                model.updateScreen()
-            }
             // increment value of continue always 1
             model.incrementCounter(1)
+            model.updateScreen()
+
+            // switch buttons if necessary
+            if (model.isChoiceScreen()) {
+                switchScreens()
+            }
         }
     }
 
