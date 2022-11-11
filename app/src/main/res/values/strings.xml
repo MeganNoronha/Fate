@@ -7,13 +7,7 @@
     <string name="start">START</string>
     <string name="app_name_capitalized">FATE</string>
     <string name="sign_post_desc">A sign post with two signs pointing in opposite directions</string>
-    <string name="instructions_text">Hello fellow traveler,\n
-        Welcome to Fate, an interactive app that allows you to take control of your own journey. First you choose a story to get started. As
-        you move along the story you will occasionally be presented with choices and you can click
-        on the corresponding buttons to make your choice. If it is too hard to make a choice, you can use
-        our coin flip tool (shown below) to make a decision! These decisions determine your end
-        destination. Immerse yourself into a world of wonder.\n
-        Good luck and take care, The Creator</string>
+    <string name="instructions_text">Hello fellow traveler,\nWelcome to Fate, an interactive app that allows you to take control of your own journey. Choose a story to get started. As you move along the story you will be presented with choices: choose wisely. If it is too hard to make a choice, flip a coin (shown below) to make a decision! Immerse yourself into a world of wonder.\n\n\nGood luck and take care, The Creator</string>
 
     <string name="example_desc">Synopsis: You meet the love of your life one way or other</string>
     <string name="example_genre">Genre: Romance</string>

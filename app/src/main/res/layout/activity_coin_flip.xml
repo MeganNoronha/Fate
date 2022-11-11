@@ -16,7 +16,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/coin_image_view"
         android:text="Swipe up to flip the coin and \n decide your fate hehe"
-        android:textSize="20dp"
+        android:fontFamily="casual"
+        android:textSize="20sp"
         />
 
     <ImageView
@@ -38,7 +39,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:text="TOP"
-        android:textSize="30dp"
+        android:fontFamily="casual"
+        android:textSize="30sp"
         />
 
 

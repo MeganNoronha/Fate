@@ -4,11 +4,13 @@ package com.menaces.fate2.adapter
 //class ItemAdapter {
 //}
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.menaces.fate2.MainActivity
 import com.menaces.fate2.data.StoryList
@@ -36,12 +38,14 @@ class ItemAdapter(
         val genreTextView: TextView = view!!.findViewById(com.menaces.fate2.R.id.story_genre)
         val descTextView: TextView = view!!.findViewById(com.menaces.fate2.R.id.story_description)
         val completionTextView: TextView = view!!.findViewById(com.menaces.fate2.R.id.story_completion)
-        private var currentFlower: Story? = null
+        private var currentStory: Story? = null
+
         init {
             itemView.setOnClickListener {
-                currentFlower?.let {
-                    onClick()
-                }
+//                currentStory?.let {
+//                    onClick()
+//                }
+                onClick()
             }
         }
     }
