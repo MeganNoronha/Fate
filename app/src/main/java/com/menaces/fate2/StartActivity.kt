@@ -10,11 +10,14 @@ class StartActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start)
+
+        // start button
         val startButton: Button = findViewById(R.id.start_button)
         startButton.setOnClickListener {
             launchStoryMenu()
         }
 
+        // instructions button
         val instructionsButton: Button = findViewById(R.id.instructions_button)
         instructionsButton.setOnClickListener {
             launchInstructions()
@@ -23,7 +26,6 @@ class StartActivity : AppCompatActivity() {
     }
 
     private fun launchStoryMenu() {
-//        storyIntent = Intent(this, MainActivity::class.java)
         storyIntent = Intent(this, StoryMenuActivity::class.java)
         startActivity(storyIntent)
     }

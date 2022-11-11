@@ -182,22 +182,22 @@ object UnexpectedEncounterStory {
             0,
             false
         ),
-        Screen(
+        Screen( // ENDING 1
             "You let out a little chuckle. This will be a story you tell during drunk " +
                     "nights and late time highs. Did I tell you about the time I had an " +
                     "unexpected encounter? ",
             R.drawable.drinking,
-            "",
+            "RETURN TO HOME",
             "",
             0,
             0,
             false
         ),
-        Screen(
+        Screen( // ENDING 2
             "As the crowd cheers, you make your way to the exit. Heartbroken and alone, " +
                     "you decide to become a nun.\n",
             R.drawable.nun,
-            "",
+            "RETURN TO HOME",
             "",
             0,
             0,
@@ -381,12 +381,12 @@ object UnexpectedEncounterStory {
             0,
             false
         ),
-        Screen( // ENDING 3
+        Screen( // ENDING 3 (33)
             "Laughing and crying, you quietly say yes. You and Chad embrace,\n" +
                     "sealing the night off with a kiss. The crowd goes wild. Cheers to a new\n" +
                     "life, a new future, and happy beginnings.\"",
             R.drawable.bittern,
-            "",
+            "RETURN TO HOME",
             "",
             0,
             0,
@@ -548,10 +548,10 @@ object UnexpectedEncounterStory {
             0,
             false
         ),
-        Screen(
+        Screen( // ENDING 4
             "“I’m Bradavonivich Rista. We need to talk.”",
             R.drawable.bittern,
-            "",
+            "RETURN TO HOME",
             "",
             0,
             0,
@@ -581,13 +581,13 @@ object UnexpectedEncounterStory {
             0,
             false
         ),
-        Screen(
+        Screen( // ENDING
             "\nI shook his hand and looked him in the eyes. Yup, that’s definitely Chad’s brother. " +
                     "Or maybe this man was a clone sent to replace Chad’s body. That can’t be it, right?\n" +
                     "\n" +
                     "Either way, he’s pretty cute. Chad or Brad, this was definitely an unexpected encounter. \n",
             R.drawable.bittern,
-            "",
+            "RETURN TO HOME",
             "",
             0,
             0,
@@ -718,14 +718,14 @@ object UnexpectedEncounterStory {
             2,
             true
         ),
-        Screen(
+        Screen( // ENDING
             "\nCovered in tears, you make your way to the stage. \n" +
                     "\n" +
                     "“Yes!” you exclaim with joy. \n" +
                     "\n" +
                     "You and Brad embrace each other like there is no tomorrow. The end.",
             R.drawable.bittern,
-            "",
+            "RETURN TO HOME",
             "",
             0,
             0,
@@ -761,12 +761,12 @@ object UnexpectedEncounterStory {
             0,
             false
         ),
-        Screen(
+        Screen( // ENDING
             "The lumberjack turns around.\n" +
                     "Scruff, but clean, he flashes you a smile.\n" +
                     "\"My name is Chad and I'd be delighted to give some wood to you.\"\n",
             R.drawable.bittern,
-            "",
+            "RETURN TO HOME",
             "",
             0,
             0,

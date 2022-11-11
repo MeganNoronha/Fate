@@ -39,7 +39,7 @@ class ChoicesFragment : Fragment() {
 
         val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
 
-        // button functionality
+        // left button
         leftBtn.setOnClickListener {
             val inc = model.getIncrementVal(true)
             model.incrementCounter(inc)
@@ -49,6 +49,8 @@ class ChoicesFragment : Fragment() {
                 switchScreens()
             }
         }
+
+        // right button
         rightBtn.setOnClickListener {
             val inc = model.getIncrementVal(false)
             model.incrementCounter(inc)
@@ -59,6 +61,7 @@ class ChoicesFragment : Fragment() {
             }
         }
 
+        // coin flip button
         coinBtn.setOnClickListener {
             val intent = Intent(activity, CoinFlipActivity::class.java)
             startActivity(intent)
@@ -66,6 +69,7 @@ class ChoicesFragment : Fragment() {
 
     }
 
+    // switch screens to continue button
     private fun switchScreens() {
         activity?.supportFragmentManager?.commit {
             val continueFragment = ContinueFragment()
@@ -75,6 +79,7 @@ class ChoicesFragment : Fragment() {
         }
     }
 
+    // update text of top/bottom button
     private fun updateButtonText() {
         // button text changes
         val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)

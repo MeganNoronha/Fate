@@ -15,36 +15,31 @@ import com.menaces.fate2.model.Screen
 class SharedViewModel : ViewModel() {
 
     private val unexpectedEncounterScreens: List<Screen> = UnexpectedEncounterStory.screens
-    private var counter = 0
+    private var counter = 0 // TODO: get from database
 
     // variable to contain message whenever it gets changed/modified(mutable)
     val narration = MutableLiveData<String>()
     val image = MutableLiveData<Int>()
     val leftText = MutableLiveData<String>()
-    val rightText =MutableLiveData<String>()
+    val rightText = MutableLiveData<String>()
+    val contButton = MutableLiveData<String>()
 
     // function to updated narration and image, returns new counter value??
-    fun updateScreen() { //increment: Int
+    fun updateScreen() {
         // check that story is not at the end screen
-//        if (counter < unexpectedEncounterScreens.size) {
-            narration.value = unexpectedEncounterScreens[counter].narration
-            image.value = unexpectedEncounterScreens[counter].imageID
-            leftText.value = unexpectedEncounterScreens[counter].leftButton
-            rightText.value = unexpectedEncounterScreens[counter].rightButton
-//            counter += increment
-//        }
+        narration.value = unexpectedEncounterScreens[counter].narration
+        image.value = unexpectedEncounterScreens[counter].imageID
+        leftText.value = unexpectedEncounterScreens[counter].leftButton
+        rightText.value = unexpectedEncounterScreens[counter].rightButton
+    }
 
-//        return counter
+    fun resetContinue() {
+        contButton.value = unexpectedEncounterScreens[counter].leftButton
     }
 
     // Increments and returns counter
     fun incrementCounter(increment: Int) : Int {
-        Log.d("OLD COUNTER:", counter.toString())
         counter += increment
-
-        Log.d("INCREMENT:", increment.toString())
-        Log.d("NEW COUNTER:", counter.toString())
-
         return counter
     }
 
@@ -61,12 +56,8 @@ class SharedViewModel : ViewModel() {
         }
     }
 
-    // debug function
-    fun returnCurrentScreen() : Screen {
-        return unexpectedEncounterScreens[counter]
+    // return counter
+    fun getCounter() : Int {
+        return counter
     }
-//
-//    fun returnCounter() : Int {
-//        return counter
-//    }
 }

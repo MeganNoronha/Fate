@@ -13,11 +13,9 @@ class StoryMenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_story_menu)
 
-
+        // Set up list of stories
         val myDataset = StoryList.stories
-
         val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
-
         recyclerView.adapter = ItemAdapter(this, myDataset, onClick = ::adapterOnClick)
 
         // Specify fixed size to improve performance
@@ -26,7 +24,6 @@ class StoryMenuActivity : AppCompatActivity() {
         // Enable up button for backward navigation
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
-
 
     private fun adapterOnClick() {
         storyIntent = Intent(this, MainActivity::class.java)
