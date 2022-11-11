@@ -1,5 +1,6 @@
 package com.menaces.fate2
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -10,11 +11,13 @@ import android.widget.Button
 import androidx.fragment.app.commit
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class ChoicesFragment : Fragment() {
 
     lateinit var leftBtn: Button
     lateinit var rightBtn: Button
+    lateinit var coinBtn: FloatingActionButton
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -30,6 +33,7 @@ class ChoicesFragment : Fragment() {
         // references for buttons
         leftBtn = view.findViewById(R.id.left_button)
         rightBtn = view.findViewById(R.id.right_button)
+        coinBtn= view.findViewById(R.id.coin_fab)
 
         // update button text
         updateButtonText()
@@ -55,6 +59,12 @@ class ChoicesFragment : Fragment() {
                 switchScreens()
             }
         }
+
+        coinBtn.setOnClickListener {
+            val intent = Intent(activity, CoinFlipActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun switchScreens() {
