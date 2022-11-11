@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Fate2</string>
+    <string name="app_name">Fate</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="narration_here">Narration here</string>
     <string name="continue_button_txt">Continue</string>
