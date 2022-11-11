@@ -17,6 +17,7 @@
         app:layout_constraintBottom_toTopOf="@+id/coin_image_view"
         android:text="Swipe up to flip the coin and \n decide your fate hehe"
         android:fontFamily="casual"
+        android:textStyle="bold"
         android:textSize="20sp"
         />
 
@@ -40,6 +41,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:text="TOP"
         android:fontFamily="casual"
+        android:textStyle="bold"
         android:textSize="30sp"
         />
 
