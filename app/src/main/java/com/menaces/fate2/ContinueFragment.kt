@@ -31,7 +31,7 @@ class ContinueFragment : Fragment() {
 
         // update first screen, remove the default values
         model.updateScreen()
-        updateEndScreen(model) // TODO: not functioning for nun pathway
+//        updateEndScreen(model) // TODO: not functioning for nun pathway
 
         // button functionality
         continueBtn = view.findViewById(R.id.continue_button)
