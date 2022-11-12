@@ -45,6 +45,7 @@ class SharedViewModel : ViewModel() {
     }
 
     fun isEndScreen() : Boolean {
+//        return counter == 33
         return counter == 16 ||
                 counter == 17 ||
                 counter == 33 ||
@@ -55,16 +56,17 @@ class SharedViewModel : ViewModel() {
                 counter == 67
     }
 
-    fun resetButtonNeeded() : Boolean {
-        return counter == 15 ||
-                counter == 12 ||
-                counter == 32 ||
-                counter == 46 ||
-                counter == 49 ||
-                counter == 54 ||
-                counter == 62 ||
-                counter == 66
-    }
+//    fun resetButtonNeeded() : Boolean {
+//        return counter == 32
+//        return counter == 15 ||
+//                counter == 12 ||
+//                counter == 32 ||
+//                counter == 46 ||
+//                counter == 49 ||
+//                counter == 54 ||
+//                counter == 62 ||
+//                counter == 66
+//    }
 
     // returns increment value based on left/right
     fun getIncrementVal(leftClicked : Boolean) : Int {

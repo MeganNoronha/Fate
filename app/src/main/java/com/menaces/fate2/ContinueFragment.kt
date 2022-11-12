@@ -48,12 +48,11 @@ class ContinueFragment : Fragment() {
             model.updateScreen()
 
             // switch to end button if necessary
-//            if (model.resetButtonNeeded()) { //TODO: before end screen
-//                model.contButton.observe(viewLifecycleOwner, Observer {
-//                    continueBtn.text = it
-//                })
-//            }
-            updateEndScreen(model)
+            if (model.isEndScreen()) { //TODO: before end screen
+                model.contButton.observe(viewLifecycleOwner, Observer {
+                    continueBtn.text = it
+                })
+            }
 
             // switch to choice buttons if necessary
             if (model.isChoiceScreen()) {
@@ -71,15 +70,4 @@ class ContinueFragment : Fragment() {
             addToBackStack(null)
         }
     }
-
-    private fun updateEndScreen(model: SharedViewModel) {
-        // switch to end button if necessary
-        if (model.resetButtonNeeded()) { //TODO: before end screen
-            model.contButton.observe(viewLifecycleOwner, Observer {
-                continueBtn.text = it
-            })
-        }
-    }
-
-
 }
