@@ -182,7 +182,7 @@ object UnexpectedEncounterStory {
             0,
             false
         ),
-        Screen( // ENDING 1
+        Screen( // ENDING 1 (16)
             "You let out a little chuckle. This will be a story you tell during drunk " +
                     "nights and late time highs. Did I tell you about the time I had an " +
                     "unexpected encounter? ",
@@ -193,7 +193,7 @@ object UnexpectedEncounterStory {
             0,
             false
         ),
-        Screen( // ENDING 2
+        Screen( // ENDING 2 (17)
             "As the crowd cheers, you make your way to the exit. Heartbroken and alone, " +
                     "you decide to become a nun.\n",
             R.drawable.nun,
@@ -341,14 +341,14 @@ object UnexpectedEncounterStory {
             "Suffer through the badly fitting shoes",
             "Get new ones",
             1,
-            5, // TODO: undecided
+            5,
             true
         ),
         Screen(
             "“Nah, it’ll be fine.” You smirk. “You’ll catch me if I fall, right?”\n" +
                     "\n" +
                     "Chad returns your smile. “Abso-tooting-lutely!”",
-            R.drawable.skate, // TODO
+            R.drawable.skate,
             "",
             "",
             1,
@@ -548,7 +548,7 @@ object UnexpectedEncounterStory {
             0,
             false
         ),
-        Screen( // ENDING 4
+        Screen( // ENDING 4 (47)
             "“I’m Bradavonivich Rista. We need to talk.”",
             R.drawable.bittern,
             "RETURN TO HOME",
@@ -581,7 +581,7 @@ object UnexpectedEncounterStory {
             0,
             false
         ),
-        Screen( // ENDING
+        Screen( // ENDING 5 (50)
             "\nI shook his hand and looked him in the eyes. Yup, that’s definitely Chad’s brother. " +
                     "Or maybe this man was a clone sent to replace Chad’s body. That can’t be it, right?\n" +
                     "\n" +
@@ -639,7 +639,7 @@ object UnexpectedEncounterStory {
             0,
             false
         ),
-        Screen(
+        Screen( // ENDING (55)
             "\nEvery time you close your eyes, you picture Brad’s smug face, a wad of cash fanned " +
                     "out before him, desperately needing a punch to the face. You sigh. An unexpected " +
                     "counter that was. ",
@@ -718,7 +718,7 @@ object UnexpectedEncounterStory {
             2,
             true
         ),
-        Screen( // ENDING
+        Screen( // ENDING (63)
             "\nCovered in tears, you make your way to the stage. \n" +
                     "\n" +
                     "“Yes!” you exclaim with joy. \n" +
@@ -761,7 +761,7 @@ object UnexpectedEncounterStory {
             0,
             false
         ),
-        Screen( // ENDING
+        Screen( // ENDING (67)
             "The lumberjack turns around.\n" +
                     "Scruff, but clean, he flashes you a smile.\n" +
                     "\"My name is Chad and I'd be delighted to give some wood to you.\"\n",

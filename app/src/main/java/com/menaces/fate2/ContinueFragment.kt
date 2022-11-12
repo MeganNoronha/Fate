@@ -31,6 +31,7 @@ class ContinueFragment : Fragment() {
 
         // update first screen, remove the default values
         model.updateScreen()
+        updateEndScreen(model) // TODO: not functioning for nun pathway
 
         // button functionality
         continueBtn = view.findViewById(R.id.continue_button)
@@ -47,11 +48,12 @@ class ContinueFragment : Fragment() {
             model.updateScreen()
 
             // switch to end button if necessary
-            if (model.getCounter() == 33) { //TODO: before end screen
-                model.contButton.observe(viewLifecycleOwner, Observer {
-                    continueBtn.text = it
-                })
-            }
+//            if (model.resetButtonNeeded()) { //TODO: before end screen
+//                model.contButton.observe(viewLifecycleOwner, Observer {
+//                    continueBtn.text = it
+//                })
+//            }
+            updateEndScreen(model)
 
             // switch to choice buttons if necessary
             if (model.isChoiceScreen()) {
@@ -67,6 +69,15 @@ class ContinueFragment : Fragment() {
             replace(R.id.fragmentContainer, choicesFragment)
             setReorderingAllowed(true)
             addToBackStack(null)
+        }
+    }
+
+    private fun updateEndScreen(model: SharedViewModel) {
+        // switch to end button if necessary
+        if (model.resetButtonNeeded()) { //TODO: before end screen
+            model.contButton.observe(viewLifecycleOwner, Observer {
+                continueBtn.text = it
+            })
         }
     }
 
