@@ -31,7 +31,11 @@ class ContinueFragment : Fragment() {
 
         // update first screen, remove the default values
         model.updateScreen()
-//        updateEndScreen(model) // TODO: not functioning for nun pathway
+        if (model.isEndScreen()) {
+            model.contButton.observe(viewLifecycleOwner, Observer {
+                continueBtn.text = it
+            })
+        }
 
         // button functionality
         continueBtn = view.findViewById(R.id.continue_button)
