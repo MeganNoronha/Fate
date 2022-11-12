@@ -300,7 +300,7 @@ object UnexpectedEncounterStory {
             "\nYou arrive at the roller rink, running into Chad by the entrance.\n" +
                     "\n" +
                     "“Hey there, hot stuff,” you say, immediately regretting it afterwards.\n",
-            R.drawable.bittern,
+            R.drawable.flirt,
             "",
             "",
             1,
@@ -313,7 +313,7 @@ object UnexpectedEncounterStory {
                     "“You know, I really like you aLATTE,” he responds, using the same tone.\n" +
                     "\n" +
                     "You burst into laughter.",
-            R.drawable.bittern,
+            R.drawable.laugh,
             "",
             "",
             1,
@@ -326,7 +326,7 @@ object UnexpectedEncounterStory {
                     "He nods his head and reaches for your hand instead. Both blushing, " +
                     "you make your way into the rink. You pick up your shoes, put them on, " +
                     "then waddle together onto the rink.",
-            R.drawable.bittern,
+            R.drawable.hands,
             "",
             "",
             1,
@@ -337,7 +337,7 @@ object UnexpectedEncounterStory {
             "“Oh shoot,” you say. “I don’t think these fit me.” Chad frowns. " +
                     "“Do you want to exchange them?”\n" +
                     "You can either",
-            R.drawable.bittern,
+            R.drawable.foot_pain,
             "Suffer through the badly fitting shoes",
             "Get new ones",
             1,
@@ -348,7 +348,7 @@ object UnexpectedEncounterStory {
             "“Nah, it’ll be fine.” You smirk. “You’ll catch me if I fall, right?”\n" +
                     "\n" +
                     "Chad returns your smile. “Abso-tooting-lutely!”",
-            R.drawable.bittern,
+            R.drawable.skate, // TODO
             "",
             "",
             1,
@@ -362,7 +362,7 @@ object UnexpectedEncounterStory {
                     "“Are you alright?” he asks, concerned.\n" +
                     "\n" +
                     "“Better than ever,” you reply, with a smile as wide as the Milky Way.\n",
-            R.drawable.bittern,
+            R.drawable.catching,
             "",
             "",
             1,
@@ -374,7 +374,7 @@ object UnexpectedEncounterStory {
                     "the light, his smile as bright as a thousand suns. You take off your " +
                     "rollerblades and sprint to him, knocking him off his feet and to the " +
                     "ground.",
-            R.drawable.bittern,
+            R.drawable.tux,
             "",
             "",
             1,
@@ -385,7 +385,7 @@ object UnexpectedEncounterStory {
             "Laughing and crying, you quietly say yes. You and Chad embrace,\n" +
                     "sealing the night off with a kiss. The crowd goes wild. Cheers to a new\n" +
                     "life, a new future, and happy beginnings.\"",
-            R.drawable.bittern,
+            R.drawable.proposal,
             "RETURN TO HOME",
             "",
             0,

@@ -62,6 +62,7 @@ class ContinueFragment : Fragment() {
         }
     }
 
+    // TODO: not fully functional
     private fun updateButtonText(model : SharedViewModel) {
         val count = model.getCounter()
 
