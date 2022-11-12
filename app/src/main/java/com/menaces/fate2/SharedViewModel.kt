@@ -31,9 +31,6 @@ class SharedViewModel : ViewModel() {
         image.value = unexpectedEncounterScreens[counter].imageID
         leftText.value = unexpectedEncounterScreens[counter].leftButton
         rightText.value = unexpectedEncounterScreens[counter].rightButton
-    }
-
-    fun resetContinue() {
         contButton.value = unexpectedEncounterScreens[counter].leftButton
     }
 
@@ -45,6 +42,10 @@ class SharedViewModel : ViewModel() {
 
     fun isChoiceScreen() : Boolean {
         return unexpectedEncounterScreens[counter].isChoice
+    }
+
+    fun isEndScreen() : Boolean {
+        return counter == 33
     }
 
     // returns increment value based on left/right

@@ -32,20 +32,28 @@ class ContinueFragment : Fragment() {
         // update first screen, remove the default values
         model.updateScreen()
 
-        // update continue button if necessary
-        updateButtonText(model)
-
         // button functionality
         continueBtn = view.findViewById(R.id.continue_button)
         continueBtn.setOnClickListener {
-            updateButtonText(model)
+            // check if end screen before incrementing
+            if (model.isEndScreen()) {
+                val intent = Intent(activity, StoryMenuActivity::class.java)
+                startActivity(intent)
+            }
 
             // increment value of continue always 1
             val increment = model.getIncrementVal(true) // left is a stand in for continue
             model.incrementCounter(increment)
             model.updateScreen()
 
-            // switch buttons if necessary
+            // switch to end button if necessary
+            if (model.getCounter() == 33) { //TODO: before end screen
+                model.contButton.observe(viewLifecycleOwner, Observer {
+                    continueBtn.text = it
+                })
+            }
+
+            // switch to choice buttons if necessary
             if (model.isChoiceScreen()) {
                 switchScreens()
             }
@@ -62,26 +70,5 @@ class ContinueFragment : Fragment() {
         }
     }
 
-    // TODO: not fully functional
-    private fun updateButtonText(model : SharedViewModel) {
-        val count = model.getCounter()
 
-        // if ending, update text
-        if (count == 32) {
-            // get reset text to store in the view model
-            model.resetContinue()
-
-            // update the actual text
-            val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
-            model.contButton.observe(viewLifecycleOwner, Observer {
-                // updating left button text
-                continueBtn.text = it
-            })
-
-            continueBtn.setOnClickListener {
-                val intent = Intent(activity, StoryMenuActivity::class.java)
-                startActivity(intent)
-            }
-        }
-    }
 }
