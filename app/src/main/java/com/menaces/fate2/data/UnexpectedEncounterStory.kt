@@ -394,7 +394,7 @@ object UnexpectedEncounterStory {
         ),
         Screen(
             "“Yeah, I’ll be right back.” You skate off the rink and exchange your shoes.",
-            R.drawable.bittern,
+            R.drawable.leaving_rink_to_exchange,
             "",
             "",
             1,
@@ -409,7 +409,7 @@ object UnexpectedEncounterStory {
                     "him, his head bashed and a bone sticking out of his leg. " +
                     "“No!” you shout. “Chadrista, my love!” You rush to his side and cradle his " +
                     "head in your arms. The world blurs and fades out.",
-            R.drawable.bittern,
+            R.drawable.chad_on_ground,
             "",
             "",
             1,
@@ -422,7 +422,7 @@ object UnexpectedEncounterStory {
                     "trying to find Chad, you enter a hallway. Upon reaching the end of the hallway, " +
                     "you must decide whether to turn left or right. \n" +
                     "You can either:",
-            R.drawable.bittern,
+            R.drawable.hallway,
             "Turn left",
             "Turn right",
             1,
@@ -434,7 +434,7 @@ object UnexpectedEncounterStory {
                     "stable, but he’s definitely unconscious. Tears began to form around your eyes, " +
                     "quickly turning into a waterfall. Sobbing, you rush to his side. And thus, your " +
                     "profession of love began.",
-            R.drawable.bittern,
+            R.drawable.user_professing_love,
             "",
             "",
             1,
@@ -447,7 +447,7 @@ object UnexpectedEncounterStory {
                     "You were my everything. I loved you from the start – when you gave me the " +
                     "nickname “basic” and then caught me from falling at the rink – and " +
                     "I will always love you,” you weep in between the words.",
-            R.drawable.bittern,
+            R.drawable.user_sobbing,
             "",
             "",
             1,
@@ -457,7 +457,7 @@ object UnexpectedEncounterStory {
         Screen(
             "\nYou hold his hand. Slowly, you feel a tight squeeze coming from his side. He " +
                     "opens his eyes, still looking very pale and feeble. Chad gives you a little smile.\n",
-            R.drawable.bittern,
+            R.drawable.hand_holding_at_hospital,
             "",
             "",
             1,
@@ -470,7 +470,7 @@ object UnexpectedEncounterStory {
                     "\n" +
                     "Our eyes interlock, and with that, so do our hearts. The doctor comes in, " +
                     "breaking the silence. ",
-            R.drawable.bittern,
+            R.drawable.doctor_comes_in,
             "",
             "",
             1,
@@ -481,7 +481,7 @@ object UnexpectedEncounterStory {
             "“Mr. Chadavonivich Rista, I’m afraid I will have to bear you with bad news. " +
                     "Lab results are in and they are not looking good. I’m sorry sir, but you will " +
                     "not live to see another day,” he states, sternly.",
-            R.drawable.bittern,
+            R.drawable.doctor_spills,
             "",
             "",
             1,
@@ -492,7 +492,7 @@ object UnexpectedEncounterStory {
             "I look at Chad, but his eyes are not meeting mine. Instead, he‘s looking at " +
                     "his heart rate monitor, slowing down by the second.\n " +
                     "“I will leave you two to discuss.”",
-            R.drawable.bittern,
+            R.drawable.doctor_spills,
             "",
             "",
             1,
@@ -505,7 +505,7 @@ object UnexpectedEncounterStory {
                     "in case situations like these happen. He asks you to write down Brad’s name, " +
                     "as he is too weak to do it himself. \n" +
                     "You can either: ",
-            R.drawable.bittern,
+            R.drawable.signing_will,
             "Sign your name",
             "Sign Brad's name",
             1,
