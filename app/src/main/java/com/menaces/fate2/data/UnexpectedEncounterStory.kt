@@ -516,7 +516,7 @@ object UnexpectedEncounterStory {
             "Congratulations! While Chad may be dead, you now inherited all of his money! " +
                     "Who knew being a barista earned so much money (not considering any of his side " +
                     "hustles)?  As you reach out for your margarita, you hear a knock at the door.",
-            R.drawable.bittern,
+            R.drawable.knocking_on_door,
             "",
             "",
             1,
@@ -527,7 +527,7 @@ object UnexpectedEncounterStory {
             "\nKnock. Knock knock. \nSlowly rising from your seat, you make your way to the door." +
                     " Opening it, you’re shocked to see the one and only Chadavonivich Rista standing " +
                     "at your door.",
-            R.drawable.bittern,
+            R.drawable.im_brad,
             "",
             "",
             1,
@@ -541,7 +541,7 @@ object UnexpectedEncounterStory {
                     "\n" +
                     "The splitting image of Chad, the love of your life, is alive. Sticking his " +
                     "hand out he introduces himself.",
-            R.drawable.bittern,
+            R.drawable.im_brad,
             "",
             "",
             1,
@@ -550,7 +550,7 @@ object UnexpectedEncounterStory {
         ),
         Screen( // ENDING 4 (47)
             "“I’m Bradavonivich Rista. We need to talk.”",
-            R.drawable.bittern,
+            R.drawable.im_brad,
             "RETURN TO HOME",
             "",
             0,
@@ -562,7 +562,7 @@ object UnexpectedEncounterStory {
                     "his last few moments in peace. Upon exiting, you run into a tall man – " +
                     "finely built, dressed in slacks and a hoodie – holding a bouquet of flowers. " +
                     "You do a double take. \n",
-            R.drawable.bittern,
+            R.drawable.brad_with_flowers,
             "",
             "",
             1,
@@ -574,7 +574,7 @@ object UnexpectedEncounterStory {
                     "\n" +
                     "“Hi, I’m Brad, short for Bradavonivich. You must be the lucky girl Chad was " +
                     "always going on and on about today.”",
-            R.drawable.bittern,
+            R.drawable.brad_with_flowers,
             "",
             "",
             1,
@@ -586,7 +586,7 @@ object UnexpectedEncounterStory {
                     "Or maybe this man was a clone sent to replace Chad’s body. That can’t be it, right?\n" +
                     "\n" +
                     "Either way, he’s pretty cute. Chad or Brad, this was definitely an unexpected encounter. \n",
-            R.drawable.bittern,
+            R.drawable.brad_with_flowers,
             "RETURN TO HOME",
             "",
             0,
@@ -596,7 +596,7 @@ object UnexpectedEncounterStory {
         Screen(
             "You take a right and you see a man, covered in bandages from head to toe, " +
                     "laying in the hospital bed, unconscious. Oh no, it's so much worse than you thought.",
-            R.drawable.bittern,
+            R.drawable.man_in_hospital_bed,
             "",
             "",
             1,
@@ -608,7 +608,7 @@ object UnexpectedEncounterStory {
                     "wishing you had stayed with him instead. Seizing the moment, you fall to the floor.\n" +
                     "\n" +
                     "“Chad, I think I’m in love with you,” you exclaim loud and clear.",
-            R.drawable.bittern,
+            R.drawable.user_professing_love,
             "",
             "",
             1,
@@ -621,7 +621,7 @@ object UnexpectedEncounterStory {
                     "“Who are you? How did you get into my room? I’m calling the police,” " +
                     "he says angrily. \n" +
                     "You can either:",
-            R.drawable.bittern,
+            R.drawable.man_in_hospital_bed,
             "Sue him for identity theft",
             "Ask who he is",
             1,
