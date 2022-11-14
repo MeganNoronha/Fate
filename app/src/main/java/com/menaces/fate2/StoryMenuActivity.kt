@@ -26,6 +26,8 @@ class StoryMenuActivity : AppCompatActivity() {
     }
 
     private fun adapterOnClick() {
+        // TODO: when statement, send info abt what story was clicked to SharedViewModel
+
         storyIntent = Intent(this, MainActivity::class.java)
         startActivity(storyIntent)
     }
