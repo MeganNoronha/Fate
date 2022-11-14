@@ -1,8 +1,5 @@
 package com.menaces.fate2.adapter
 
-//
-//class ItemAdapter {
-//}
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
@@ -42,9 +39,6 @@ class ItemAdapter(
 
         init {
             itemView.setOnClickListener {
-//                currentStory?.let {
-//                    onClick()
-//                }
                 onClick()
             }
         }
@@ -65,9 +59,6 @@ class ItemAdapter(
      * Replace the contents of a view (invoked by the layout manager)
      */
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
-//        val item = dataset[position]
-//        holder.textView.text = context.resources.getString(item.stringResourceId)
-
         val story = storyList[position]
 
         // Set the image resource for the current story
@@ -76,7 +67,6 @@ class ItemAdapter(
 
         // Set the text for the current story's title
         holder.titleTextView.text = resources?.getString(com.menaces.fate2.R.string.story_title, story.title)
-
 
         // Set the text for the current story's genre
         holder.genreTextView.text = resources?.getString(com.menaces.fate2.R.string.story_genre, story.genre)
@@ -92,20 +82,4 @@ class ItemAdapter(
      * Return the size of your dataset (invoked by the layout manager)
      */
     override fun getItemCount() = storyList.size
-
-//    override fun on(v: View?) {
-//        var storyIntent: Intent
-//        storyIntent = Intent(context, MainActivity::class.java)
-//        context.startActivity(storyIntent);
-////        storyIntent = Intent(context, MainActivity::class.java)
-////        startActivity(storyIntent)
-//    }
-
-//    private val mOnClickListener: OnClickListener = MyOnClickListener()
-//
-//    fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): MyViewHolder? {
-//        val view: View = LayoutInflater.from(mContext).inflate(R.layout.myview, parent, false)
-//        view.setOnClickListener(mOnClickListener)
-//        return MyViewHolder(view)
-//    }
 }
