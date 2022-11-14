@@ -32,6 +32,8 @@ class SharedViewModel : ViewModel() {
         leftText.value = unexpectedEncounterScreens[counter].leftButton
         rightText.value = unexpectedEncounterScreens[counter].rightButton
         contButton.value = unexpectedEncounterScreens[counter].leftButton
+
+        Log.d("COUNTER: ", counter.toString())
     }
 
     // Increments and returns counter
@@ -53,8 +55,8 @@ class SharedViewModel : ViewModel() {
                 counter == 47 ||
                 counter == 50 ||
                 counter == 55 ||
-                counter == 63 ||
-                counter == 67
+                counter == 62 ||
+                counter == 66
     }
 
     // returns increment value based on left/right
