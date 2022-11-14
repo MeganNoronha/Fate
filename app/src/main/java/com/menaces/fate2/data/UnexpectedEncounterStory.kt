@@ -8,7 +8,7 @@ object UnexpectedEncounterStory {
         Screen(
             "You are sitting in the coffee shop, and you really need to get to business " +
                     "and study for your basket weaving class. Chad is the barista.",
-            R.drawable.basket_weaving,
+            R.drawable.better_basket_weaving,
             "",
             "",
             1,
@@ -632,7 +632,7 @@ object UnexpectedEncounterStory {
             "\nUnfortunately, you lose this case. Not only did you lose Chad, but you also lost " +
                     "thousands of money to his brother – who coincidentally landed in the same hospital " +
                     "and the same time as Chad – Brad.",
-            R.drawable.bittern,
+            R.drawable.lost_money,
             "",
             "",
             1,
@@ -643,7 +643,7 @@ object UnexpectedEncounterStory {
             "\nEvery time you close your eyes, you picture Brad’s smug face, a wad of cash fanned " +
                     "out before him, desperately needing a punch to the face. You sigh. An unexpected " +
                     "counter that was. ",
-            R.drawable.bittern,
+            R.drawable.smug_brad,
             "",
             "",
             0,
@@ -655,7 +655,7 @@ object UnexpectedEncounterStory {
                     "\n" +
                     "Boldly, he claims, “I am Bradavonivich, long for Brad. Got into a really bad " +
                     "motorcycling incident and well look where it got me. Stay in school, kid.”",
-            R.drawable.bittern,
+            R.drawable.tis_i_brad,
             "",
             "",
             1,
@@ -665,7 +665,7 @@ object UnexpectedEncounterStory {
         Screen(
             "Staring into his eyes, you see a future with him. Maybe Chad wasn’t the one, " +
                     "but he led you to THE ONE. Plus, you kind of dig the whole motorcycle get-up",
-            R.drawable.bittern,
+            R.drawable.brad_motorcycle,
             "",
             "",
             1,
@@ -676,7 +676,7 @@ object UnexpectedEncounterStory {
             "\nInstead of looking for Chad, you spend hours talking to Brad, the motorcycle mystery " +
                     "man. You learn he is a library clerk, a fellow Gleek, and a lead guitarist in a band " +
                     "called The Gigabytes.",
-            R.drawable.bittern,
+            R.drawable.bradavonavich,
             "",
             "",
             1,
@@ -688,7 +688,7 @@ object UnexpectedEncounterStory {
                     " the first time he’s performed since the accident. You and Brad have been going out " +
                     "for two and a half years, from the adventures of physical therapy to adventures at " +
                     "the coffee shop. ",
-            R.drawable.bittern,
+            R.drawable.band_stage,
             "",
             "",
             1,
@@ -699,7 +699,7 @@ object UnexpectedEncounterStory {
             "\nExpecting his bandmates to join him on stage, he stands there, alone. Confused " +
                     "and worried the show was canceled, you squirm in your seat. Seconds later, the " +
                     "spotlight shines on Brad, and he serenades you with your favorite song. ",
-            R.drawable.bittern,
+            R.drawable.brad_serenading,
             "",
             "",
             1,
@@ -711,7 +711,7 @@ object UnexpectedEncounterStory {
                     "\n" +
                     "“I love you, forever and always. Will you marry me?”\n" +
                     "You can either:",
-            R.drawable.bittern,
+            R.drawable.proposal,
             "Say yes",
             "Say no",
             1,
@@ -724,7 +724,7 @@ object UnexpectedEncounterStory {
                     "“Yes!” you exclaim with joy. \n" +
                     "\n" +
                     "You and Brad embrace each other like there is no tomorrow. The end.",
-            R.drawable.bittern,
+            R.drawable.marriage_with_brad,
             "RETURN TO HOME",
             "",
             0,
@@ -735,7 +735,7 @@ object UnexpectedEncounterStory {
             "\nA part of you still is in love with Chad. While he is not here, you vow to dedicate " +
                     "your heart to him and therefore reject Brad's proposal. Running off the stage, " +
                     "you live in the woods for the rest of your life.",
-            R.drawable.bittern,
+            R.drawable.running_away,
             "",
             "",
             1,
@@ -744,7 +744,7 @@ object UnexpectedEncounterStory {
         ),
         Screen(
             "One day, you run into a lumberjack. Needing some wood, you go up to him.",
-            R.drawable.bittern,
+            R.drawable.chopping_wood,
             "",
             "",
             1,
@@ -754,7 +754,7 @@ object UnexpectedEncounterStory {
         Screen(
             "\"Hello...may I ask for your name and some wood, Mr. Lumberjack\" you ask, " +
                     "curious about the Mystery Man living in the deep woods. He turns around.",
-            R.drawable.bittern,
+            R.drawable.chopping_wood,
             "",
             "",
             1,
@@ -765,7 +765,7 @@ object UnexpectedEncounterStory {
             "The lumberjack turns around.\n" +
                     "Scruff, but clean, he flashes you a smile.\n" +
                     "\"My name is Chad and I'd be delighted to give some wood to you.\"\n",
-            R.drawable.bittern,
+            R.drawable.flirt,
             "RETURN TO HOME",
             "",
             0,
