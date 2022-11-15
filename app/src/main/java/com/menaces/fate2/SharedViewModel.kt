@@ -1,23 +1,42 @@
 package com.menaces.fate2
 
-import android.graphics.drawable.Drawable
-import android.media.Image
-import android.os.Build.ID
-import android.text.TextUtils.replace
 import android.util.Log
-import androidx.appcompat.content.res.AppCompatResources.getDrawable
-import androidx.fragment.app.commit
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.menaces.fate2.data.StoryList
-import com.menaces.fate2.data.UnexpectedEncounterStory
 import com.menaces.fate2.model.Screen
 import com.menaces.fate2.model.Story
+import androidx.lifecycle.*
+import androidx.room.ColumnInfo
+import com.menaces.fate2.data.StoryDao
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
-class SharedViewModel : ViewModel() {
+class SharedViewModel(private val storydao: StoryDao) : ViewModel() {
 
-    private var screens: List<Screen> = setScreens(0)
+
+    private var currentStory: Story = setStory(0)
+    private var screens: List<Screen> = currentStory.screens
     private var counter = 0 // TODO: get from database
+//  private var counter = getCounter()
+
+    fun getCounter(): Int {
+        return storydao.getCounter(currentStory.title)
+    }
+
+//    fun updateCounter(counter: Int) {
+//        val story = StoryData(
+//            title = currentStory.title,
+//            counter = counter
+//        )
+//
+//        viewModelScope.launch(Dispatchers.IO) {
+//            // TODO: call the DAO method to update a forageable to the database here
+//            storydao.updateStory(story)
+//        }
+//
+//    }
+
 
     // variable to contain message whenever it gets changed/modified(mutable)
     val narration = MutableLiveData<String>()
@@ -27,10 +46,11 @@ class SharedViewModel : ViewModel() {
     val contButton = MutableLiveData<String>()
 
     // gets right screen from passed position from the list
-    fun setScreens(position: Int) : List<Screen> {
-        screens = StoryList.stories[position].screens
-        return screens
+    fun setStory(position: Int): Story {
+        currentStory = StoryList.stories[position]
+        return currentStory
     }
+
 
     // function to updated narration and image, returns new counter value??
     fun updateScreen() {
@@ -45,18 +65,19 @@ class SharedViewModel : ViewModel() {
     }
 
     // Increments and returns counter
-    fun incrementCounter(increment: Int) : Int {
+    fun incrementCounter(increment: Int): Int {
         counter += increment
+//        updateCounter(counter)
         return counter
     }
 
     // returns true if current counter points to a choice buttons screen
-    fun isChoiceScreen() : Boolean {
+    fun isChoiceScreen(): Boolean {
         return screens[counter].isChoice
     }
 
     // returns true if the current counter points to an end screen
-    fun isEndScreen() : Boolean {
+    fun isEndScreen(): Boolean {
         return counter == 16 ||
                 counter == 17 ||
                 counter == 33 ||
@@ -68,7 +89,7 @@ class SharedViewModel : ViewModel() {
     }
 
     // returns increment value based on left/right
-    fun getIncrementVal(leftClicked : Boolean) : Int {
+    fun getIncrementVal(leftClicked: Boolean): Int {
         if (leftClicked) {
             return screens[counter].leftValue
         } else {
@@ -77,7 +98,7 @@ class SharedViewModel : ViewModel() {
     }
 
     // return counter
-    fun getCounter() : Int {
-        return counter
-    }
+//    fun getCounter() : Int {
+//        return counter
+//    }
 }

@@ -2,12 +2,9 @@ package com.menaces.fate2
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import android.widget.ProgressBar
-import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.commit
 import androidx.lifecycle.ViewModelProvider
@@ -32,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         // The default value is for unexpected encounters
         val position = intent.getIntExtra("Story_Number", 0)
         val model = ViewModelProvider(this).get(SharedViewModel::class.java)
-        model.setScreens(position)
+        model.setStory(position)
 
         currentStory = StoryList.stories[position]
         // What is the correct context?

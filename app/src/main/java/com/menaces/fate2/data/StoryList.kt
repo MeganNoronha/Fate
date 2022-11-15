@@ -11,6 +11,7 @@ object StoryList {
             "Romance",
             "You meet the love of your life one way or other",
             UnexpectedEncounterStory.screens,
+            0,
             0
         ),
         Story(
@@ -19,6 +20,7 @@ object StoryList {
             "Sci-Fi",
             "Strange things keep happening to you - who, or what, is behind it?",
             TreesStory.screens,
+            0,
             0
         )
     )
