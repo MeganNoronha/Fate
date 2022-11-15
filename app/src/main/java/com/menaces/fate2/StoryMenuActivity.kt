@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
 import com.menaces.fate2.adapter.ItemAdapter
 import com.menaces.fate2.data.StoryList
+import com.menaces.fate2.model.Story
 
 class StoryMenuActivity : AppCompatActivity() {
     private lateinit var storyIntent: Intent
@@ -25,10 +26,9 @@ class StoryMenuActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
-    private fun adapterOnClick() {
-        // TODO: when statement, send info abt what story was clicked to SharedViewModel
-
+    private fun adapterOnClick(position: Int) {
         storyIntent = Intent(this, MainActivity::class.java)
+        storyIntent.putExtra("Story_Number", position)
         startActivity(storyIntent)
     }
 }

@@ -1,13 +1,11 @@
 package com.menaces.fate2.adapter
 
 import android.content.Context
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.menaces.fate2.MainActivity
 import com.menaces.fate2.data.StoryList
@@ -20,7 +18,7 @@ import com.menaces.fate2.model.Story
 class ItemAdapter(
     private val context: Context,
     private val dataset: List<Story>,
-    private val onClick: () -> Unit
+    private val onClick: (Int) -> Unit
 ) : RecyclerView.Adapter<ItemAdapter.ItemViewHolder>() {
 
     private val storyList = StoryList.stories
@@ -29,17 +27,17 @@ class ItemAdapter(
     // Complex data items may need more than one view per item, and
     // you provide access to all the views for a data item in a view holder.
     // Each data item is just a Story object.
-    class ItemViewHolder(private val view: View, val onClick:() -> Unit) : RecyclerView.ViewHolder(view) {
+    inner class ItemViewHolder(private val view: View, val onClick:(Int) -> Unit) : RecyclerView.ViewHolder(view) {
         val imageView: ImageView = view!!.findViewById(com.menaces.fate2.R.id.story_picture)
         val titleTextView: TextView = view.findViewById(com.menaces.fate2.R.id.story_title)
         val genreTextView: TextView = view!!.findViewById(com.menaces.fate2.R.id.story_genre)
         val descTextView: TextView = view!!.findViewById(com.menaces.fate2.R.id.story_description)
         val completionTextView: TextView = view!!.findViewById(com.menaces.fate2.R.id.story_completion)
-        private var currentStory: Story? = null
 
         init {
             itemView.setOnClickListener {
-                onClick()
+                val position = adapterPosition
+                onClick(position)
             }
         }
     }
@@ -61,8 +59,8 @@ class ItemAdapter(
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         val story = storyList[position]
 
-        // Set the image resource for the current story
-        val resources = context?.resources
+//         Set the image resource for the current story
+        val resources = context.resources
         holder.imageView.setImageResource(story.imageResourceId)
 
         // Set the text for the current story's title

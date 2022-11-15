@@ -7,5 +7,6 @@ data class Story(
     val title: String,
     val genre: String,
     val desc: String,
+    val screens: List<Screen>,
     val completionPercent: Int
 )

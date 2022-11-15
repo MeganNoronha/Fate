@@ -6,10 +6,10 @@ import com.menaces.fate2.model.Screen
 
 object TreesStory {
     // Narration strings for each screen of the story
-    val narration: List<String> = listOf()
-
-    // Images for each screen of the story
-    val images: List<Image> = listOf()
+//    val narration: List<String> = listOf()
+//
+//    // Images for each screen of the story
+//    val images: List<Image> = listOf()
 
     val screens: List<Screen> = listOf(
         Screen(
