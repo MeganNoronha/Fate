@@ -9,12 +9,14 @@ import androidx.appcompat.content.res.AppCompatResources.getDrawable
 import androidx.fragment.app.commit
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.menaces.fate2.data.StoryList
 import com.menaces.fate2.data.UnexpectedEncounterStory
 import com.menaces.fate2.model.Screen
+import com.menaces.fate2.model.Story
 
 class SharedViewModel : ViewModel() {
 
-    private val unexpectedEncounterScreens: List<Screen> = UnexpectedEncounterStory.screens
+    private var screens: List<Screen> = setScreens(0)
     private var counter = 0 // TODO: get from database
 
     // variable to contain message whenever it gets changed/modified(mutable)
@@ -24,14 +26,20 @@ class SharedViewModel : ViewModel() {
     val rightText = MutableLiveData<String>()
     val contButton = MutableLiveData<String>()
 
+    // gets right screen from passed position from the list
+    fun setScreens(position: Int) : List<Screen> {
+        screens = StoryList.stories[position].screens
+        return screens
+    }
+
     // function to updated narration and image, returns new counter value??
     fun updateScreen() {
         // check that story is not at the end screen
-        narration.value = unexpectedEncounterScreens[counter].narration
-        image.value = unexpectedEncounterScreens[counter].imageID
-        leftText.value = unexpectedEncounterScreens[counter].leftButton
-        rightText.value = unexpectedEncounterScreens[counter].rightButton
-        contButton.value = unexpectedEncounterScreens[counter].leftButton
+        narration.value = screens[counter].narration
+        image.value = screens[counter].imageID
+        leftText.value = screens[counter].leftButton
+        rightText.value = screens[counter].rightButton
+        contButton.value = screens[counter].leftButton
 
         Log.d("COUNTER: ", counter.toString())
     }
@@ -44,7 +52,7 @@ class SharedViewModel : ViewModel() {
 
     // returns true if current counter points to a choice buttons screen
     fun isChoiceScreen() : Boolean {
-        return unexpectedEncounterScreens[counter].isChoice
+        return screens[counter].isChoice
     }
 
     // returns true if the current counter points to an end screen
@@ -62,9 +70,9 @@ class SharedViewModel : ViewModel() {
     // returns increment value based on left/right
     fun getIncrementVal(leftClicked : Boolean) : Int {
         if (leftClicked) {
-            return unexpectedEncounterScreens[counter].leftValue
+            return screens[counter].leftValue
         } else {
-            return unexpectedEncounterScreens[counter].rightValue
+            return screens[counter].rightValue
         }
     }
 

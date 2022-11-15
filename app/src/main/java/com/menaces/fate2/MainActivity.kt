@@ -31,6 +31,9 @@ class MainActivity : AppCompatActivity() {
         val intent = intent
         // The default value is for unexpected encounters
         val position = intent.getIntExtra("Story_Number", 0)
+        val model = ViewModelProvider(this).get(SharedViewModel::class.java)
+        model.setScreens(position)
+
         currentStory = StoryList.stories[position]
         // What is the correct context?
         Toast.makeText(applicationContext, currentStory!!.title, Toast.LENGTH_SHORT).show()
