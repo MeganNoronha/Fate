@@ -1,14 +1,18 @@
 package com.menaces.fate2
 
 import android.annotation.SuppressLint
+import android.app.NotificationChannel
+import android.app.NotificationManager
 import android.content.Intent
 import android.media.AudioManager
 import android.media.MediaPlayer
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import androidx.core.content.ContextCompat
 import java.io.IOException
 
 class StartActivity : AppCompatActivity() {
@@ -21,6 +25,10 @@ class StartActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start)
+
+        // set up notifications
+        createNotificationsChannels()
+        RemindersManager.startReminder(this)
 
         // start button
         val startButton: Button = findViewById(R.id.start_button)
@@ -44,6 +52,19 @@ class StartActivity : AppCompatActivity() {
             } else {
                 mediaPlayer.pause()
             }
+        }
+    }
+
+    // Set up notifications
+    private fun createNotificationsChannels() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val channel = NotificationChannel(
+                getString(R.string.reminders_notification_channel_id),
+                getString(R.string.reminders_notification_channel_name),
+                NotificationManager.IMPORTANCE_HIGH
+            )
+            ContextCompat.getSystemService(this, NotificationManager::class.java)
+                ?.createNotificationChannel(channel)
         }
     }
 
