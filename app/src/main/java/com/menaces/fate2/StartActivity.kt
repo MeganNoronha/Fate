@@ -27,9 +27,9 @@ class StartActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start)
 
-        // set up notifications
-        createNotificationsChannels()
-        RemindersManager.startReminder(this)
+        // set up notifications // TODO: this is where it crashes
+//        createNotificationsChannels()
+//        RemindersManager.startReminder(this)
 
         // start button
         val startButton: Button = findViewById(R.id.start_button)
