@@ -2,8 +2,10 @@ package com.menaces.fate2.notifications
 
 import android.app.NotificationManager
 import android.app.PendingIntent
+import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
 import com.menaces.fate2.MainActivity
 import com.menaces.fate2.R
@@ -43,7 +45,7 @@ fun NotificationManager.sendReminderNotification(
     val builder = NotificationCompat.Builder(applicationContext, channelId)
         .setContentTitle(applicationContext.getString(R.string.title_notification_reminder))
         .setContentText(applicationContext.getString(R.string.description_notification_reminder))
-        .setSmallIcon(R.drawable.ic_logo)
+        .setSmallIcon(R.drawable.app_logo)
         .setStyle(
             NotificationCompat.BigTextStyle()
                 .bigText(applicationContext.getString(R.string.description_notification_reminder))

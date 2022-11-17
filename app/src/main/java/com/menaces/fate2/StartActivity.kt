@@ -13,6 +13,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.core.content.ContextCompat
+import com.menaces.fate2.notifications.RemindersManager
 import java.io.IOException
 
 class StartActivity : AppCompatActivity() {

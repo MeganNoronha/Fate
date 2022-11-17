@@ -6,7 +6,7 @@ import android.content.Context
 import android.content.Intent
 import java.util.*
 
-object ReminderManager {
+object RemindersManager {
     const val REMINDER_NOTIFICATION_REQUEST_CODE = 123
     fun startReminder(
         context: Context,
