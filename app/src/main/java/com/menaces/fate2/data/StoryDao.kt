@@ -11,12 +11,18 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 interface StoryDao {
     // TODO: implement a method to retrieve a Forageable from the database by id
-    @Query("SELECT counter from story_database WHERE title= :title")
+    @Query("SELECT * from story_database WHERE title= :title")
     fun getCounter(title: String): Int
 
     //@Query("UPDATE story_database SET counter= WHERE title= :title")
 
-    @Update
-    suspend fun updateStory(storydata: StoryData)
+//    @Update
+//    suspend fun updateStory(storydata: StoryData)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insert(storyData: StoryData)
+
+    @Query("DELETE FROM story_database")
+    suspend fun deleteAll()
 
 }

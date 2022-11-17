@@ -9,20 +9,26 @@ import com.menaces.fate2.model.Story
 import androidx.lifecycle.*
 import androidx.room.ColumnInfo
 import com.menaces.fate2.data.StoryDao
+import com.menaces.fate2.data.StoryRepository
+import com.menaces.fate2.model.StoryData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-class SharedViewModel(private val storydao: StoryDao) : ViewModel() {
+class SharedViewModel(private val repository: StoryRepository) : ViewModel() {
 
-
+    //    private val storydao: StoryDao
     private var currentStory: Story = setStory(0)
     private var screens: List<Screen> = currentStory.screens
     private var counter = 0 // TODO: get from database
+
+    fun insert(storyData: StoryData) = viewModelScope.launch {
+        repository.insert(storyData)
+    }
 //  private var counter = getCounter()
 
-    fun getCounter(): Int {
-        return storydao.getCounter(currentStory.title)
-    }
+//    fun getCounter(): Int {
+//        return storydao.getCounter(currentStory.title)
+//    }
 
 //    fun updateCounter(counter: Int) {
 //        val story = StoryData(
@@ -102,3 +108,13 @@ class SharedViewModel(private val storydao: StoryDao) : ViewModel() {
 //        return counter
 //    }
 }
+
+class SharedViewModelFactory( private val repository: StoryRepository) : ViewModelProvider.Factory{
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
+        if(modelClass.isAssignableFrom((SharedViewModel::class.java))){
+            return SharedViewModel(repository) as T
+        }
+        throw IllegalArgumentException("Unknown ViewModel class")
+    }
+}
+

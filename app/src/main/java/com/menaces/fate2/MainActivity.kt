@@ -6,8 +6,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ProgressBar
 import android.widget.Toast
+import androidx.activity.viewModels
 import androidx.fragment.app.commit
 import androidx.lifecycle.ViewModelProvider
+import com.google.android.material.shadow.ShadowRenderer
 import com.menaces.fate2.data.StoryList
 import com.menaces.fate2.data.UnexpectedEncounterStory
 import com.menaces.fate2.model.Screen
@@ -17,7 +19,12 @@ class MainActivity : AppCompatActivity() {
     private var progressBar: ProgressBar? = null
     var currentStory: Story? = null
 
-//    val intent = intent
+    private val requestcode = 1
+    private val sharedViewModel: SharedViewModel by viewModels{
+        SharedViewModelFactory((application as BaseApplication).repository)
+    }
+
+    //    val intent = intent
     private val unexpectedEncounterScreens: List<Screen> = UnexpectedEncounterStory.screens
     @SuppressLint("ObjectAnimatorBinding")
     override fun onCreate(savedInstanceState: Bundle?) {
