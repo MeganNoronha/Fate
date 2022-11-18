@@ -50,8 +50,10 @@ class StartActivity : AppCompatActivity() {
         btnPlay.setOnClickListener {
             if (!mediaPlayer.isPlaying) {
                 mediaPlayer.start()
+                btnPlay.setText(R.string.stop)
             } else {
                 mediaPlayer.pause()
+                btnPlay.setText(R.string.play)
             }
         }
     }
