@@ -46,7 +46,7 @@ public abstract class StoryDatabase: RoomDatabase() {
         }
 
         suspend fun populateDatabase(storydao: StoryDao){
-            storydao.deleteAll()
+            //storydao.deleteAll()
             var story = StoryData("Unexpected Encounter", 0)
             storydao.insert(story)
         }

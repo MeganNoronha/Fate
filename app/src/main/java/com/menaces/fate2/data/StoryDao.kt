@@ -12,7 +12,7 @@ import kotlinx.coroutines.flow.Flow
 interface StoryDao {
     // TODO: implement a method to retrieve a Forageable from the database by id
     @Query("SELECT * from story_database WHERE title= :title")
-    fun getCounter(title: String): Int
+    fun getCounter(title: String): Flow<StoryData>
 
     //@Query("UPDATE story_database SET counter= WHERE title= :title")
 
