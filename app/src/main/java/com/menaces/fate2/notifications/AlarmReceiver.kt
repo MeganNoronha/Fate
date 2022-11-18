@@ -5,6 +5,8 @@ import android.app.PendingIntent
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
 import com.menaces.fate2.MainActivity
@@ -16,6 +18,7 @@ class AlarmReceiver : BroadcastReceiver() {
      * sends notification when receives alarm
      * and then reschedule the reminder again
      * */
+    @RequiresApi(Build.VERSION_CODES.M)
     override fun onReceive(context: Context, intent: Intent) {
         val notificationManager = ContextCompat.getSystemService(
             context,
@@ -31,6 +34,7 @@ class AlarmReceiver : BroadcastReceiver() {
     }
 }
 
+@RequiresApi(Build.VERSION_CODES.M)
 fun NotificationManager.sendReminderNotification(
     applicationContext: Context,
     channelId: String,
@@ -40,7 +44,7 @@ fun NotificationManager.sendReminderNotification(
         applicationContext,
         1,
         contentIntent,
-        PendingIntent.FLAG_UPDATE_CURRENT
+        PendingIntent.FLAG_IMMUTABLE
     )
     val builder = NotificationCompat.Builder(applicationContext, channelId)
         .setContentTitle(applicationContext.getString(R.string.title_notification_reminder))

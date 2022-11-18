@@ -4,13 +4,16 @@ import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import android.os.Build
+import androidx.annotation.RequiresApi
 import java.util.*
 
 object RemindersManager {
     const val REMINDER_NOTIFICATION_REQUEST_CODE = 123
+    @RequiresApi(Build.VERSION_CODES.M)
     fun startReminder(
         context: Context,
-        reminderTime: String = "08:00",
+        reminderTime: String = "20:05",
         reminderId: Int = REMINDER_NOTIFICATION_REQUEST_CODE
     ) {
         val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
@@ -22,7 +25,7 @@ object RemindersManager {
                     context.applicationContext,
                     reminderId,
                     intent,
-                    PendingIntent.FLAG_UPDATE_CURRENT
+                    PendingIntent.FLAG_IMMUTABLE
                 )
             }
 

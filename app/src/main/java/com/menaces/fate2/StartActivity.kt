@@ -12,6 +12,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import com.menaces.fate2.notifications.RemindersManager
 import java.io.IOException
@@ -22,14 +23,15 @@ class StartActivity : AppCompatActivity() {
     private lateinit var btnPause: Button
     //var mediaPlayer: MediaPlayer? = null
     var isPlaying: Boolean = false
+    @RequiresApi(Build.VERSION_CODES.M)
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start)
 
         // set up notifications // TODO: this is where it crashes
-//        createNotificationsChannels()
-//        RemindersManager.startReminder(this)
+        createNotificationsChannels()
+        RemindersManager.startReminder(this)
 
         // start button
         val startButton: Button = findViewById(R.id.start_button)
