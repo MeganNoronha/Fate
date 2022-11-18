@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         val intent = intent
         // The default value is for unexpected encounters
         val position = intent.getIntExtra("Story_Number", 0)
-        val model = ViewModelProvider(this).get(SharedViewModel::class.java)
+        val model = ViewModelProvider(this).get(sharedViewModel::class.java)
         model.setStory(position)
 
         currentStory = StoryList.stories[position]

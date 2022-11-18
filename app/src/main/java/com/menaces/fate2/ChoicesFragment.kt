@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.commit
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -17,6 +18,11 @@ class ChoicesFragment : Fragment() {
     lateinit var leftBtn: Button
     lateinit var rightBtn: Button
     lateinit var coinBtn: FloatingActionButton
+
+    // shared view model with repository
+    private val sharedViewModel: SharedViewModel by viewModels{
+        SharedViewModelFactory((activity?.application as BaseApplication).repository)
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -37,7 +43,7 @@ class ChoicesFragment : Fragment() {
         // update button text
         updateButtonText()
 
-        val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
+        val model = ViewModelProvider(requireActivity())[sharedViewModel::class.java]
 
         // left button
         leftBtn.setOnClickListener {
@@ -82,7 +88,7 @@ class ChoicesFragment : Fragment() {
     // update text of top/bottom button
     private fun updateButtonText() {
         // button text changes
-        val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
+        val model = ViewModelProvider(requireActivity()).get(sharedViewModel::class.java)
         model.leftText.observe(viewLifecycleOwner, Observer {
             // updating left button text
             leftBtn.text = it

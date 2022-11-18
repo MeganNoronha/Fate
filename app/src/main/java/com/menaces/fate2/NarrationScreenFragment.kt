@@ -6,7 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.activity.viewModels
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.menaces.fate2.R
@@ -19,6 +21,11 @@ class NarrationScreenFragment : Fragment() {
 
     // to contain and display story image
     lateinit var storyImg: ImageView
+
+    // shared view model with repository
+    private val sharedViewModel: SharedViewModel by viewModels{
+        SharedViewModelFactory((activity?.application as BaseApplication).repository)
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -37,7 +44,7 @@ class NarrationScreenFragment : Fragment() {
         storyImg = view.findViewById(R.id.narration_img)
 
         // create object of com.menaces.fate2.SharedViewModel
-        val model = ViewModelProvider(requireActivity()).get(SharedViewModel::class.java)
+        val model = ViewModelProvider(requireActivity()).get(sharedViewModel::class.java)
 
         // observing the change in the message declared in SharedViewModel
         model.narration.observe(viewLifecycleOwner, Observer {

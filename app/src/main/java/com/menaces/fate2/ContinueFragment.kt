@@ -16,6 +16,11 @@ class ContinueFragment : Fragment() {
     // continue button for next screen (updated narration/img)
     lateinit var continueBtn: Button
 
+    // shared view model with repository
+    private val sharedViewModel: SharedViewModel by viewModels{
+        SharedViewModelFactory((activity?.application as BaseApplication).repository)
+    }
+
     // create object of SharedViewModel
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -27,7 +32,7 @@ class ContinueFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val model = ViewModelProvider(requireActivity())[SharedViewModel::class.java]
+        val model = ViewModelProvider(requireActivity())[sharedViewModel::class.java]
 
         // update first screen, remove the default values
         model.updateScreen()
