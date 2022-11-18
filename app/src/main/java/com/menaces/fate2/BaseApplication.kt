@@ -13,10 +13,10 @@ class BaseApplication: Application(){
     val database by lazy {StoryDatabase.getDatabase(this, applicationScope)}
     val repository by lazy {StoryRepository(database.storyDao())}
 
-    override fun onCreate() {
-        super.onCreate()
-        // Apply dynamic color
-        DynamicColors.applyToActivitiesIfAvailable(this, R.style.Theme_Fate2_Overlay)
-        
-    }
+//    override fun onCreate() {
+//        super.onCreate()
+//        // Apply dynamic color
+//        DynamicColors.applyToActivitiesIfAvailable(this, R.style.Theme_Fate2_Overlay)
+//
+//    }
 }
