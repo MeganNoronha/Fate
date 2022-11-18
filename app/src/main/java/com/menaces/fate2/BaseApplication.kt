@@ -16,7 +16,7 @@ class BaseApplication: Application(){
     override fun onCreate() {
         super.onCreate()
         // Apply dynamic color
-        DynamicColors.applyToActivitiesIfAvailable(this, R.style.AppTheme_Overlay)
+        DynamicColors.applyToActivitiesIfAvailable(this, R.style.Theme_Fate2_Overlay)
         
     }
 }
