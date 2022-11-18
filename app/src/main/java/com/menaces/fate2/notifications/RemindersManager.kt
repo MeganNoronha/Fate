@@ -13,7 +13,7 @@ object RemindersManager {
     @RequiresApi(Build.VERSION_CODES.M)
     fun startReminder(
         context: Context,
-        reminderTime: String = "20:05",
+        reminderTime: String = "20:16",
         reminderId: Int = REMINDER_NOTIFICATION_REQUEST_CODE
     ) {
         val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager

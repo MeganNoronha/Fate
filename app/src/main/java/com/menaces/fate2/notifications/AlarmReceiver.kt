@@ -49,7 +49,7 @@ fun NotificationManager.sendReminderNotification(
     val builder = NotificationCompat.Builder(applicationContext, channelId)
         .setContentTitle(applicationContext.getString(R.string.title_notification_reminder))
         .setContentText(applicationContext.getString(R.string.description_notification_reminder))
-        .setSmallIcon(R.drawable.app_logo)
+        .setSmallIcon(R.drawable.ic_baseline_bakery_dining_24)
         .setStyle(
             NotificationCompat.BigTextStyle()
                 .bigText(applicationContext.getString(R.string.description_notification_reminder))
