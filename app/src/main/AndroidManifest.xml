@@ -55,7 +55,8 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".StoryMenuActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

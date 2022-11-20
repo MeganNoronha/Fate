@@ -2,6 +2,7 @@ package com.menaces.fate2
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ProgressBar
@@ -40,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
         currentStory = StoryList.stories[position]
         // What is the correct context?
-        Toast.makeText(applicationContext, currentStory!!.title, Toast.LENGTH_SHORT).show()
+//        Toast.makeText(applicationContext, currentStory!!.title, Toast.LENGTH_SHORT).show() // shows which story was pressed
         // END OF CODE
 
         progressBar = findViewById<ProgressBar>(R.id.p_Bar) as ProgressBar
@@ -56,5 +57,12 @@ class MainActivity : AppCompatActivity() {
             val continueFragment = ContinueFragment()
             replace(R.id.fragmentContainer, continueFragment, "con")
         }
+    }
+
+    // Goes back to story menu instead of previous fragment
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val intent = Intent(this, StoryMenuActivity::class.java)
+        startActivity(intent)
     }
 }
