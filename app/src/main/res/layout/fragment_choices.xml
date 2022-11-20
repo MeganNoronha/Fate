@@ -10,27 +10,28 @@
         android:id="@+id/left_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Left"
+        android:text="Top"
         android:textStyle="bold"
         android:fontFamily="casual"
         app:layout_constraintBottom_toTopOf="@+id/right_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.50"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="15dp"/>
 
     <Button
         android:id="@+id/right_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Right"
+        android:text="Bottom"
         android:textStyle="bold"
         android:fontFamily="casual"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.50"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.781"
-        android:layout_marginBottom="125dp"/>
+        app:layout_constraintVertical_bias="0.75"
+        android:layout_marginBottom="120dp"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/coin_fab"
