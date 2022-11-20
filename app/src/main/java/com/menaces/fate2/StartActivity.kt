@@ -51,6 +51,7 @@ class StartActivity : AppCompatActivity() {
         btnPlay = findViewById(R.id.play_music_button)
         btnPlay.setOnClickListener {
             if (!mediaPlayer.isPlaying) {
+                mediaPlayer.isLooping = true
                 mediaPlayer.start()
                 btnPlay.setText(R.string.stop)
             } else {
