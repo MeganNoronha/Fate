@@ -45,7 +45,7 @@ class StartActivity : AppCompatActivity() {
             launchInstructions()
         }
 
-        val mediaPlayer: MediaPlayer = MediaPlayer.create(this, R.raw.house_lo)
+        val mediaPlayer: MediaPlayer = MediaPlayer.create(this, R.raw.battle_theme)
 
         // play_music button
         btnPlay = findViewById(R.id.play_music_button)
