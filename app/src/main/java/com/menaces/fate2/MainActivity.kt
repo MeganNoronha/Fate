@@ -5,6 +5,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -18,6 +19,7 @@ import com.menaces.fate2.model.Story
 
 class MainActivity : AppCompatActivity() {
     private var progressBar: ProgressBar? = null
+    lateinit var backBtn: Button
     var currentStory: Story? = null
 
     private val requestcode = 1
@@ -27,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     //    val intent = intent
     private val unexpectedEncounterScreens: List<Screen> = UnexpectedEncounterStory.screens
-    @SuppressLint("ObjectAnimatorBinding")
+    @SuppressLint("ObjectAnimatorBinding", "MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -43,14 +45,17 @@ class MainActivity : AppCompatActivity() {
         // What is the correct context?
 //        Toast.makeText(applicationContext, currentStory!!.title, Toast.LENGTH_SHORT).show() // shows which story was pressed
         // END OF CODE
-
-        progressBar = findViewById<ProgressBar>(R.id.p_Bar) as ProgressBar
-        progressBar!!.max = 1000
-        var currentProgress = 600
-        //progressBar!!.progress = currentProgress
-        ObjectAnimator.ofInt(progressBar, "progress", currentProgress)
-            .setDuration(2000)
-            .start()
+        backBtn = findViewById(R.id.back_button)
+        backBtn.setOnClickListener(){
+            backButtonPressed()
+        }
+//        progressBar = findViewById<ProgressBar>(R.id.p_Bar) as ProgressBar
+//        progressBar!!.max = 1000
+//        var currentProgress = 600
+//        //progressBar!!.progress = currentProgress
+//        ObjectAnimator.ofInt(progressBar, "progress", currentProgress)
+//            .setDuration(2000)
+//            .start()
 
         supportFragmentManager.commit {
             setReorderingAllowed(true)
@@ -62,6 +67,11 @@ class MainActivity : AppCompatActivity() {
     // Goes back to story menu instead of previous fragment
     override fun onBackPressed() {
         super.onBackPressed()
+        val intent = Intent(this, StoryMenuActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun backButtonPressed(){
         val intent = Intent(this, StoryMenuActivity::class.java)
         startActivity(intent)
     }
