@@ -32,7 +32,7 @@ class ItemAdapter(
         val titleTextView: TextView = view.findViewById(com.menaces.fate2.R.id.story_title)
         val genreTextView: TextView = view!!.findViewById(com.menaces.fate2.R.id.story_genre)
         val descTextView: TextView = view!!.findViewById(com.menaces.fate2.R.id.story_description)
-        val completionTextView: TextView = view!!.findViewById(com.menaces.fate2.R.id.story_completion)
+//        val completionTextView: TextView = view!!.findViewById(com.menaces.fate2.R.id.story_completion)
 
         init {
             itemView.setOnClickListener {
@@ -73,7 +73,7 @@ class ItemAdapter(
         holder.descTextView.text = resources?.getString(com.menaces.fate2.R.string.story_desc, story.desc)
 
         // Set the text for the current story's completion percentage
-        holder.completionTextView.text = resources?.getString(com.menaces.fate2.R.string.story_completion, story.completionPercent.toString())
+//        holder.completionTextView.text = resources?.getString(com.menaces.fate2.R.string.story_completion, story.completionPercent.toString())
     }
 
     /**

@@ -55,23 +55,24 @@
             android:text="@string/example_desc"
             android:fontFamily="casual"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-            app:layout_constraintBottom_toTopOf="@id/story_completion"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/story_genre" />
 
-        <TextView
-            android:id="@+id/story_completion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
-            android:text="@string/example_completion"
-            android:fontFamily="casual"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/story_description" />
+<!--        app:layout_constraintBottom_toTopOf="@id/story_completion"-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/story_completion"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="8dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:text="@string/example_completion"-->
+<!--            android:fontFamily="casual"-->
+<!--            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/story_description" />-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
