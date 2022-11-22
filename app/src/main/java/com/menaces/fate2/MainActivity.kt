@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         val position = intent.getIntExtra("Story_Number", 0)
         val model = ViewModelProvider(this).get(sharedViewModel::class.java)
         model.setStory(position)
+        model.setScreens(position)
 
         currentStory = StoryList.stories[position]
         // What is the correct context?

@@ -49,6 +49,11 @@ class SharedViewModel(private val repository: StoryRepository) : ViewModel() {
 
     }
 
+    fun setScreens(position: Int) : List<Screen> {
+        screens = StoryList.stories[position].screens
+        return screens
+    }
+
 
     // variable to contain message whenever it gets changed/modified(mutable)
     val narration = MutableLiveData<String>()
