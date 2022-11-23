@@ -45,20 +45,20 @@ class StartActivity : AppCompatActivity() {
             launchInstructions()
         }
 
-        val mediaPlayer: MediaPlayer = MediaPlayer.create(this, R.raw.battle_theme)
+        //val mediaPlayer: MediaPlayer = MediaPlayer.create(this, R.raw.battle_theme)
 
-        // play_music button
-        btnPlay = findViewById(R.id.play_music_button)
-        btnPlay.setOnClickListener {
-            if (!mediaPlayer.isPlaying) {
-                mediaPlayer.isLooping = true
-                mediaPlayer.start()
-                btnPlay.setText(R.string.stop)
-            } else {
-                mediaPlayer.pause()
-                btnPlay.setText(R.string.play)
-            }
-        }
+//        // play_music button
+//        btnPlay = findViewById(R.id.play_music_button)
+//        btnPlay.setOnClickListener {
+//            if (!mediaPlayer.isPlaying) {
+//                mediaPlayer.isLooping = true
+//                mediaPlayer.start()
+//                btnPlay.setText(R.string.stop)
+//            } else {
+//                mediaPlayer.pause()
+//                btnPlay.setText(R.string.play)
+//            }
+//        }
     }
 
     // Set up notifications

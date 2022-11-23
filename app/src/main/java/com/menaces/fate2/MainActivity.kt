@@ -3,10 +3,13 @@ package com.menaces.fate2
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.TextUtils.replace
 import android.widget.Button
 import android.widget.ProgressBar
+import android.widget.Switch
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.fragment.app.commit
@@ -20,6 +23,7 @@ import com.menaces.fate2.model.Story
 class MainActivity : AppCompatActivity() {
     private var progressBar: ProgressBar? = null
     lateinit var backBtn: Button
+    lateinit var musicSwitch: Switch
 
     private val sharedViewModel: SharedViewModel by viewModels{
         SharedViewModelFactory((application as BaseApplication).repository)
@@ -44,6 +48,24 @@ class MainActivity : AppCompatActivity() {
         backBtn.setOnClickListener(){
             backButtonPressed()
         }
+
+        val mediaPlayer: MediaPlayer = MediaPlayer.create(this, R.raw.battle_theme)
+
+        musicSwitch = findViewById(R.id.music_switch)
+        musicSwitch.setOnCheckedChangeListener{buttonView, isChecked ->
+            if(isChecked){
+                Toast.makeText(this@MainActivity, "Music Playing", Toast.LENGTH_SHORT).show()
+                if (!mediaPlayer.isPlaying) {
+                    mediaPlayer.isLooping = true
+                    mediaPlayer.start()
+                }
+            } else{
+                Toast.makeText(this@MainActivity, "Music Stopped", Toast.LENGTH_SHORT).show()
+                    mediaPlayer.pause()
+            }
+
+        }
+
 
 //        progressBar = findViewById<ProgressBar>(R.id.p_Bar) as ProgressBar
 //        progressBar!!.max = 1000
