@@ -47,7 +47,7 @@ object UnexpectedEncounterStory {
         ),
         Screen(
             "You can either:",
-            R.drawable.thinking,
+            R.drawable.thinking_with_link,
             "Go rollerblading",
             "Go to slam poetry",
             14,
