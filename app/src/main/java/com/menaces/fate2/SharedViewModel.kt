@@ -70,7 +70,7 @@ class SharedViewModel(private val repository: StoryRepository) : ViewModel() {
         leftText.value = screens[counter].leftButton
         rightText.value = screens[counter].rightButton
         contButton.value = screens[counter].leftButton
-        imageDesc.value = "example content description" // screens[counter].contentDesc
+        imageDesc.value = "example content description" // TODO: screens[counter].contentDesc
     }
 
     // Increments and returns counter
