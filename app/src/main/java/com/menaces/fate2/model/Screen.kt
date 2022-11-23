@@ -7,5 +7,6 @@ data class Screen(
     val rightButton: String,
     val leftValue: Int,
     val rightValue: Int,
-    val isChoice: Boolean
+    val isChoice: Boolean,
+    val isEnding: Boolean
 )

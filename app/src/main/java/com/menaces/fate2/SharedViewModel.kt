@@ -89,14 +89,7 @@ class SharedViewModel(private val repository: StoryRepository) : ViewModel() {
 
     // returns true if the current counter points to an end screen
     fun isEndScreen(): Boolean {
-        return counter == 16 ||
-                counter == 17 ||
-                counter == 33 ||
-                counter == 47 ||
-                counter == 50 ||
-                counter == 55 ||
-                counter == 62 ||
-                counter == 66
+        return screens[counter].isEnding
     }
 
     // returns increment value based on left/right

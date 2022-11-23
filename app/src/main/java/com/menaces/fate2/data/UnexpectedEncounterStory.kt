@@ -13,6 +13,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -25,6 +26,7 @@ object UnexpectedEncounterStory {
             1,
             2,
             true,
+            false
         ),
         Screen(
             "You ask him on a date. He instantly says yes!",
@@ -33,6 +35,7 @@ object UnexpectedEncounterStory {
             "",
             2,
             0,
+            false,
             false
         ),
         Screen(
@@ -43,6 +46,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -52,7 +56,8 @@ object UnexpectedEncounterStory {
             "Go to slam poetry",
             14,
             1,
-            true
+            true,
+            false
         ),
         Screen(
             "\nYou get ready for slam poetry and meet Chad in front of the " +
@@ -65,6 +70,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -75,6 +81,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -84,10 +91,11 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
-            "\n\nPick up the phone\n" +
+            "Pick up the phone\n" +
                     "I’m all alone\n" +
                     "Chad, what a lad\n" +
                     "You make me so sad\n" +
@@ -102,6 +110,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -112,6 +121,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -123,6 +133,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -137,6 +148,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -149,7 +161,8 @@ object UnexpectedEncounterStory {
             "Become a nun",
             1,
             5,
-            true
+            true,
+            false
         ),
         Screen(
             "Brad comes over and introduces his new fiance. The skinny jeans and sense " +
@@ -159,6 +172,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -169,6 +183,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -180,6 +195,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen( // ENDING 1 (16)
@@ -191,7 +207,8 @@ object UnexpectedEncounterStory {
             "",
             0,
             0,
-            false
+            false,
+            true
         ),
         Screen( // ENDING 2 (17)
             "As the crowd cheers, you make your way to the exit. Heartbroken and alone, " +
@@ -201,7 +218,8 @@ object UnexpectedEncounterStory {
             "",
             0,
             0,
-            false
+            false,
+            true
         ),
         Screen(
             "You dash home, excited to get ready for this date. You Google Meet your " +
@@ -211,6 +229,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -223,6 +242,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -236,6 +256,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -247,6 +268,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -260,6 +282,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -275,6 +298,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -285,6 +309,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen( // TRANSITION SCREEN
@@ -294,6 +319,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -305,6 +331,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -318,6 +345,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -331,6 +359,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -342,7 +371,8 @@ object UnexpectedEncounterStory {
             "Get new ones",
             1,
             5,
-            true
+            true,
+            false
         ),
         Screen(
             "“Nah, it’ll be fine.” You smirk. “You’ll catch me if I fall, right?”\n" +
@@ -353,6 +383,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -367,6 +398,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -379,6 +411,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen( // ENDING 3 (33)
@@ -390,7 +423,8 @@ object UnexpectedEncounterStory {
             "",
             0,
             0,
-            false
+            false,
+            true
         ),
         Screen(
             "“Yeah, I’ll be right back.” You skate off the rink and exchange your shoes.",
@@ -399,6 +433,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -414,10 +449,11 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
-            "\n\nAfter being denied to ride in the ambulance with Chad, you call up Priscilla " +
+            "\nAfter being denied to ride in the ambulance with Chad, you call up Priscilla " +
                     "and ask for a ride. Barely arriving, you rush into the hospital. Desperately " +
                     "trying to find Chad, you enter a hallway. Upon reaching the end of the hallway, " +
                     "you must decide whether to turn left or right. \n" +
@@ -427,7 +463,8 @@ object UnexpectedEncounterStory {
             "Turn right",
             1,
             15,
-            true
+            true,
+            false
         ),
         Screen(
             "You take a left and somehow were able to find Chad’s room. His vitals seem " +
@@ -439,6 +476,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -452,6 +490,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -462,6 +501,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -475,6 +515,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -486,6 +527,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -497,6 +539,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -510,7 +553,8 @@ object UnexpectedEncounterStory {
             "Sign Brad's name",
             1,
             5,
-            true
+            true,
+            false
         ),
         Screen(
             "Congratulations! While Chad may be dead, you now inherited all of his money! " +
@@ -521,6 +565,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -532,6 +577,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -546,6 +592,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen( // ENDING 4 (47)
@@ -555,7 +602,8 @@ object UnexpectedEncounterStory {
             "",
             0,
             0,
-            false
+            false,
+            true
         ),
         Screen(
             "\nAfter signing Brad’s name , you step out of his room, allowing Chad to live " +
@@ -567,6 +615,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -579,6 +628,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen( // ENDING 5 (50)
@@ -591,7 +641,8 @@ object UnexpectedEncounterStory {
             "",
             0,
             0,
-            false
+            false,
+            true
         ),
         Screen(
             "You take a right and you see a man, covered in bandages from head to toe, " +
@@ -601,6 +652,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -613,6 +665,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -626,7 +679,8 @@ object UnexpectedEncounterStory {
             "Ask who he is",
             1,
             3,
-            true
+            true,
+            false
         ),
         Screen(
             "\nUnfortunately, you lose this case. Not only did you lose Chad, but you also lost " +
@@ -637,6 +691,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen( // ENDING (55)
@@ -648,7 +703,8 @@ object UnexpectedEncounterStory {
             "",
             0,
             0,
-            false
+            false,
+            true
         ),
         Screen(
             "\nAssuming you were in the wrong hospital room, you ask him who he is. \n" +
@@ -660,6 +716,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -670,6 +727,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -681,6 +739,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -693,6 +752,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -704,6 +764,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -716,7 +777,8 @@ object UnexpectedEncounterStory {
             "Say no",
             1,
             2,
-            true
+            true,
+            false
         ),
         Screen( // ENDING (63)
             "\nCovered in tears, you make your way to the stage. \n" +
@@ -729,7 +791,8 @@ object UnexpectedEncounterStory {
             "",
             0,
             0,
-            false
+            false,
+            true
         ),
         Screen(
             "\nA part of you still is in love with Chad. While he is not here, you vow to dedicate " +
@@ -740,6 +803,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -749,6 +813,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen(
@@ -759,6 +824,7 @@ object UnexpectedEncounterStory {
             "",
             1,
             0,
+            false,
             false
         ),
         Screen( // ENDING (67)
@@ -770,7 +836,8 @@ object UnexpectedEncounterStory {
             "",
             0,
             0,
-            false
+            false,
+            true
         )
 
         )
