@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             backButtonPressed()
         }
 
-        val mediaPlayer: MediaPlayer = MediaPlayer.create(this, R.raw.battle_theme)
+        val mediaPlayer: MediaPlayer = MediaPlayer.create(this, R.raw.jazz_music)
 
         musicSwitch = findViewById(R.id.music_switch)
         musicSwitch.setOnCheckedChangeListener{buttonView, isChecked ->
