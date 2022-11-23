@@ -15,45 +15,37 @@ import com.menaces.fate2.data.StoryDao
 
 class SharedViewModel(private val repository: StoryRepository) : ViewModel() {
 
-    //    private val storydao: StoryDao
     private var currentStory: Story = setStory(0)
     private var screens: List<Screen> = currentStory.screens
-    private var counter = count() // TODO: get from database
+    private var counter = 0 // count()
 
     fun insert(storyData: StoryData) = viewModelScope.launch {
         repository.insert(storyData)
     }
-//  private var counter = getCounter()
 
-
-    fun getCounter(): LiveData<StoryData>{
+    fun getCounter(): LiveData<StoryData> {
         return repository.getCounter(currentStory.title)
     }
 
-    fun count(): Int{
-        if(getCounter().value == null){
+    fun count(): Int {
+        if (getCounter().value == null) {
             return 0
-        } else{
+        } else {
             return getCounter().value!!.counter
         }
     }
 
-
     fun updateCounter(storyData: StoryData) {
         storyData.counter = counter
-
         viewModelScope.launch(Dispatchers.IO) {
-            // TODO: call the DAO method to update a forageable to the database here
             repository.insert(storyData)
         }
-
     }
 
-    fun setScreens(position: Int) : List<Screen> {
+    fun setScreens(position: Int): List<Screen> {
         screens = StoryList.stories[position].screens
         return screens
     }
-
 
     // variable to contain message whenever it gets changed/modified(mutable)
     val narration = MutableLiveData<String>()
@@ -61,6 +53,7 @@ class SharedViewModel(private val repository: StoryRepository) : ViewModel() {
     val leftText = MutableLiveData<String>()
     val rightText = MutableLiveData<String>()
     val contButton = MutableLiveData<String>()
+    val imageDesc = MutableLiveData<String>()
 
     // gets right screen from passed position from the list
     fun setStory(position: Int): Story {
@@ -77,8 +70,7 @@ class SharedViewModel(private val repository: StoryRepository) : ViewModel() {
         leftText.value = screens[counter].leftButton
         rightText.value = screens[counter].rightButton
         contButton.value = screens[counter].leftButton
-
-        Log.d("COUNTER: ", counter.toString())
+        imageDesc.value = "example content description" // screens[counter].contentDesc
     }
 
     // Increments and returns counter
@@ -115,17 +107,12 @@ class SharedViewModel(private val repository: StoryRepository) : ViewModel() {
             return screens[counter].rightValue
         }
     }
-
-    // return counter
-//    fun getCounter() : Int {
-//        return counter
-//    }
 }
 
 
-class SharedViewModelFactory( private val repository: StoryRepository) : ViewModelProvider.Factory{
+class SharedViewModelFactory(private val repository: StoryRepository) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        if(modelClass.isAssignableFrom((SharedViewModel::class.java))){
+        if (modelClass.isAssignableFrom((SharedViewModel::class.java))) {
             return SharedViewModel(repository) as T
         }
         throw IllegalArgumentException("Unknown ViewModel class")

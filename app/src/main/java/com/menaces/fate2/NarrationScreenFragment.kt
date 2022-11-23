@@ -57,5 +57,10 @@ class NarrationScreenFragment : Fragment() {
             storyImg.setImageResource(it)
         })
 
+        model.imageDesc.observe(viewLifecycleOwner, Observer {
+            // updating image description
+            storyImg.contentDescription = it
+        })
+
     }
 }
