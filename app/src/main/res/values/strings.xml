@@ -27,4 +27,8 @@
     <string name="title_notification_reminder">Finish where you left off!</string>
     <string name="description_notification_reminder">Chad is waiting ;)</string>
     <string name="back_to_stories">Back to Stories</string>
+    <string name="flip_a_coin">Flip a coin</string>
+    <string name="swipe_txt">Swipe up to flip the coin and \n decide your fate!</string>
+    <string name="gold_coin_desc">gold coin</string>
+    <string name="top_txt">TOP</string>
 </resources>
