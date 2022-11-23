@@ -1,29 +1,23 @@
 package com.menaces.fate2
 
-import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.media.MediaPlayer
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.TextUtils.replace
 import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.Switch
 import android.widget.Toast
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.commit
 import androidx.lifecycle.ViewModelProvider
-import com.google.android.material.shadow.ShadowRenderer
-import com.menaces.fate2.data.StoryList
-import com.menaces.fate2.data.UnexpectedEncounterStory
-import com.menaces.fate2.model.Screen
-import com.menaces.fate2.model.Story
 
 class MainActivity : AppCompatActivity() {
     private var progressBar: ProgressBar? = null
     lateinit var backBtn: Button
     lateinit var musicSwitch: Switch
+    lateinit var mediaPlayer: MediaPlayer
 
     private val sharedViewModel: SharedViewModel by viewModels{
         SharedViewModelFactory((application as BaseApplication).repository)
@@ -49,7 +43,7 @@ class MainActivity : AppCompatActivity() {
             backButtonPressed()
         }
 
-        val mediaPlayer: MediaPlayer = MediaPlayer.create(this, R.raw.jazz_music)
+        mediaPlayer = MediaPlayer.create(this, R.raw.jazz_music)
 
         musicSwitch = findViewById(R.id.music_switch)
         musicSwitch.setOnCheckedChangeListener{buttonView, isChecked ->
@@ -65,7 +59,7 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
-
+        //mediaPlayer?.release()
 
 //        progressBar = findViewById<ProgressBar>(R.id.p_Bar) as ProgressBar
 //        progressBar!!.max = 1000
@@ -81,6 +75,13 @@ class MainActivity : AppCompatActivity() {
             val continueFragment = ContinueFragment()
             replace(R.id.fragmentContainer, continueFragment, "con")
         }
+    }
+
+    override fun onStop() {
+        super.onStop()
+        mediaPlayer.stop()
+        //mediaPlayer.release()
+//        mediaPlayer = null
     }
 
     // Goes back to story menu instead of previous fragment (device button)
