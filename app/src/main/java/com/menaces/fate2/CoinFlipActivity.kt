@@ -2,11 +2,13 @@ package com.menaces.fate2
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.animation.AccelerateInterpolator
 import android.view.animation.LinearInterpolator
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
@@ -18,7 +20,9 @@ import kotlin.math.ceil
 class CoinFlipActivity : AppCompatActivity() {
     private lateinit var layout: ConstraintLayout
     private lateinit var coinText: TextView
+    private lateinit var backToStry: Button
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_coin_flip)
@@ -34,6 +38,12 @@ class CoinFlipActivity : AppCompatActivity() {
 
             }
         })
+
+        backToStry = findViewById(R.id.back_to_story)
+        backToStry.setOnClickListener{
+            //Toast.makeText(this, "Back to story", Toast.LENGTH_SHORT).show()
+            onBackPressed()
+        }
 
     }
 

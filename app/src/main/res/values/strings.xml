@@ -31,4 +31,5 @@
     <string name="swipe_txt">Swipe up to flip the coin and \n decide your fate!</string>
     <string name="gold_coin_desc">gold coin</string>
     <string name="top_txt">TOP</string>
+    <string name="back_to_story">Back to Story</string>
 </resources>
