@@ -203,7 +203,7 @@ object UnexpectedEncounterStory {
                     "nights and late time highs. Did I tell you about the time I had an " +
                     "unexpected encounter? ",
             R.drawable.drinking,
-            "RETURN TO HOME",
+            "Return to home",
             "",
             0,
             0,
@@ -214,7 +214,7 @@ object UnexpectedEncounterStory {
             "As the crowd cheers, you make your way to the exit. Heartbroken and alone, " +
                     "you decide to become a nun.\n",
             R.drawable.nun,
-            "RETURN TO HOME",
+            "Return to home",
             "",
             0,
             0,
@@ -419,7 +419,7 @@ object UnexpectedEncounterStory {
                     "sealing the night off with a kiss. The crowd goes wild. Cheers to a new\n" +
                     "life, a new future, and happy beginnings.\"",
             R.drawable.proposal,
-            "RETURN TO HOME",
+            "Return to home",
             "",
             0,
             0,
@@ -598,7 +598,7 @@ object UnexpectedEncounterStory {
         Screen( // ENDING 4 (47)
             "“I’m Bradavonivich Rista. We need to talk.”",
             R.drawable.im_brad,
-            "RETURN TO HOME",
+            "Return to home",
             "",
             0,
             0,
@@ -637,7 +637,7 @@ object UnexpectedEncounterStory {
                     "\n" +
                     "Either way, he’s pretty cute. Chad or Brad, this was definitely an unexpected encounter. \n",
             R.drawable.brad_with_flowers,
-            "RETURN TO HOME",
+            "Return to home",
             "",
             0,
             0,
@@ -787,7 +787,7 @@ object UnexpectedEncounterStory {
                     "\n" +
                     "You and Brad embrace each other like there is no tomorrow. The end.",
             R.drawable.marriage_with_brad,
-            "RETURN TO HOME",
+            "Return to home",
             "",
             0,
             0,
@@ -832,7 +832,7 @@ object UnexpectedEncounterStory {
                     "Scruff, but clean, he flashes you a smile.\n" +
                     "\"My name is Chad and I'd be delighted to give some wood to you.\"\n",
             R.drawable.flirt,
-            "RETURN TO HOME",
+            "Return to home",
             "",
             0,
             0,

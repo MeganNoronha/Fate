@@ -21,7 +21,7 @@
     <string name="story_genre">Genre: %1$s</string>
     <string name="story_desc">Synopsis: %1$s</string>
     <string name="story_completion">Completion: %1$s%%</string>
-    <string name="return_home_txt">RETURN TO HOME</string>
+    <string name="return_home_txt">Return to home</string>
     <string name="reminders_notification_channel_id">alarms_id</string>
     <string name="reminders_notification_channel_name">alarms_name</string>
     <string name="title_notification_reminder">Finish where you left off!</string>
