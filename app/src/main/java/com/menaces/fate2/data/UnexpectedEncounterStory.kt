@@ -14,7 +14,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "basket"
         ),
         Screen(
             "You go up to get a Chai latte with 2 pumps of raspberry, oat milk, 67% ice. " +
@@ -26,7 +27,8 @@ object UnexpectedEncounterStory {
             1,
             2,
             true,
-            false
+            false,
+            "cup of coffee"
         ),
         Screen(
             "You ask him on a date. He instantly says yes!",
@@ -36,7 +38,8 @@ object UnexpectedEncounterStory {
             2,
             0,
             false,
-            false
+            false,
+            "two people on a date"
         ),
         Screen(
             "Surprisingly, he’s into getting hot drinks thrown at him, coffee being his " +
@@ -47,7 +50,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man spilling coffee on his face"
         ),
         Screen(
             "You can either:",
@@ -57,7 +61,8 @@ object UnexpectedEncounterStory {
             14,
             1,
             true,
-            false
+            false,
+            "person with thought bubble over head"
         ),
         Screen(
             "\nYou get ready for slam poetry and meet Chad in front of the " +
@@ -71,7 +76,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "stage with mic and chair"
         ),
         Screen(
             "A man – tall, lean, hair perfectly gelled back – stands in front of the mic. " +
@@ -82,7 +88,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man holding a mic"
         ),
         Screen(
             "Mystery Man takes a deep breath and begins to recite his poem:",
@@ -92,7 +99,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man holding a mic"
         ),
         Screen(
             "Pick up the phone\n" +
@@ -111,7 +119,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man holding a mic"
         ),
         Screen(
             "\"Before people have the chance to boo, much less snap their fingers, Chad " +
@@ -122,7 +131,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "two figures holding mics"
         ),
         Screen(
             "As if they were actors in the “You Belong with Me” music video, Chad pulls " +
@@ -134,7 +144,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "two figures holding mics"
         ),
         Screen(
             "\nSteve, I didn’t leave\n" +
@@ -149,7 +160,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "two figures holding mics"
         ),
         Screen(
             "\"And with that, Chad is down on one knee, ring in hand. Steve, already in " +
@@ -162,7 +174,8 @@ object UnexpectedEncounterStory {
             1,
             5,
             true,
-            false
+            false,
+            "hand with diamond ring"
         ),
         Screen(
             "Brad comes over and introduces his new fiance. The skinny jeans and sense " +
@@ -173,7 +186,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man holding hands with man in tuxedos"
         ),
         Screen(
             "Although you feel slightly betrayed, you give them a smile.\n" +
@@ -184,7 +198,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "hands applauding"
         ),
         Screen(
             "They smile back. Chad the barista and Steve the awful poet, make their way " +
@@ -196,7 +211,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "two men exiting holding hands"
         ),
         Screen( // ENDING 1 (16)
             "You let out a little chuckle. This will be a story you tell during drunk " +
@@ -208,7 +224,8 @@ object UnexpectedEncounterStory {
             0,
             0,
             false,
-            true
+            true,
+            "two men drinking"
         ),
         Screen( // ENDING 2 (17)
             "As the crowd cheers, you make your way to the exit. Heartbroken and alone, " +
@@ -219,7 +236,8 @@ object UnexpectedEncounterStory {
             0,
             0,
             false,
-            true
+            true,
+            "a nun"
         ),
         Screen(
             "You dash home, excited to get ready for this date. You Google Meet your " +
@@ -230,7 +248,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "user on a video call"
         ),
         Screen(
             "\n“Hey Sissy Prissy,” you exclaim. \n" +
@@ -243,7 +262,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "user on a video call"
         ),
         Screen(
             "\n\n“OMG! Girl, you’re not gonna believe this, but I got a hot new date.” Priscilla looks shocked.\n" +
@@ -257,7 +277,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "long haired woman looks shocked"
         ),
         Screen(
             "“Men named Chad are walking red flags.”\n"
@@ -269,7 +290,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "long haired woman looks shocked"
         ),
         Screen(
             "\nShe seemed to notice my weary look and sighed.\n" +
@@ -283,7 +305,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "user on a video call"
         ),
         Screen(
             "\nShe chuckles.\n" +
@@ -299,7 +322,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "user on a video call"
         ),
         Screen(
             "The Google Meet ends. You finish getting ready and head out to go " +
@@ -310,7 +334,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "person putting makeup on"
         ),
         Screen( // TRANSITION SCREEN
             "",
@@ -320,7 +345,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "roller blades"
         ),
         Screen(
             "\nYou arrive at the roller rink, running into Chad by the entrance.\n" +
@@ -332,7 +358,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "girl flirting with bearded man"
         ),
         Screen(
             "He gives you a wink.\n" +
@@ -346,7 +373,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "woman laughing"
         ),
         Screen(
             "\n“Shall we head in, Chadrista?” offering your arm.\n" +
@@ -360,7 +388,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man and woman holding hands"
         ),
         Screen(
             "“Oh shoot,” you say. “I don’t think these fit me.” Chad frowns. " +
@@ -372,7 +401,8 @@ object UnexpectedEncounterStory {
             1,
             5,
             true,
-            false
+            false,
+            "woman holding foot in pain"
         ),
         Screen(
             "“Nah, it’ll be fine.” You smirk. “You’ll catch me if I fall, right?”\n" +
@@ -384,7 +414,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man and woman rollerblading"
         ),
         Screen(
             "\n\nAt some point, you begin to lose your balance. Before making contact " +
@@ -399,7 +430,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man catching woman"
         ),
         Screen(
             "\nYou see him, tuxedo and all, down on his knee. His tears are glistening in " +
@@ -412,7 +444,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man in brown tux"
         ),
         Screen( // ENDING 3 (33)
             "Laughing and crying, you quietly say yes. You and Chad embrace,\n" +
@@ -424,7 +457,8 @@ object UnexpectedEncounterStory {
             0,
             0,
             false,
-            true
+            true,
+            "man proposing to woman"
         ),
         Screen(
             "“Yeah, I’ll be right back.” You skate off the rink and exchange your shoes.",
@@ -434,7 +468,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "woman rollerblading to get new rollerblades"
         ),
         Screen(
             "\ntw: mild gore, broken bones" +
@@ -450,7 +485,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man on the ground, injured"
         ),
         Screen(
             "\nAfter being denied to ride in the ambulance with Chad, you call up Priscilla " +
@@ -464,7 +500,8 @@ object UnexpectedEncounterStory {
             1,
             15,
             true,
-            false
+            false,
+            "hospital hallway"
         ),
         Screen(
             "You take a left and somehow were able to find Chad’s room. His vitals seem " +
@@ -477,7 +514,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "woman crying on the floor"
         ),
         Screen(
             "\n“Oh Chad, my beloved barista, from the day we met, which unbelievably was just " +
@@ -491,7 +529,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "woman crying, arms crossed"
         ),
         Screen(
             "\nYou hold his hand. Slowly, you feel a tight squeeze coming from his side. He " +
@@ -502,7 +541,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "holding hands in hospital"
         ),
         Screen(
             "\n“I love you too,” words barely coming out of his mouth, “I heard everything. " +
@@ -516,7 +556,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "smiling doctor giving bad news"
         ),
         Screen(
             "“Mr. Chadavonivich Rista, I’m afraid I will have to bear you with bad news. " +
@@ -528,7 +569,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "second doctor giving news"
         ),
         Screen(
             "I look at Chad, but his eyes are not meeting mine. Instead, he‘s looking at " +
@@ -540,7 +582,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "third doctor giving news"
         ),
         Screen(
             "\nThe doctor steps away, the silence creeping back in. Chad motions me to come " +
@@ -554,7 +597,8 @@ object UnexpectedEncounterStory {
             1,
             5,
             true,
-            false
+            false,
+            "person signing will"
         ),
         Screen(
             "Congratulations! While Chad may be dead, you now inherited all of his money! " +
@@ -566,7 +610,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "hand knocking on door"
         ),
         Screen(
             "\nKnock. Knock knock. \nSlowly rising from your seat, you make your way to the door." +
@@ -578,7 +623,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man standing and waving"
         ),
         Screen(
             "\n“Chad?” you ask, looking as pale as a ghost. \n" +
@@ -593,7 +639,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man introducing himself"
         ),
         Screen( // ENDING 4 (47)
             "“I’m Bradavonivich Rista. We need to talk.”",
@@ -603,7 +650,8 @@ object UnexpectedEncounterStory {
             0,
             0,
             false,
-            true
+            true,
+            "man introducing himself"
         ),
         Screen(
             "\nAfter signing Brad’s name , you step out of his room, allowing Chad to live " +
@@ -616,7 +664,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man holding flowers"
         ),
         Screen(
             "The man lets out a little chuckle and sticks his hand out.\n" +
@@ -629,7 +678,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man holding flowers"
         ),
         Screen( // ENDING 5 (50)
             "\nI shook his hand and looked him in the eyes. Yup, that’s definitely Chad’s brother. " +
@@ -642,7 +692,8 @@ object UnexpectedEncounterStory {
             0,
             0,
             false,
-            true
+            true,
+            "man holding flowers"
         ),
         Screen(
             "You take a right and you see a man, covered in bandages from head to toe, " +
@@ -653,7 +704,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man lying in hospital bed, covered in bandages"
         ),
         Screen(
             "\nYou start to blame yourself for leaving his side to change out your rollerblades, " +
@@ -666,7 +718,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "woman crying on the floor"
         ),
         Screen(
             "Chad opens his eyes and turns to me, in confusion.\n" +
@@ -680,7 +733,8 @@ object UnexpectedEncounterStory {
             1,
             3,
             true,
-            false
+            false,
+            "man lying in hospital bed, covered in bandages"
         ),
         Screen(
             "\nUnfortunately, you lose this case. Not only did you lose Chad, but you also lost " +
@@ -692,19 +746,21 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "graph of money in downward trend"
         ),
         Screen( // ENDING (55)
             "\nEvery time you close your eyes, you picture Brad’s smug face, a wad of cash fanned " +
                     "out before him, desperately needing a punch to the face. You sigh. An unexpected " +
                     "counter that was. ",
             R.drawable.smug_brad,
-            "",
+            "Return to home",
             "",
             0,
             0,
             false,
-            true
+            true,
+            "smug man"
         ),
         Screen(
             "\nAssuming you were in the wrong hospital room, you ask him who he is. \n" +
@@ -717,7 +773,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man lying in hospital bed"
         ),
         Screen(
             "Staring into his eyes, you see a future with him. Maybe Chad wasn’t the one, " +
@@ -728,7 +785,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "person riding motorcycle"
         ),
         Screen(
             "\nInstead of looking for Chad, you spend hours talking to Brad, the motorcycle mystery " +
@@ -740,7 +798,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "two people sitting side by side"
         ),
         Screen(
             "\n\nAfter two and a half years of recovery, Brad invites you to see his band perform," +
@@ -753,7 +812,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "stage with guitars and speakers"
         ),
         Screen(
             "\nExpecting his bandmates to join him on stage, he stands there, alone. Confused " +
@@ -765,7 +825,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man singing with guitar and mic"
         ),
         Screen(
             "\nAfter the last lyric leaves his lips, he swings his guitar back and bends down on one knee.\n" +
@@ -778,7 +839,8 @@ object UnexpectedEncounterStory {
             1,
             2,
             true,
-            false
+            false,
+            "man proposing"
         ),
         Screen( // ENDING (63)
             "\nCovered in tears, you make your way to the stage. \n" +
@@ -792,7 +854,8 @@ object UnexpectedEncounterStory {
             0,
             0,
             false,
-            true
+            true,
+            "two people falling in love"
         ),
         Screen(
             "\nA part of you still is in love with Chad. While he is not here, you vow to dedicate " +
@@ -804,7 +867,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "woman running away"
         ),
         Screen(
             "One day, you run into a lumberjack. Needing some wood, you go up to him.",
@@ -814,7 +878,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man in flannel chopping wood"
         ),
         Screen(
             "\"Hello...may I ask for your name and some wood, Mr. Lumberjack\" you ask, " +
@@ -825,7 +890,8 @@ object UnexpectedEncounterStory {
             1,
             0,
             false,
-            false
+            false,
+            "man in flannel chopping wood"
         ),
         Screen( // ENDING (67)
             "The lumberjack turns around.\n" +
@@ -837,7 +903,8 @@ object UnexpectedEncounterStory {
             0,
             0,
             false,
-            true
+            true,
+            "girl flirting with bearded man"
         )
 
         )

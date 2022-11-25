@@ -8,5 +8,6 @@ data class Screen(
     val leftValue: Int,
     val rightValue: Int,
     val isChoice: Boolean,
-    val isEnding: Boolean
+    val isEnding: Boolean,
+    val contentDesc: String
 )
