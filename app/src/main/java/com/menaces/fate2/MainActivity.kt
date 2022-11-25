@@ -80,6 +80,7 @@ class MainActivity : AppCompatActivity() {
     override fun onStop() {
         super.onStop()
         mediaPlayer.pause()
+        musicSwitch.isChecked = false
         //mediaPlayer.release()
 //        mediaPlayer = null
     }
