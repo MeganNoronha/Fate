@@ -79,10 +79,11 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStop() {
         super.onStop()
-        mediaPlayer.stop()
+        mediaPlayer.pause()
         //mediaPlayer.release()
 //        mediaPlayer = null
     }
+
 
     // Goes back to story menu instead of previous fragment (device button)
     override fun onBackPressed() {
