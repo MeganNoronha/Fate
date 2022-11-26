@@ -67,7 +67,7 @@ object TreesStory {
             "Retrace your steps",
             "Try to find your friends",
             1,
-            0, // TODO
+            53, // TODO
             true,
             false,
             "in the middle of the forest"
@@ -141,7 +141,7 @@ object TreesStory {
             "Hop your way out of the woods",
             "Take a short break",
             1,
-            0, // TODO
+            46, // TODO
             true,
             false,
             "person falling on their face"
@@ -211,7 +211,7 @@ object TreesStory {
             "Left",
             "Right",
             1,
-            0, // TODO
+            7, // TODO
             true,
             false,
             ""
@@ -298,6 +298,510 @@ object TreesStory {
             0,
             false,
             true,
+            ""
+        ),
+        Screen(
+            "Right. Right has to be right, right? You are going on pure instinct now, the fog is too thick. You try your best to quicken your pace. It takes incredible core strength to balance yourself as you hop. You really wish you had completed all those “30 days to build a strong core” challenges.",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "You’ve been hopping/limping for half an hour. The fog is so thick you can’t see past your feet. As you go on, the forest floor is softer, it feels more like grass than the typical rough layer of branches, bark and leaves. This is good, maybe you’ve made it out of the forest into something more like a meadow.",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "Suddenly, a voice booms around you. “WHO'S THERE!” It sounds like it's coming from all around you. OH NO, what did you do?",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "“HOW DARE YOU ENTER THE SANCTUM OF ELMER?!”. Elmer, like the guy from bugs bunny??! No, no, you must’ve wandered into someone’s backyard. But who lives here, and who talks like that.",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "The fog starts to dissipate. You try to make as little noise as possible. There are loud footsteps coming towards you. As the fog clears, you look around. It seems like you are in a dimly lit hallway, the walls are a thick barrier of tree branches that go up really high. There is no ceiling.",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "The floor is soft green grass. About 20 feet in front of you is a turn, that’s where the footsteps are coming from. Behind you is the path you came by. You can make out the outline of an entrance, but can’t see past it. You must have just entered this place.\n",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "\"“Hey, psst”, someone whispers on your left. You are so scared you don’t even scream. You see an opening to the left of you but you can’t see the person speaking.\n" +
+                    "\n" +
+                    "“Listen, we have to be fast, Elmer is coming for you. Follow me and I can help you get out” the voice whispers.\n" +
+                    "\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen( // CHOICE
+            "\"\n" +
+                    "“Why can’t we go through the entrance back there?” you ask.\n" +
+                    "\n" +
+                    "“It’s not safe, they will catch you as soon as you reach the entrance. C’mon, we have to go”\n" +
+                    "\n" +
+                    "The footsteps are getting closer, do you...\n" +
+                    "\"",
+            R.drawable.trees_story,
+            "Run for the entrance?",
+            "Follow the voice",
+            1,
+            9,
+            true,
+            false,
+            ""
+        ),
+        Screen(
+            "You are pretty sure you shouldn’t trust voices from the walls. You have too much adrenaline to feel your ankle anymore. You run towards the entrance. You are so close, there’s a glimmer of light outside. \n" +
+                    "\n" +
+                    "Almost there.",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "Something circles around your waist and pulls you back. “HAHAHA, YOU THOUGHT YOU COULD ESCAPE”, Elmer says. You are dragged backwards through the hallway, going deeper into this person’s house. You try to fight the ties that bind you but they are too strong. ",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "\"Finally, you stop. You have reached a room of some sort. Elmer pulls you into the room and you fall to the ground.\n" +
+                    "\n" +
+                    "As you get up, you realize you are surrounded. There are eyes all around the room, watching you. Elmer stands in front. You look up to face him.\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "\"Is that.. Is that a tree? “I am ELMER, the mighty elm tree of this forest”, Elmer says. All around you the trees start to appear out of the shadows. They all have two tree trunks for legs and branches for hand. \n" +
+                    "\n" +
+                    "You must be going crazy. “Are trees really sentient?” you ask.\n" +
+                    "\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "“Yes, we trees have always been sentient, now the humans have ruined our world and it is time for us to rise up. Just as we trees are trapped in the world you humans have created, so have you been trapped in my house. I will take my revenge” Elmer says",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "\"“This is our world, the humans and all the animals were made to serve as fertilizer for our growth. It was a good system, we feed you and then you provide us food in turn when you die. BUT YOU WRECKED IT” \n" +
+                    "\n" +
+                    "You see that Elmer has clearly been waiting to give this speech, there is no stopping him now. \"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "“Humans altered the balance of the ecosystem. Mass produced and taken our crop against our will. I will no longer stand by and watch the world burn. There are too many humans and I have decided to do something about it. Any human that enters my forest, will never leave alive” Elmer says and then smiles at you.\n",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen( // ENDING 2
+            "\"Frick Frack, is there any way to get out of this. The trees are closing in, Elmer still has you tied up with the vines. \n" +
+                    "\n" +
+                    "More vines close around, they are pulling you to the floor. This is the end, you are not going to make it. You should’ve stayed home today, you knew hiking was a bad decision.\"",
+            R.drawable.trees_story,
+            "Return to home",
+            "",
+            0,
+            0,
+            false,
+            true,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
             ""
         ),
         Screen(
