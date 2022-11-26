@@ -16,9 +16,9 @@ object StoryList {
         ),
         Story(
             R.drawable.trees_story,
-            "Trees: Friends or Foes",
-            "Sci-Fi",
-            "Strange things keep happening to you - who, or what, is behind it?",
+            "A Sunday Morning",
+            "Sci-Fi, Horror",
+            "It’s just your regular Sunday morning hike through the woods. Nothing can go wrong, right?",
             TreesStory.screens,
             0,
             0
