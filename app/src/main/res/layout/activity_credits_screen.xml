@@ -22,13 +22,7 @@
             android:textSize="20sp"
             android:fontFamily="casual"
             android:textColor="?android:textColorPrimary"
-            android:text="WORKS CITED \n\nRetro Theme:\n
-https://www.pixilart.com/\n\nGenerates color palette for image imported:\n
-https://coolors.co/\n\n
-Stick figures:\n
-https://www.animatedimages.org/cat-stick-figures-1528.htm\n\n
-To make phone vibrate:\n
-https://www.geeksforgeeks.org/how-to-vibrate-a-device-programmatically-in-android/\n\n
+            android:text="WORKS CITED \n\n
 Loffie animation (loading screen):\n
 https://lottiefiles.com/95356-bubble-loader\n\n
 App logo icon:\n
