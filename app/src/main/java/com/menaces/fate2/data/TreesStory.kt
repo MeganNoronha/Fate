@@ -301,7 +301,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "Right. Right has to be right, right? You are going on pure instinct now, the fog is too thick. You try your best to quicken your pace. It takes incredible core strength to balance yourself as you hop. You really wish you had completed all those “30 days to build a strong core” challenges.",
+            "Right. Right has to be right, right? You are going on pure instinct now, the " +
+                    "fog is too thick. You try your best to quicken your pace. It takes incredible " +
+                    "core strength to balance yourself as you hop. You really wish you had completed " +
+                    "all those “30 days to build a strong core” challenges.",
             R.drawable.trees_story,
             "",
             "",
@@ -312,7 +315,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "You’ve been hopping/limping for half an hour. The fog is so thick you can’t see past your feet. As you go on, the forest floor is softer, it feels more like grass than the typical rough layer of branches, bark and leaves. This is good, maybe you’ve made it out of the forest into something more like a meadow.",
+            "You’ve been hopping/limping for half an hour. The fog is so thick you can’t " +
+                    "see past your feet. As you go on, the forest floor is softer, it feels more " +
+                    "like grass than the typical rough layer of branches, bark and leaves. This is " +
+                    "good, maybe you’ve made it out of the forest into something more like a meadow.",
             R.drawable.trees_story,
             "",
             "",
@@ -323,7 +329,8 @@ object TreesStory {
             ""
         ),
         Screen(
-            "Suddenly, a voice booms around you. “WHO'S THERE!” It sounds like it's coming from all around you. OH NO, what did you do?",
+            "Suddenly, a voice booms around you. “WHO'S THERE!” It sounds like it's " +
+                    "coming from all around you. OH NO, what did you do?",
             R.drawable.trees_story,
             "",
             "",
@@ -334,7 +341,9 @@ object TreesStory {
             ""
         ),
         Screen(
-            "“HOW DARE YOU ENTER THE SANCTUM OF ELMER?!”. Elmer, like the guy from bugs bunny??! No, no, you must’ve wandered into someone’s backyard. But who lives here, and who talks like that.",
+            "“HOW DARE YOU ENTER THE SANCTUM OF ELMER?!”. Elmer, like the guy from bugs " +
+                    "bunny??! No, no, you must’ve wandered into someone’s backyard. But who " +
+                    "lives here, and who talks like that.",
             R.drawable.trees_story,
             "",
             "",
@@ -345,7 +354,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "The fog starts to dissipate. You try to make as little noise as possible. There are loud footsteps coming towards you. As the fog clears, you look around. It seems like you are in a dimly lit hallway, the walls are a thick barrier of tree branches that go up really high. There is no ceiling.",
+            "The fog starts to dissipate. You try to make as little noise as possible. " +
+                    "There are loud footsteps coming towards you. As the fog clears, you look " +
+                    "around. It seems like you are in a dimly lit hallway, the walls are a thick " +
+                    "barrier of tree branches that go up really high. There is no ceiling.",
             R.drawable.trees_story,
             "",
             "",
@@ -356,7 +368,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "The floor is soft green grass. About 20 feet in front of you is a turn, that’s where the footsteps are coming from. Behind you is the path you came by. You can make out the outline of an entrance, but can’t see past it. You must have just entered this place.\n",
+            "The floor is soft green grass. About 20 feet in front of you is a turn, " +
+                    "that’s where the footsteps are coming from. Behind you is the path you " +
+                    "came by. You can make out the outline of an entrance, but can’t see past " +
+                    "it. You must have just entered this place.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -367,9 +382,12 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"“Hey, psst”, someone whispers on your left. You are so scared you don’t even scream. You see an opening to the left of you but you can’t see the person speaking.\n" +
+            "\"“Hey, psst”, someone whispers on your left. You are so scared you don’t " +
+                    "even scream. You see an opening to the left of you but you can’t see the " +
+                    "person speaking.\n" +
                     "\n" +
-                    "“Listen, we have to be fast, Elmer is coming for you. Follow me and I can help you get out” the voice whispers.\n" +
+                    "“Listen, we have to be fast, Elmer is coming for you. Follow me and I can " +
+                    "help you get out” the voice whispers.\n" +
                     "\"",
             R.drawable.trees_story,
             "",
@@ -384,7 +402,8 @@ object TreesStory {
             "\"\n" +
                     "“Why can’t we go through the entrance back there?” you ask.\n" +
                     "\n" +
-                    "“It’s not safe, they will catch you as soon as you reach the entrance. C’mon, we have to go”\n" +
+                    "“It’s not safe, they will catch you as soon as you reach the entrance. " +
+                    "C’mon, we have to go”\n" +
                     "\n" +
                     "The footsteps are getting closer, do you...\n" +
                     "\"",
@@ -398,7 +417,9 @@ object TreesStory {
             ""
         ),
         Screen(
-            "You are pretty sure you shouldn’t trust voices from the walls. You have too much adrenaline to feel your ankle anymore. You run towards the entrance. You are so close, there’s a glimmer of light outside. \n" +
+            "You are pretty sure you shouldn’t trust voices from the walls. You have " +
+                    "too much adrenaline to feel your ankle anymore. You run towards the " +
+                    "entrance. You are so close, there’s a glimmer of light outside. \n" +
                     "\n" +
                     "Almost there.",
             R.drawable.trees_story,
@@ -411,7 +432,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "Something circles around your waist and pulls you back. “HAHAHA, YOU THOUGHT YOU COULD ESCAPE”, Elmer says. You are dragged backwards through the hallway, going deeper into this person’s house. You try to fight the ties that bind you but they are too strong. ",
+            "Something circles around your waist and pulls you back. “HAHAHA, " +
+                    "YOU THOUGHT YOU COULD ESCAPE”, Elmer says. You are dragged backwards " +
+                    "through the hallway, going deeper into this person’s house. You try to " +
+                    "fight the ties that bind you but they are too strong. ",
             R.drawable.trees_story,
             "",
             "",
@@ -422,9 +446,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"Finally, you stop. You have reached a room of some sort. Elmer pulls you into the room and you fall to the ground.\n" +
+            "\"Finally, you stop. You have reached a room of some sort. Elmer pulls " +
+                    "you into the room and you fall to the ground.\n" +
                     "\n" +
-                    "As you get up, you realize you are surrounded. There are eyes all around the room, watching you. Elmer stands in front. You look up to face him.\"",
+                    "As you get up, you realize you are surrounded. There are eyes all around " +
+                    "the room, watching you. Elmer stands in front. You look up to face him.\"",
             R.drawable.trees_story,
             "",
             "",
@@ -435,7 +461,9 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"Is that.. Is that a tree? “I am ELMER, the mighty elm tree of this forest”, Elmer says. All around you the trees start to appear out of the shadows. They all have two tree trunks for legs and branches for hand. \n" +
+            "\"Is that.. Is that a tree? “I am ELMER, the mighty elm tree of this " +
+                    "forest”, Elmer says. All around you the trees start to appear out of " +
+                    "the shadows. They all have two tree trunks for legs and branches for hand. \n" +
                     "\n" +
                     "You must be going crazy. “Are trees really sentient?” you ask.\n" +
                     "\"",
@@ -449,7 +477,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "“Yes, we trees have always been sentient, now the humans have ruined our world and it is time for us to rise up. Just as we trees are trapped in the world you humans have created, so have you been trapped in my house. I will take my revenge” Elmer says",
+            "“Yes, we trees have always been sentient, now the humans have ruined " +
+                    "our world and it is time for us to rise up. Just as we trees are trapped " +
+                    "in the world you humans have created, so have you been trapped in my " +
+                    "house. I will take my revenge” Elmer says",
             R.drawable.trees_story,
             "",
             "",
@@ -460,9 +491,12 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"“This is our world, the humans and all the animals were made to serve as fertilizer for our growth. It was a good system, we feed you and then you provide us food in turn when you die. BUT YOU WRECKED IT” \n" +
+            "\"“This is our world, the humans and all the animals were made to serve " +
+                    "as fertilizer for our growth. It was a good system, we feed you and then " +
+                    "you provide us food in turn when you die. BUT YOU WRECKED IT” \n" +
                     "\n" +
-                    "You see that Elmer has clearly been waiting to give this speech, there is no stopping him now. \"",
+                    "You see that Elmer has clearly been waiting to give this speech, there is " +
+                    "no stopping him now. \"",
             R.drawable.trees_story,
             "",
             "",
@@ -473,7 +507,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "“Humans altered the balance of the ecosystem. Mass produced and taken our crop against our will. I will no longer stand by and watch the world burn. There are too many humans and I have decided to do something about it. Any human that enters my forest, will never leave alive” Elmer says and then smiles at you.\n",
+            "“Humans altered the balance of the ecosystem. Mass produced and taken our " +
+                    "crop against our will. I will no longer stand by and watch the world burn. " +
+                    "There are too many humans and I have decided to do something about it. Any " +
+                    "human that enters my forest, will never leave alive” Elmer says and " +
+                    "then smiles at you.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -484,9 +522,12 @@ object TreesStory {
             ""
         ),
         Screen( // ENDING 2
-            "\"Frick Frack, is there any way to get out of this. The trees are closing in, Elmer still has you tied up with the vines. \n" +
+            "\"Frick Frack, is there any way to get out of this. The trees are closing " +
+                    "in, Elmer still has you tied up with the vines. \n" +
                     "\n" +
-                    "More vines close around, they are pulling you to the floor. This is the end, you are not going to make it. You should’ve stayed home today, you knew hiking was a bad decision.\"",
+                    "More vines close around, they are pulling you to the floor. This is the end, " +
+                    "you are not going to make it. You should’ve stayed home today, you knew " +
+                    "hiking was a bad decision.\"",
             R.drawable.trees_story,
             "Return to home",
             "",
@@ -497,7 +538,9 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "“Okay, I’ll follow you” you say.  What do you have to lose, you can’t walk " +
+                    "anyway. You go through the opening. You look at the person who helped you, " +
+                    "no wait, not a person, it's a tree!",
             R.drawable.trees_story,
             "",
             "",
@@ -508,7 +551,9 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "“Hey, we got to move fast, I see hurt, I made this walking stick out of " +
+                    "my branches for you, this should help a bit”, the tree says. You take the " +
+                    "branch and follow him.  \n",
             R.drawable.trees_story,
             "",
             "",
@@ -519,7 +564,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "Whoa, this is a lot, maybe it is a person dressed in a tree costume. As " +
+                    "you try to keep up, you have to know, you ask him “Are you a tree?”. “Oh, " +
+                    "yeah, you’ve probably never seen a talking tree before,  let’s go a little " +
+                    "further and I’ll tell you the whole story” he says.",
             R.drawable.trees_story,
             "",
             "",
@@ -530,7 +578,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "The stick helps a lot, but you are still struggling to move at a " +
+                    "respectable pace. After a bit, you get to a fork in the path and  the " +
+                    "tree stops, “I think we lost his trail, we have to keep moving but we " +
+                    "can stop here for a bit”, he says.",
             R.drawable.trees_story,
             "",
             "",
@@ -541,7 +592,14 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "\"“Well, I guess it’s time for introductions, my name is Treevor. I saw " +
+                    "you enter the garden and I figured you were lost. Elmer is a great tree " +
+                    "and hates humans, I thought I would give you a hand”\n" +
+                    "\n" +
+                    "You sink to the floor. This is too much, you need to sit down. How " +
+                    "could the tree be talking, how could it be moving. You pinch yourself, " +
+                    "you aren’t dreaming. You look up at Treevor. “You gotta tell me more, " +
+                    "how is this possible.\"",
             R.drawable.trees_story,
             "",
             "",
@@ -552,7 +610,40 @@ object TreesStory {
             ""
         ),
         Screen(
+            "“Okay, we have a couple of minutes. All trees are sentient, we are " +
+                    "aware of humans and their actions. We have hidden this from humans for " +
+                    "years, most trees choose to just chill out and not move, or even if we " +
+                    "move it's not in the presence of humans. Older trees have these sanctums " +
+                    "throughout this forest where they just do what they want.“ Treev says\n",
+            R.drawable.trees_story,
             "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen( // CHOICE
+            "“Anyways, we should get going now, there are two paths, one has stairs but " +
+                    "is faster and the other is a ramp but it is a longer route, which do you feel " +
+                    "is better?”\n" +
+                    "\n" +
+                    "You are still confused, but Treevor is right, you need to leave. Which way " +
+                    "do you go?\n",
+            R.drawable.trees_story,
+            "Down the ramp",
+            "Up the stairs",
+            1,
+            5, // TODO
+            true,
+            false,
+            ""
+        ),
+        Screen(
+            "“Let’s do the ramp” you say. Even with the stick you might not be able to " +
+                    "climb stairs. You and Treevor head down the ramp. You lead the way and " +
+                    "Treevor follows behind you making sure that no one is following you guys.",
             R.drawable.trees_story,
             "",
             "",
@@ -563,7 +654,13 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "After a while you start to feel a little unsure about this, it feels like " +
+                    "you are going deeper into this place. “Treev, are you sure about this ?” " +
+                    "you ask. No response. “Treevor? TREEVOR!?” Where is he?\n" +
+                    "\n" +
+                    "Something knocks you behind your knees. You fall and try to get up but " +
+                    "your walking stick falls out of your hand. Something kicks you while you " +
+                    "are down, the ramp is too steep, you roll down and you can’t stop.",
             R.drawable.trees_story,
             "",
             "",
@@ -574,7 +671,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "Treevor comes up behind you. “Now you have nowhere to run, '' he says. " +
+                    "You can’t believe you’ve fallen for his trap. “Treevor, please, you got to " +
+                    "let me go '', you plead. “Never, humans frequently use trees without " +
+                    "caring if it hurts them. Those trees you marked, those were my friends! " +
+                    "Birchrard and Patreecia will never be the same again, you will feel our wrath!”",
             R.drawable.trees_story,
             "",
             "",
@@ -584,37 +685,17 @@ object TreesStory {
             false,
             ""
         ),
-        Screen(
-            "",
+        Screen( // ENDING 3
+            "The trees gang up on you. They barrage you with splinters. It’s like a " +
+                    "thousand paper cuts at the same time. You close your eyes and think, if " +
+                    "only you didn’t go hiking today. ",
             R.drawable.trees_story,
+            "Return to home",
             "",
-            "",
-            1,
+            0,
             0,
             false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
+            true,
             ""
         ),
         Screen(
