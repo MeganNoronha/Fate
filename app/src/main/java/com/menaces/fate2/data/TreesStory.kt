@@ -382,13 +382,12 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"“Hey, psst”, someone whispers on your left. You are so scared you don’t " +
+            "“Hey, psst”, someone whispers on your left. You are so scared you don’t " +
                     "even scream. You see an opening to the left of you but you can’t see the " +
                     "person speaking.\n" +
                     "\n" +
                     "“Listen, we have to be fast, Elmer is coming for you. Follow me and I can " +
-                    "help you get out” the voice whispers.\n" +
-                    "\"",
+                    "help you get out” the voice whispers.",
             R.drawable.trees_story,
             "",
             "",
@@ -399,14 +398,12 @@ object TreesStory {
             ""
         ),
         Screen( // CHOICE
-            "\"\n" +
-                    "“Why can’t we go through the entrance back there?” you ask.\n" +
+                "“Why can’t we go through the entrance back there?” you ask.\n" +
                     "\n" +
                     "“It’s not safe, they will catch you as soon as you reach the entrance. " +
                     "C’mon, we have to go”\n" +
                     "\n" +
-                    "The footsteps are getting closer, do you...\n" +
-                    "\"",
+                    "The footsteps are getting closer, do you...\n",
             R.drawable.trees_story,
             "Run for the entrance?",
             "Follow the voice",
@@ -446,11 +443,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"Finally, you stop. You have reached a room of some sort. Elmer pulls " +
+            "Finally, you stop. You have reached a room of some sort. Elmer pulls " +
                     "you into the room and you fall to the ground.\n" +
                     "\n" +
                     "As you get up, you realize you are surrounded. There are eyes all around " +
-                    "the room, watching you. Elmer stands in front. You look up to face him.\"",
+                    "the room, watching you. Elmer stands in front. You look up to face him.",
             R.drawable.trees_story,
             "",
             "",
@@ -461,12 +458,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"Is that.. Is that a tree? “I am ELMER, the mighty elm tree of this " +
+            "Is that.. Is that a tree? “I am ELMER, the mighty elm tree of this " +
                     "forest”, Elmer says. All around you the trees start to appear out of " +
                     "the shadows. They all have two tree trunks for legs and branches for hand. \n" +
                     "\n" +
-                    "You must be going crazy. “Are trees really sentient?” you ask.\n" +
-                    "\"",
+                    "You must be going crazy. “Are trees really sentient?” you ask.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -491,12 +487,12 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"“This is our world, the humans and all the animals were made to serve " +
+            "“This is our world, the humans and all the animals were made to serve " +
                     "as fertilizer for our growth. It was a good system, we feed you and then " +
                     "you provide us food in turn when you die. BUT YOU WRECKED IT” \n" +
                     "\n" +
                     "You see that Elmer has clearly been waiting to give this speech, there is " +
-                    "no stopping him now. \"",
+                    "no stopping him now.“",
             R.drawable.trees_story,
             "",
             "",
@@ -522,12 +518,12 @@ object TreesStory {
             ""
         ),
         Screen( // ENDING 2
-            "\"Frick Frack, is there any way to get out of this. The trees are closing " +
+            "Frick Frack, is there any way to get out of this. The trees are closing " +
                     "in, Elmer still has you tied up with the vines. \n" +
                     "\n" +
                     "More vines close around, they are pulling you to the floor. This is the end, " +
                     "you are not going to make it. You should’ve stayed home today, you knew " +
-                    "hiking was a bad decision.\"",
+                    "hiking was a bad decision.",
             R.drawable.trees_story,
             "Return to home",
             "",
@@ -592,14 +588,14 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"“Well, I guess it’s time for introductions, my name is Treevor. I saw " +
+            "“Well, I guess it’s time for introductions, my name is Treevor. I saw " +
                     "you enter the garden and I figured you were lost. Elmer is a great tree " +
                     "and hates humans, I thought I would give you a hand”\n" +
                     "\n" +
                     "You sink to the floor. This is too much, you need to sit down. How " +
                     "could the tree be talking, how could it be moving. You pinch yourself, " +
                     "you aren’t dreaming. You look up at Treevor. “You gotta tell me more, " +
-                    "how is this possible.\"",
+                    "how is this possible.“",
             R.drawable.trees_story,
             "",
             "",
@@ -751,11 +747,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"On the edge of the pool, tied up and guarded by some other trees are " +
+            "On the edge of the pool, tied up and guarded by some other trees are " +
                     "Bro Ski and Bra Ski, tied up with branches. This is bad, real bad.\n" +
                     "\n" +
                     "Treevor drops you down next to the Skis. You can barely walk, there’s no " +
-                    "chance of escaping. You have been betreeyed.\"",
+                    "chance of escaping. You have been betreeyed.",
             R.drawable.trees_story,
             "",
             "",
@@ -794,7 +790,8 @@ object TreesStory {
             ""
         ),
         Screen(
-            "You have to take a break. You slump down and rest your back against a tree. You rummage through your pockets, there must be painkillers somewhere.",
+            "You have to take a break. You slump down and rest your back against a tree. " +
+                    "You rummage through your pockets, there must be painkillers somewhere.",
             R.drawable.trees_story,
             "",
             "",
@@ -805,9 +802,13 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"Ah ha! You found some ibuprofen. Sometimes, it pays off to never empty your pockets. Your ankle actually isn’t as bad as you thought, you should be better after you pop your pills.\n" +
+            "Ah ha! You found some ibuprofen. Sometimes, it pays off to never empty " +
+                    "your pockets. Your ankle actually isn’t as bad as you thought, you should " +
+                    "be better after you pop your pills.\n" +
                     "\n" +
-                    "You lean your head against the tree and something compels you to close your eyes. Wait, no, stay awake! You can’t open your eyes, you feel drowsy and then everything turns black.\"",
+                    "You lean your head against the tree and something compels you to close your " +
+                    "eyes. Wait, no, stay awake! You can’t open your eyes, you feel drowsy and " +
+                    "then everything turns black.",
             R.drawable.trees_story,
             "",
             "",
@@ -818,7 +819,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "Who are you kidding, you can’t make it out on your own. You would probably die in a variety of ways. Your best shot at survival is getting back with Bro Ski and Bra Ski. They couldn’t have gone far. You go down the trail you think they took.",
+            "Who are you kidding, you can’t make it out on your own. You would probably " +
+                    "die in a variety of ways. Your best shot at survival is getting back with " +
+                    "Bro Ski and Bra Ski. They couldn’t have gone far. You go down the trail " +
+                    "you think they took.",
             R.drawable.trees_story,
             "",
             "",
@@ -829,10 +833,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"“Bro Skiii!! Bra skiii!!” you yell out. Where did they go? The better not be joshing around, they know you hate being alone in the woods.\n" +
+            "“Bro Skiii!! Bra skiii!!” you yell out. Where did they go? The better " +
+                    "not be joshing around, they know you hate being alone in the woods.\n" +
                     "\n" +
-                    "You hear a reply to your shouts. “HELP! HELP ME!!”. That sounded like Bra Ski but not quite. The cries are coming from up ahead.\n" +
-                    "\"",
+                    "You hear a reply to your shouts. “HELP! HELP ME!!”. That sounded like Bra " +
+                    "Ski but not quite. The cries are coming from up ahead.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -843,10 +848,13 @@ object TreesStory {
             ""
         ),
         Screen(
-            "You sprint towards the noises you heard. The noise keeps getting further. Everytime you think you have reached them it moves further up ahead. \n" +
+            "You sprint towards the noises you heard. The noise keeps getting further. " +
+                    "Everytime you think you have reached them it moves further up ahead. \n" +
                     "\n" +
-                    "There! That clearing up ahead, you’re sure it's coming from there. It’s getting louder, you’re almost there. You break into the clearing and do a 360 degree scan. You just see a raven perched on one of the trees. Where is Bra Ski?\n" +
-                    "\"",
+                    "There! That clearing up ahead, you’re sure it's coming from there. It’s " +
+                    "getting louder, you’re almost there. You break into the clearing and do " +
+                    "a 360 degree scan. You just see a raven perched on one of the trees. " +
+                    "Where is Bra Ski?\n",
             R.drawable.trees_story,
             "",
             "",
@@ -857,10 +865,11 @@ object TreesStory {
             ""
         ),
         Screen( // CHOICE
-            "\"You hear something move behind you. There must be animals in the forest; that definitely sounded more like an animal than a human. You have to get out of this clearing, it’s too open. \n" +
+            "You hear something move behind you. There must be animals in the forest; " +
+                    "that definitely sounded more like an animal than a human. You have to " +
+                    "get out of this clearing, it’s too open. \n" +
                     "\n" +
-                    "Do you -> Hide or Run \n" +
-                    "\"",
+                    "Do you -> Hide or Run \n",
             R.drawable.trees_story,
             "Hide",
             "Run",
@@ -871,7 +880,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "You decide to hide. If the creature had already seen you, it would’ve attacked. You don’t want to make more noise by running so maybe you can hide behind a tree and hope for the best. You tiptoe towards the nearest tree, like a ninja. All those years of karate are finally paying off.",
+            "You decide to hide. If the creature had already seen you, it would’ve " +
+                    "attacked. You don’t want to make more noise by running so maybe you can " +
+                    "hide behind a tree and hope for the best. You tiptoe towards the nearest " +
+                    "tree, like a ninja. All those years of karate are finally paying off.",
             R.drawable.trees_story,
             "",
             "",
@@ -882,10 +894,12 @@ object TreesStory {
             ""
         ),
         Screen(
-            "You hold your breath and press your back against the tree. You look up and the raven is watching you intently with its dark brown eyes. It swoops towards you. It’s too fast, you can’t run. \n" +
+            "You hold your breath and press your back against the tree. You look up " +
+                    "and the raven is watching you intently with its dark brown eyes. It swoops " +
+                    "towards you. It’s too fast, you can’t run. \n" +
                     "\n" +
-                    "Those eyes are the last things you see before falling backwards and everything goes dark.\n" +
-                    "\"",
+                    "Those eyes are the last things you see before falling backwards and " +
+                    "everything goes dark.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -896,7 +910,9 @@ object TreesStory {
             ""
         ),
         Screen(
-            "You wake up feeling groggy. Your head hurts, you must have hit it on something. A loud voice booms around you. “HELLO PUNY HUMAN. WELCOME TO MY LAIR”. Okay, you are pretty sure only cartoon villains have “lairs”.",
+            "You wake up feeling groggy. Your head hurts, you must have hit it on " +
+                    "something. A loud voice booms around you. “HELLO PUNY HUMAN. WELCOME " +
+                    "TO MY LAIR”. Okay, you are pretty sure only cartoon villains have “lairs”.",
             R.drawable.trees_story,
             "",
             "",
@@ -907,10 +923,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"You look around. You seem to be trapped. There are bars all around you and a wooden swing? HOLY GUACAMOLE, you are in a giant bird cage. It’s like a bird cage made specifically for humans.\n" +
+            "You look around. You seem to be trapped. There are bars all around " +
+                    "you and a wooden swing? HOLY GUACAMOLE, you are in a giant bird cage. " +
+                    "It’s like a bird cage made specifically for humans.\n" +
                     "\n" +
-                    "“Who was that ?!” you yell out, trying to sound like you’re not scared.\n" +
-                    "\"",
+                    "“Who was that ?!” you yell out, trying to sound like you’re not scared.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -921,12 +938,14 @@ object TreesStory {
             ""
         ),
         Screen(
-            "The space lights up. You are in a large hall and in front of you is a .. tree? A really really big tree. \n" +
+            "The space lights up. You are in a large hall and in front of you is a .. " +
+                    "tree? A really really big tree. \n" +
                     "\n" +
-                    "“I am Katreena, the mighty oak tree of the forest, and you have been captured by my minions”, the tree says.\n" +
+                    "“I am Katreena, the mighty oak tree of the forest, and you have been " +
+                    "captured by my minions”, the tree says.\n" +
                     "\n" +
-                    "Oh great, a talking tree, that’s just what you needed today. Well, I guess it’s time for the classic villain monologue so you might as well take a seat.\n" +
-                    "\"",
+                    "Oh great, a talking tree, that’s just what you needed today. Well, I guess " +
+                    "it’s time for the classic villain monologue so you might as well take a seat.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -937,7 +956,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "As you suspected, Katreena launches into a speech. “I am tired of watching while humans destroy our world. We used to have a symbiotic relationship but now the humans just take and take and take without any thought of the harm they cause. I’ve watched my brethren fall just to make land for mass production of cattle.\"",
+            "As you suspected, Katreena launches into a speech. “I am tired of watching " +
+                    "while humans destroy our world. We used to have a symbiotic relationship " +
+                    "but now the humans just take and take and take without any thought of the " +
+                    "harm they cause. I’ve watched my brethren fall just to make land for mass " +
+                    "production of cattle.“",
             R.drawable.trees_story,
             "",
             "",
@@ -948,7 +971,9 @@ object TreesStory {
             ""
         ),
         Screen( // CHOICE
-            "“I will not stand for this any longer!! I have big plans to change the way humans behave, but first you tell me. What do you think of my motivations, haven’t humans harmed the trees for too long ?“\n" +
+            "“I will not stand for this any longer!! I have big plans to change the way " +
+                    "humans behave, but first you tell me. What do you think of my motivations, " +
+                    "haven’t humans harmed the trees for too long?“\n" +
                     "\n" +
                     "Do you agree or disagree?",
             R.drawable.trees_story,
@@ -961,10 +986,13 @@ object TreesStory {
             ""
         ),
         Screen(
-            "Well the tree kinda has a point. You get up to address the tree, “I see where you are coming from. We may have gone a little overboard in these past few years. But! We are trying to change.” \n" +
+            "Well the tree kinda has a point. You get up to address the tree, “I see " +
+                    "where you are coming from. We may have gone a little overboard in these " +
+                    "past few years. But! We are trying to change.” \n" +
                     "\n" +
-                    "“It's not fast enough! I plan to force the humans to change, whether they like it or not. And you are going to help me. You will become one of my minions and serve my agenda.” Katreena says as she breaks out into a smile. \n" +
-                    "\"",
+                    "“It's not fast enough! I plan to force the humans to change, whether they " +
+                    "like it or not. And you are going to help me. You will become one of my " +
+                    "minions and serve my agenda.” Katreena says as she breaks out into a smile. \n",
             R.drawable.trees_story,
             "",
             "",
@@ -975,10 +1003,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"“Me, noo, not me. I have zero strategy skills. I once lost a board game against my cat, I’m that bad” you try to argue. \n" +
+            "“Me, noo, not me. I have zero strategy skills. I once lost a board " +
+                    "game against my cat, I’m that bad” you try to argue. \n" +
                     "\n" +
-                    "“Ofcourse, I knew that from the moment I met you, but I need all the manpower I can get. Let me introduce you to my supreme commander” Katreena says\n" +
-                    "\"",
+                    "“Ofcourse, I knew that from the moment I met you, but I need all the " +
+                    "manpower I can get. Let me introduce you to my supreme commander” Katreena says\n",
             R.drawable.trees_story,
             "",
             "",
@@ -989,10 +1018,12 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"With that, you hear loud steps coming towards the room. You try to make a break for it, can the tree run after you? Might as well try. You slam against the bars but they are too thick. \n" +
+            "With that, you hear loud steps coming towards the room. You try to make " +
+                    "a break for it, can the tree run after you? Might as well try. You slam " +
+                    "against the bars but they are too thick. \n" +
                     "\n" +
-                    "The steps are louder. You get goosebumps. It's getting closer, It's almost there. THUD THUD. The supreme commander enters the room. \n" +
-                    "\"",
+                    "The steps are louder. You get goosebumps. It's getting closer, It's almost " +
+                    "there. THUD THUD. The supreme commander enters the room. \n",
             R.drawable.trees_story,
             "",
             "",
@@ -1003,10 +1034,15 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"“Is that a pigeon??!”, you exclaim. \n" +
+            "“Is that a pigeon??!”, you exclaim. \n" +
                     "\n" +
-                    "“Yes, the birds are my most valuable assets. They spy on the humans for me and inform me about their behavior. You however will perform other tasks. You will target humans who are working to harm the environment and contributing to climate change. You will steal bad food from humans. You will stay outside the windows of particularly troublesome humans and wake them up at 4 am with your noise. You will be given the orders and you won't be able to stop yourself from carrying them out.” Katreena explains \n" +
-                    "\"",
+                    "“Yes, the birds are my most valuable assets. They spy on the humans for me " +
+                    "and inform me about their behavior. You however will perform other tasks. " +
+                    "You will target humans who are working to harm the environment and " +
+                    "contributing to climate change. You will steal bad food from humans. You " +
+                    "will stay outside the windows of particularly troublesome humans and wake " +
+                    "them up at 4 am with your noise. You will be given the orders and you won't " +
+                    "be able to stop yourself from carrying them out.” Katreena explains \n",
             R.drawable.trees_story,
             "",
             "",
@@ -1017,9 +1053,11 @@ object TreesStory {
             ""
         ),
         Screen( // ENDING 5
-            "\"The supreme commander stares at you and lets out a loud cry. You can feel yourself transforming. You shrink down, your arms become wings, your entire body is burning with pain. \n" +
+            "The supreme commander stares at you and lets out a loud cry. You can " +
+                    "feel yourself transforming. You shrink down, your arms become wings, " +
+                    "your entire body is burning with pain. \n" +
                     "\n" +
-                    "Then it ends and you only have one thing on your mind - squawk.\"",
+                    "Then it ends and you only have one thing on your mind - squawk.",
             R.drawable.trees_story,
             "Return to home",
             "",
