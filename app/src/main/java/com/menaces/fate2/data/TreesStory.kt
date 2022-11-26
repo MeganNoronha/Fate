@@ -3,6 +3,7 @@ package com.menaces.fate2.data
 import android.media.Image
 import com.menaces.fate2.R
 import com.menaces.fate2.model.Screen
+import kotlin.text.Typography.tm
 
 object TreesStory {
 
@@ -10,40 +11,40 @@ object TreesStory {
         Screen(
             "Go hiking, they said, It will be fun, they said, but those lying liars lied " +
                     "to you and now you are stuck in the middle of the woods.",
-            R.drawable.trees_story,
+            R.drawable.tm_hiking_0,
             "",
             "",
             1,
             0,
             false,
             false,
-            ""
+            "hiking with three people"
         ),
         Screen(
             "It all started this morning. It was supposed to be a chill weekend but your " +
                     "two best friends, Bro Ski and Bra Ski, talked you into hiking through the " +
                     "spoon valley forest.",
-            R.drawable.trees_story,
+            R.drawable.tm_hiking_0,
             "",
             "",
             1,
             0,
             false,
             false,
-            ""
+            "hiking with three people"
         ),
         Screen(
             "Spoon valley is, you guessed it, shaped like a spoon. It’s not your typical " +
                     "hiking spot since it doesn’t have well mapped trails but apparently the views " +
                     "at the tip of the spoon are legendary.",
-            R.drawable.trees_story,
+            R.drawable.tm_hiking_0,
             "",
             "",
             1,
             0,
             false,
             false,
-            ""
+            "hiking with three people"
         ),
         Screen(
             "Y’all were a couple of miles in passing by some Elm trees when a gust of " +
@@ -51,54 +52,54 @@ object TreesStory {
                     "wait here”, you said and ran after your hat. The wind carried your hat a " +
                     "couple of yards away into a clearing. Just as you bent down to get it, a " +
                     "bird swooped in and flew away with your hat.",
-            R.drawable.trees_story,
+            R.drawable.tm_hat_blown_1,
             "",
             "",
             1,
             0,
             false,
             false,
-            ""
+            "hat blowing away"
         ),
         Screen( // CHOICE
             "Frustrated, you make your way back to the Skis only to find them gone. " +
                     "Now here you are, in the middle of the woods, alone, without cell service " +
                     "and hatless. Can this day get any worse, you sigh. What should you do?",
-            R.drawable.trees_story,
+            R.drawable.tm_middle_of_forest_2,
             "Retrace your steps",
             "Try to find your friends",
             1,
             0, // TODO
             true,
             false,
-            ""
+            "in the middle of the forest"
         ),
         Screen(
             "Retrace your steps: Bro Ski and Bra Ski are seasoned hikers, they will make " +
                     "their way around. But you, no chance, you made a couple of markings on the " +
                     "trees on your way in, hopefully you can follow those out and get help if needed. ",
-            R.drawable.trees_story,
+            R.drawable.tm_middle_of_forest_2,
             "",
             "",
             1,
             0,
             false,
             false,
-            ""
+            "in the middle of the forest"
         ),
         Screen(
             "You head back the way you came looking out for the little x’s you drew on " +
                     "the trees. As you keep going, you come to the realization that the woods are " +
                     "much scarier when you are on your own. Everything looks familiar and " +
                     "different at the same time.",
-            R.drawable.trees_story,
+            R.drawable.tm_scary_woods_3,
             "",
             "",
             1,
             0,
             false,
             false,
-            ""
+            "creepy-looking woods"
         ),
         Screen(
             "\"You stop for a minute, it’s quiet, too quiet and you get an eerie feeling " +
@@ -106,14 +107,14 @@ object TreesStory {
                     "\n" +
                     "Just as you are about to get started again, you hear a loud thud as something " +
                     "falls behind you.\"",
-            R.drawable.trees_story,
+            R.drawable.tm_someone_thing_watching_4,
             "",
             "",
             1,
             0,
             false,
             false,
-            ""
+            "eyes watching from the woods"
         ),
         Screen(
             "\"“Hello?!” you cry out as you spin around. You see a branch on the ground, " +
@@ -123,14 +124,14 @@ object TreesStory {
                     "\n" +
                     "No!, you can’t freak yourself out. You need to stay calm and get out of " +
                     "here. You are pretty tired but you decide to pick up the pace and start jogging. \"",
-            R.drawable.trees_story,
+            R.drawable.tm_trip_and_fall_5,
             "",
             "",
             1,
             0,
             false,
             false,
-            ""
+            "person tripping and falling"
         ),
         Screen( // CHOICE
             "\"You are so focused on looking for the markings you forget to look down. " +
@@ -138,14 +139,14 @@ object TreesStory {
                     "ankle is twisted in a funny way and you are out of breath. \n" +
                     "\n" +
                     "You could:",
-            R.drawable.trees_story,
+            R.drawable.tm_fall_on_face_6,
             "Hop your way out of the woods",
             "Take a short break",
             1,
             0, // TODO
             true,
             false,
-            ""
+            "person falling on their face"
         ),
         Screen(
             "Hop your way out: This is too weird, something is up and you need to " +
