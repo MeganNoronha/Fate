@@ -102,11 +102,11 @@ object TreesStory {
             "creepy-looking woods"
         ),
         Screen(
-            "\"You stop for a minute, it’s quiet, too quiet and you get an eerie feeling " +
+            "You stop for a minute, it’s quiet, too quiet and you get an eerie feeling " +
                     "that someone’s watching you. You do a scan around, no one in sight.\n" +
                     "\n" +
                     "Just as you are about to get started again, you hear a loud thud as something " +
-                    "falls behind you.\"",
+                    "falls behind you.",
             R.drawable.tm_someone_thing_watching_4,
             "",
             "",
@@ -117,13 +117,13 @@ object TreesStory {
             "eyes watching from the woods"
         ),
         Screen(
-            "\"“Hello?!” you cry out as you spin around. You see a branch on the ground, " +
+            "“Hello?!” you cry out as you spin around. You see a branch on the ground, " +
                     "it probably fell right now. It's just a branch you try to calm yourself " +
                     "down. However you can’t help but think, if you had stopped a couple of steps " +
                     "earlier, that branch would have landed on your head.\n" +
                     "\n" +
                     "No!, you can’t freak yourself out. You need to stay calm and get out of " +
-                    "here. You are pretty tired but you decide to pick up the pace and start jogging. \"",
+                    "here. You are pretty tired but you decide to pick up the pace and start jogging.",
             R.drawable.tm_trip_and_fall_5,
             "",
             "",
@@ -134,7 +134,7 @@ object TreesStory {
             "person tripping and falling"
         ),
         Screen( // CHOICE
-            "\"You are so focused on looking for the markings you forget to look down. " +
+            "You are so focused on looking for the markings you forget to look down. " +
                     "BAM! You fall face first into some dirt. You tripped over a tree root, your " +
                     "ankle is twisted in a funny way and you are out of breath. \n" +
                     "\n" +
@@ -203,12 +203,12 @@ object TreesStory {
             ""
         ),
         Screen( // CHOICE
-            "\"You look around at the other trees, they are all marked as well. " +
+            "You look around at the other trees, they are all marked as well. " +
                     "“LEAVE”, “GET OUT FAST”. OH NO, this is a bad sign. You start to shake " +
                     "from the cold, the fog is getting thicker. With all these trees marked " +
                     "you don’t know which way to go. \n" +
                     "\n" +
-                    "There are two paths that seem reasonable, you have to make a choice: \"",
+                    "There are two paths that seem reasonable, you have to make a choice:",
             R.drawable.trees_story,
             "Left",
             "Right",
@@ -234,10 +234,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"The forest is getting less dense, which is a good sign. Maybe those " +
+            "The forest is getting less dense, which is a good sign. Maybe those " +
                     "markings were just a prank by some kids to scare people passing by. \n" +
                     "\n" +
-                    "Are those stairs, YES! You are almost out of the woods.\"",
+                    "Are those stairs, YES! You are almost out of the woods.",
             R.drawable.trees_story,
             "",
             "",
@@ -262,11 +262,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"After forever, you reach the top of the stairs. You’re out. You made it, " +
+            "After forever, you reach the top of the stairs. You’re out. You made it, " +
                     "you call the park rangers and tell them about your situation. They take you " +
                     "to the medical center and head out to look for bro ski and bra ski. \n" +
                     "\n" +
-                    "You promise yourself to never go hiking for the rest of your life. Never ever! \"",
+                    "You promise yourself to never go hiking for the rest of your life. Never ever!",
             R.drawable.trees_story,
             "",
             "",
