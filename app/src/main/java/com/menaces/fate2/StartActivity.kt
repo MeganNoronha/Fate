@@ -39,6 +39,12 @@ class StartActivity : AppCompatActivity() {
             launchStoryMenu()
         }
 
+        // credits button
+        val creditsButton: Button = findViewById(R.id.credits_button)
+        creditsButton.setOnClickListener{
+            launchCredits()
+        }
+
         // instructions button
         val instructionsButton: Button = findViewById(R.id.instructions_button)
         instructionsButton.setOnClickListener {
@@ -81,6 +87,11 @@ class StartActivity : AppCompatActivity() {
 
     private fun launchInstructions() {
         storyIntent = Intent(this, InstructionsActivity::class.java)
+        startActivity(storyIntent)
+    }
+
+    private fun launchCredits() {
+        storyIntent = Intent(this, CreditsScreenActivity::class.java)
         startActivity(storyIntent)
     }
 }

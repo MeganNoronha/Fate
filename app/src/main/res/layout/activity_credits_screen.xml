@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        tools:context=".CreditsScreenActivity">
+
+
+        <TextView
+            android:id="@+id/credits_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="84dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="?android:textColorPrimary"
+            android:text="WORKS CITED \n\nRetro Theme:\n
+https://www.pixilart.com/\n\n
+https://coolors.co/\n\n
+https://www.animatedimages.org/cat-stick-figures-1528.htm\n\n
+https://www.geeksforgeeks.org/how-to-vibrate-a-device-programmatically-in-android/\n\n
+https://lottiefiles.com/95356-bubble-loader\n\n
+https://www.canva.com/design/DAFSzE0U2EI/Q_zn0kB2mzt4w9QBFC1G6Q/edit\n\n
+https://m3.material.io/theme-builder#/custom\n\n
+https://myfreemp3.to/#casual-tones-piano-bar-music\n\n
+
+Unexpected Encounter Image Resources:\n
+https://favpng.com/png_view/basket-picnic-baskets-clip-art-willow-basket-tropical-woody-bamboos-png/zJ70D7yY (basket weaving)\n\n
+https://coffeehow.co/coffee-drink-types/ (coffee drink)\n\n
+https://roadtocoffee.com/why-does-my-ex-want-to-meet-for-coffee/ (ask him on date)\n\n
+https://www.istockphoto.com/search/2/image?phrase=stick+figure+with+thought+bubble (thinking with stick figure)\n\n
+https://www.clipartmax.com/middle/m2H7K9d3i8m2i8A0_bestival-poetry-slam-poetry/ (slam poetry logo)\n\n
+https://ndla.no/subject:1:c8d6ed8b-d376-4c7b-b73a-3a1d48c3a357/topic:ef9717dd-08d9-443a-a6e1-50e4a8b476b5/topic:6abce428-712b-4967-aa81-b061b91c4bc4/resource:9b3cdce8-22f0-49e3-a8c9-b340ca580185 (slam poetry stage)\n\n
+https://www.sporcle.com/achievements/badges/poetry-slam (slam poetry dude)\n\n
+http://clipart-library.com/clipart/265143.htm (chad reciting)\n\n
+https://www.kindpng.com/imgv/ioRxwiw_marriage-diamond-ring-propose-engagement-propose-clipart-png/ (proposal between chad and steve)\n\n
+https://www.gograph.com/vector-clip-art/same-sex-marriage.html (man holding hands with man in tuxedo)\n\n
+https://pngtree.com/freepng/characters-applauding-clip-art_6021208.html (user applauding)\n\n
+https://stock.adobe.com/search?k=nun%20clip%20art (nun)\n\n
+https://depositphotos.com/vector-images/facetime-cartoon.html (user on facetime)\n\n
+https://www.freepik.com/premium-vector/hand-holding-phone-smartphone-screen-with-beautiful-girl-video-call-vector-illustration_31833582.htm (another woman on facetime)\n\n
+https://www.123rf.com/photo_123329426_stock-vector-shocked-girl-looks-into-her-smartphone-portrait-of-a-woman-who-opened-her-mouth-in-surprise-vector-f.html (long haired woman looks shocked)\n\n
+https://www.istockphoto.com/search/2/image?mediatype=illustration&amp;phrase=shocked+girl (woman with curly hair looks shocked)\n\n
+https://www.dreamstime.com/illustration/disgust-girl.html (orange haired girl looks disgusted)\n\n
+https://toppng.com/free-image/roller-skates-PNG-free-PNG-Images_25081 (roller blades)\n\n
+https://www.myfamilyguide.com/events/united-states/oregon/portland-1/active/roller-skating-party-mt-scott/ (better rollerblades)\n\n
+https://www.istockphoto.com/vector/the-girl-is-flirting-with-a-guy-gm939061964-256772699 (girl flirting with bearded man)\n\n
+https://www.dreamstime.com/illustration/laughing-pointing-woman.html (woman laughing)\n\n
+https://www.istockphoto.com/vector/couple-man-and-woman-walking-together-holding-hands-backside-view-vector-gm1015273404-273238684 (man and woman holding hands)\n\n
+https://www.istockphoto.com/vector/businesswoman-get-pain-at-foot-gm626771052-110823927 (shoes don’t fit)\n\n
+https://www.istockphoto.com/vector/man-and-woman-roller-skating-isolated-gm824845408-133653273 (man and woman rollerblading)\n\n
+https://www.alamy.com/stock-photo/cartoon-illustration-man-catching-woman.html?sortBy=relevant (man catching woman)\n\n
+https://favpng.com/png_view/suit-man-photography-royalty-free-clip-art-png/MViM0yM9 (man in brown tux)\n\n
+https://www.kindpng.com/imgv/Twhiii_transparent-proposal-clipart-man-proposing-to-a-woman/ (man proposing to woman)\n\n
+https://stock.adobe.com/search/images?k=roller+skate+drawing (woman rollerblading to get new rollerblades)\n\n
+https://www.dreamstime.com/illustration/ground-man.html (man on the ground, injured)\n\n
+https://www.vecteezy.com/free-vector/hospital-hallway (hospital hallway)\n\n
+https://www.seekpng.com/ipng/u2q8r5y3a9u2u2u2_woman-crying-cartoon/ (woman crying on the floor)\n\n
+https://www.dreamstime.com/illustration-sad-depressed-crying-girl-arms-crossed-protection-concept-crying-girl-image101756927 (woman crying, arms crossed)\n\n
+https://www.shutterstock.com/search/holding-hand-hospital (holding hands in hospital)\n\n
+http://clipart-library.com/clipart/1306694.htm (smiling doctor giving bad news)\n\n
+https://depositphotos.com/vector-images/doctor-mostrar-portapapeles.html?offset=100 (second doctor giving news)\n\n
+https://www.vecteezy.com/free-vector/doctor-clipboard (third doctor giving news)\n\n
+http://clipart-library.com/paper-signing-cliparts.html (signing will)\n\n
+http://clipart-library.com/please-knock-cliparts.html (knock on door)\n\n
+https://www.vecteezy.com/free-vector/man-standing (user opens door to man standing)\n\n
+https://www.dreamstime.com/illustration/man-showing-gesture-introducing-presentation.html (man introducing himself)\n\n
+https://www.alamy.com/man-with-broken-leg-cartoon-illustration-hospital-care-accident-consequences-vector-illustration-image354479916.html (man lying in hospital bed, covered in bandages)\n\n
+https://www.vecteezy.com/vector-art/12544851-cartoon-woman-crying (woman crying, again)\n\n
+https://depositphotos.com/129614344/stock-illustration-patient-with-neck-injury-vector.html (man lying, neck injury emphasized)\n\n
+https://www.istockphoto.com/search/2/image?mediatype=illustration&amp;phrase=losing+money (lost money)\n\n
+https://www.freepik.com/premium-vector/smug-man-with-crown-his-head-concept-narcissism-arrogance-high-self-esteem-vector-illustration-cartoon-style_18678414.htm (smug man)\n\n
+https://www.istockphoto.com/search/2/image?mediatype=illustration&amp;phrase=man+in+hospital+bed+drawing (anotha man in hospital bed)\n\n
+https://clipart.me/transportation/man-riding-motorbike-29549 (man on motorcycle)\n\n
+https://www.dreamstime.com/stock-illustration-date-flirting-boy-girl-vector-illustration-nice-looking-young-male-white-background-image73701801 (man and woman flirting side by side)\n\n
+https://www.vecteezy.com/free-vector/music-festival-stage (band equipment on stage)\n\n
+https://www.pngitem.com/middle/TiTmb_girl-playing-guitar-clipart-person-playing-guitar-clipart/ (man serenading)\n\n
+https://www.freepik.com/premium-vector/romantic-couple-cuddling-kissing-man-woman-hugging-love-relationship-flat-vector-illustration-cartoon-clipart-isolated-white-set-elements-st-valentines-holiday-design-decor-card_20611236.htm (she said yes to brad)\n\n
+https://en.ac-illust.com/clip-art/623014/illustration-of-a-crying-woman (user rejected proposal)\n\n
+https://www.kindpng.com/imgv/TiJxoRo_vector-illustration-of-lumberjack-with-axe-splitting-man/ (lumberjack cutting wood)\n\n
+https://www.freepik.com/premium-vector/fairy-tale-lumberjack-cartoon-illustration_1723767.htm (lumberjack standing)\n\n
+https://www.freepik.com/premium-vector/introduction-distinguish-lumberjack-holding-axe-mascot-logo_29608401.htm (lumberjack introducing himself)\n\n
+A Tuesday Morning Image Resources:\n
+https://www.istockphoto.com/search/2/image?mediatype=illustration&amp;phrase=three+people+hiking (hiking with three people)\n\n
+https://www.istockphoto.com/search/2/image?mediatype=illustration&amp;phrase=hat+blowing+away (hat blown away)\n\n
+https://www.123rf.com/clipart-vector/middle_ground.html (middle of the forest)\n\n
+https://www.dreamstime.com/illustration/creepy.html (creepy woods)\n\n
+https://depositphotos.com/vector-images/scary-woods.html (someone/thing watching in the woods)\n\n
+http://clipart-library.com/clipart/1464857.htm (tripping and falling)\n\n
+http://clipart-library.com/person-falling-cliparts.html (fell on face)\n\n
+http://clipart-library.com/woodpecker-cliparts.html (woodpecker)\n\n
+"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

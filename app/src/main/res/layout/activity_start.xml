@@ -42,23 +42,35 @@
             android:id="@+id/start_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginVertical="100dp"
+            android:fontFamily="casual"
             android:text="@string/start"
             android:textStyle="bold"
-            android:fontFamily="casual"
             app:layout_constraintBottom_toTopOf="@id/instructions_button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/image_app_logo"
-            android:layout_marginVertical="100dp"/>
+            app:layout_constraintTop_toBottomOf="@+id/image_app_logo" />
 
         <Button
             android:id="@+id/instructions_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="64dp"
             android:fontFamily="casual"
             android:text="@string/instructions"
             android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/start_button" />
+
+        <Button
+            android:id="@+id/credits_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credits"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/instructions_button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/start_button" />
