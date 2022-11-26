@@ -699,6 +699,601 @@ object TreesStory {
             ""
         ),
         Screen(
+            "The stairs: “I’m good with the stairs” you say. You want to get out of here " +
+                    "as soon as possible. Even if your ankle gets wrecked. You hobble towards the " +
+                    "stairs and start climbing. “Hey, how about I carry you up, it will be much " +
+                    "faster” Treevor says.",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "Treevor sweeps you off your feet and carries you bridal style up the stairs. Whoa this feels wonderful! You are almost at the top of the stairs when you hear screaming. You turn back and Treevor smiles at you.",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "You look back at Treevor, what is happening? Oh no, oh no, oh no. This was " +
+                    "a trap. You try to squirm out of Treevor’s branches but they are too strong. " +
+                    "“Treevor, how could you do this to me?” you cry out.",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "“How could I, how could you! After all trees do for humans, you turn around " +
+                    "and cut us down, commoditize our crops and turn us into mere resources. I " +
+                    "think humans need to feel what it's like to be exploited” Trevor replies " +
+                    "as he takes you into an area with a giant pool in the middle.",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "\"On the edge of the pool, tied up and guarded by some other trees are " +
+                    "Bro Ski and Bra Ski, tied up with branches. This is bad, real bad.\n" +
+                    "\n" +
+                    "Treevor drops you down next to the Skis. You can barely walk, there’s no " +
+                    "chance of escaping. You have been betreeyed.\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "“We left the signs, telling you to get out of here. We really hoped " +
+                    "you made it out alive” Bra Ski said. “Something started chasing us while " +
+                    "we were waiting for you, I think they lured us here and now they are going " +
+                    "to do something terrible” Bro Ski says",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen( // ENDING 4
+            "Treevor towers over you, “Have you heard of logrolling? I think it’s time " +
+                    "we try human rolling. HAHAA'' All the other trees start laughing as well. " +
+                    "They bind you up with their branches and toss you all into the water. You " +
+                    "start crying, Trees are the worst.",
+            R.drawable.trees_story,
+            "",
+            "",
+            0,
+            0,
+            false,
+            true,
+            ""
+        ),
+        Screen(
+            "You have to take a break. You slump down and rest your back against a tree. You rummage through your pockets, there must be painkillers somewhere.",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "\"Ah ha! You found some ibuprofen. Sometimes, it pays off to never empty your pockets. Your ankle actually isn’t as bad as you thought, you should be better after you pop your pills.\n" +
+                    "\n" +
+                    "You lean your head against the tree and something compels you to close your eyes. Wait, no, stay awake! You can’t open your eyes, you feel drowsy and then everything turns black.\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            7,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "Who are you kidding, you can’t make it out on your own. You would probably die in a variety of ways. Your best shot at survival is getting back with Bro Ski and Bra Ski. They couldn’t have gone far. You go down the trail you think they took.",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "\"“Bro Skiii!! Bra skiii!!” you yell out. Where did they go? The better not be joshing around, they know you hate being alone in the woods.\n" +
+                    "\n" +
+                    "You hear a reply to your shouts. “HELP! HELP ME!!”. That sounded like Bra Ski but not quite. The cries are coming from up ahead.\n" +
+                    "\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "You sprint towards the noises you heard. The noise keeps getting further. Everytime you think you have reached them it moves further up ahead. \n" +
+                    "\n" +
+                    "There! That clearing up ahead, you’re sure it's coming from there. It’s getting louder, you’re almost there. You break into the clearing and do a 360 degree scan. You just see a raven perched on one of the trees. Where is Bra Ski?\n" +
+                    "\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen( // CHOICE
+            "\"You hear something move behind you. There must be animals in the forest; that definitely sounded more like an animal than a human. You have to get out of this clearing, it’s too open. \n" +
+                    "\n" +
+                    "Do you -> Hide or Run \n" +
+                    "\"",
+            R.drawable.trees_story,
+            "Hide",
+            "Run",
+            1,
+            19,
+            true,
+            false,
+            ""
+        ),
+        Screen(
+            "You decide to hide. If the creature had already seen you, it would’ve attacked. You don’t want to make more noise by running so maybe you can hide behind a tree and hope for the best. You tiptoe towards the nearest tree, like a ninja. All those years of karate are finally paying off.",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "You hold your breath and press your back against the tree. You look up and the raven is watching you intently with its dark brown eyes. It swoops towards you. It’s too fast, you can’t run. \n" +
+                    "\n" +
+                    "Those eyes are the last things you see before falling backwards and everything goes dark.\n" +
+                    "\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "You wake up feeling groggy. Your head hurts, you must have hit it on something. A loud voice booms around you. “HELLO PUNY HUMAN. WELCOME TO MY LAIR”. Okay, you are pretty sure only cartoon villains have “lairs”.",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "\"You look around. You seem to be trapped. There are bars all around you and a wooden swing? HOLY GUACAMOLE, you are in a giant bird cage. It’s like a bird cage made specifically for humans.\n" +
+                    "\n" +
+                    "“Who was that ?!” you yell out, trying to sound like you’re not scared.\n" +
+                    "\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "The space lights up. You are in a large hall and in front of you is a .. tree? A really really big tree. \n" +
+                    "\n" +
+                    "“I am Katreena, the mighty oak tree of the forest, and you have been captured by my minions”, the tree says.\n" +
+                    "\n" +
+                    "Oh great, a talking tree, that’s just what you needed today. Well, I guess it’s time for the classic villain monologue so you might as well take a seat.\n" +
+                    "\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "As you suspected, Katreena launches into a speech. “I am tired of watching while humans destroy our world. We used to have a symbiotic relationship but now the humans just take and take and take without any thought of the harm they cause. I’ve watched my brethren fall just to make land for mass production of cattle.\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen( // CHOICE
+            "“I will not stand for this any longer!! I have big plans to change the way humans behave, but first you tell me. What do you think of my motivations, haven’t humans harmed the trees for too long ?“\n" +
+                    "\n" +
+                    "Do you agree or disagree?",
+            R.drawable.trees_story,
+            "Agree",
+            "Disagree",
+            1,
+            6,
+            true,
+            false,
+            ""
+        ),
+        Screen(
+            "Well the tree kinda has a point. You get up to address the tree, “I see where you are coming from. We may have gone a little overboard in these past few years. But! We are trying to change.” \n" +
+                    "\n" +
+                    "“It's not fast enough! I plan to force the humans to change, whether they like it or not. And you are going to help me. You will become one of my minions and serve my agenda.” Katreena says as she breaks out into a smile. \n" +
+                    "\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "\"“Me, noo, not me. I have zero strategy skills. I once lost a board game against my cat, I’m that bad” you try to argue. \n" +
+                    "\n" +
+                    "“Ofcourse, I knew that from the moment I met you, but I need all the manpower I can get. Let me introduce you to my supreme commander” Katreena says\n" +
+                    "\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "\"With that, you hear loud steps coming towards the room. You try to make a break for it, can the tree run after you? Might as well try. You slam against the bars but they are too thick. \n" +
+                    "\n" +
+                    "The steps are louder. You get goosebumps. It's getting closer, It's almost there. THUD THUD. The supreme commander enters the room. \n" +
+                    "\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "\"“Is that a pigeon??!”, you exclaim. \n" +
+                    "\n" +
+                    "“Yes, the birds are my most valuable assets. They spy on the humans for me and inform me about their behavior. You however will perform other tasks. You will target humans who are working to harm the environment and contributing to climate change. You will steal bad food from humans. You will stay outside the windows of particularly troublesome humans and wake them up at 4 am with your noise. You will be given the orders and you won't be able to stop yourself from carrying them out.” Katreena explains \n" +
+                    "\"",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen( // ENDING 5
+            "\"The supreme commander stares at you and lets out a loud cry. You can feel yourself transforming. You shrink down, your arms become wings, your entire body is burning with pain. \n" +
+                    "\n" +
+                    "Then it ends and you only have one thing on your mind - squawk.\"",
+            R.drawable.trees_story,
+            "Return to home",
+            "",
+            0,
+            0,
+            false,
+            true,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
+            "",
+            R.drawable.trees_story,
+            "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen(
             "",
             R.drawable.trees_story,
             "",
