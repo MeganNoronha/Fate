@@ -1068,7 +1068,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "This seems a little too extreme. “No, I don't think this is the right way. " +
+                    "How are you planning to change the way humans behave anyway?” you say. \n" +
+                    "\n" +
+                    "“Hahaha, what a perfect question because you will be one of my first " +
+                    "experiments.” Katreena says evilly.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -1079,7 +1083,12 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "Vines shoot out from around you and tie you down. You can’t move any part " +
+                    "of your body. You’re stuck. \n" +
+                    "\n" +
+                    "Katreena comes over to you and says “I have a great idea. I have been " +
+                    "working on this fruit that can brainwash any creature that tastes it, " +
+                    "you have the pleasure of being my first victim”\n",
             R.drawable.trees_story,
             "",
             "",
@@ -1090,7 +1099,9 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "You start screaming, maybe that will distract Katreena. You kick your legs " +
+                    "and wriggle your body. But everytime one tie snaps another just grows in " +
+                    "its place. You can’t leave.",
             R.drawable.trees_story,
             "",
             "",
@@ -1101,7 +1112,14 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "Katreena smiles. “I will make it so that you forget all about this place " +
+                    "and only remember what I tell you. You will get an intense fear when you " +
+                    "do anything that harms trees. You will join climate activists and campaign " +
+                    "with them. You will become vegan”\n" +
+                    "\n" +
+                    "“No, not vegan! That is a fate far worse than death!” You cry out.\n" +
+                    "\n" +
+                    "Katreena just laughs and forces you to eat the strange fruit.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -1112,7 +1130,9 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "Bro Ski and Bra Ski found you in the parking lot three days later. You " +
+                    "don’t know what happened in those three days but what you do know is you " +
+                    "have to change your lifestyle.",
             R.drawable.trees_story,
             "",
             "",
@@ -1122,14 +1142,18 @@ object TreesStory {
             false,
             ""
         ),
-        Screen(
-            "",
+        Screen( // ENDING 6
+            "You throw out all your meat products. Everything you buy is sustainably " +
+                    "made. You feed the birds. You don’t know why, but it feels like the right " +
+                    "thing to do. \n" +
+                    "\n" +
+                    "Every now and then you get a strange feeling, trees, are they friends or foes?\n",
             R.drawable.trees_story,
+            "Return to home",
             "",
-            "",
-            1,
             0,
-            false,
+            0,
+            true,
             false,
             ""
         ),
