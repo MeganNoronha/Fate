@@ -1,9 +1,7 @@
 package com.menaces.fate2.data
 
-import android.media.Image
 import com.menaces.fate2.R
 import com.menaces.fate2.model.Screen
-import kotlin.text.Typography.tm
 
 object TreesStory {
 
@@ -75,7 +73,7 @@ object TreesStory {
             "in the middle of the forest"
         ),
         Screen(
-            "Retrace your steps: Bro Ski and Bra Ski are seasoned hikers, they will make " +
+            "Bro Ski and Bra Ski are seasoned hikers, they will make " +
                     "their way around. But you, no chance, you made a couple of markings on the " +
                     "trees on your way in, hopefully you can follow those out and get help if needed. ",
             R.drawable.tm_middle_of_forest_2,
@@ -149,7 +147,7 @@ object TreesStory {
             "person falling on their face"
         ),
         Screen(
-            "Hop your way out: This is too weird, something is up and you need to " +
+            "This is too weird, something is up and you need to " +
                     "get out of this place. It’s going to get dark and after that it would " +
                     "be too hard to find your way out. Panting, you pull yourself up. Your " +
                     "ankle is swollen. Oh shoot, this is going to be harder than you thought.",
@@ -219,7 +217,7 @@ object TreesStory {
             ""
         ),
         Screen(
-            "Left: Ever since Angela from 9th grade you’ve lived by the saying “Going " +
+            "Ever since Angela from 9th grade you’ve lived by the saying “Going " +
                     "left because she never treated me right”. You hop down the left path. If " +
                     "you recall correctly, there is an entrance about 15 minutes from here. " +
                     "It’s not the entrance you came by but there is no point in looking for " +
