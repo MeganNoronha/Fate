@@ -262,7 +262,7 @@ object TreesStory {
         Screen(
             "After forever, you reach the top of the stairs. You’re out. You made it, " +
                     "you call the park rangers and tell them about your situation. They take you " +
-                    "to the medical center and head out to look for bro ski and bra ski. \n" +
+                    "to the medical center and head out to look for Bro Ski and Bra Ski. \n" +
                     "\n" +
                     "You promise yourself to never go hiking for the rest of your life. Never ever!",
             R.drawable.trees_story,
@@ -275,8 +275,8 @@ object TreesStory {
             ""
         ),
         Screen(
-            "It’s been 3 months since that day, you head out to meet up with bro ski and " +
-                    "bra ski. Brok ski and bra ski were found hours later, shivering from the " +
+            "It’s been 3 months since that day, you head out to meet up with Bro Ski and " +
+                    "bra ski. Bro Ski and Bra Ski were found hours later, shivering from the " +
                     "cold, on the brink of death.",
             R.drawable.trees_story,
             "",
@@ -1158,8 +1158,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"Run: You book it out of there. Whatever is out there is probably much faster than you, you need the lead. You run towards the trees away from the sound you heard. You run as fast as you can, you feel like your heart is going to burst out of your chest. You barely watch where you are going.\n" +
-                    "\"",
+            "You book it out of there. Whatever is out there is probably much " +
+                    "faster than you, you need the lead. You run towards the trees away from the " +
+                    "sound you heard. You run as fast as you can, you feel like your heart is " +
+                    "going to burst out of your chest. You barely watch where you are going.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -1170,10 +1172,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"Suddenly you are falling. You hit some dirt and start sliding down the rest of the way. Frick frack, there was a trap and you ran straight into it. You are going so fast that your fingers burn when you try to stop yourself. \n" +
+            "Suddenly you are falling. You hit some dirt and start sliding down the " +
+                    "rest of the way. Frick frack, there was a trap and you ran straight into it. " +
+                    "You are going so fast that your fingers burn when you try to stop yourself. \n" +
                     "\n" +
-                    "You keep sliding down, are you ever going to stop.\n" +
-                    "\"",
+                    "You keep sliding down, are you ever going to stop.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -1184,7 +1187,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "It felt like you were falling forever. You finally hit the ground and slide across the floor. Before you can move, someone grabs you and ties you hands and feet. “We caught another one!” they say. They lift you up and start marching down the underground tunnel. ",
+            "It felt like you were falling forever. You finally hit the ground and " +
+                    "slide across the floor. Before you can move, someone grabs you and ties " +
+                    "your hands and feet. “We caught another one!” they say. They lift you up " +
+                    "and start marching down the underground tunnel. ",
             R.drawable.trees_story,
             "",
             "",
@@ -1195,7 +1201,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "“Let me go!” You scream and try to break free. As your eyes adjust to the darkness, you start to see the stuff around you. There’s a long corridor with great wooden sculptures adorning the sides. “Whoa this is some really nice art work” you say to yourself. “Thanks, I made some of them with my branches” your captor replies. Wait, did they say branches??!\n",
+            "“Let me go!” You scream and try to break free. As your eyes adjust to the " +
+                    "darkness, you start to see the stuff around you. There’s a long corridor " +
+                    "with great wooden sculptures adorning the sides. “Whoa this is some " +
+                    "really nice art work” you say to yourself. “Thanks, I made some of them " +
+                    "with my branches” your captor replies. Wait, did they say branches??!\n",
             R.drawable.trees_story,
             "",
             "",
@@ -1206,7 +1216,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "You arrive at an underground dome. “My queen, we have another”, The captor tosses you to the floor. “Thank you Palmela”, the queen replies. You look around, there are trees surrounding the entire dome, you are in the middle of the dome, in front of a much bigger tree than the rest. The queen presumably.  ",
+            "You arrive at an underground dome. “My queen, we have another”, The captor " +
+                    "tosses you to the floor. “Thank you Palmela”, the queen replies. You look " +
+                    "around, there are trees surrounding the entire dome, you are in the middle " +
+                    "of the dome, in front of a much bigger tree than the rest. The queen presumably.",
             R.drawable.trees_story,
             "",
             "",
@@ -1217,10 +1230,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"Are the trees talking, is that a thing? Maybe you just don’t go hiking enough, but surely you would have heard stories. \n" +
+            "Are the trees talking, is that a thing? Maybe you just don’t go hiking " +
+                    "enough, but surely you would have heard stories. \n" +
                     "\n" +
-                    "“You humans are so simple, you have fallen into my trap like a silly goose” The queen says\n" +
-                    "\"",
+                    "“You humans are so simple, you have fallen into my trap like a silly goose,” " +
+                    "The queen says\n",
             R.drawable.trees_story,
             "",
             "",
@@ -1231,7 +1245,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "“Where am I ? What do you want from me?” you ask. “You are in my palace, I am queen Beatreece, a great redwood tree. You humans are mere fertilizer and yet manage to cause so much trouble. We work hard to keep the ecosystem in balance but you humans put so much carbon dioxide in the air that it's all for nothing. You will have to pay for the crimes of humanity”",
+            "“Where am I ? What do you want from me?” you ask. “You are in my palace, " +
+                    "I am queen Beatreece, a great redwood tree. You humans are mere fertilizer " +
+                    "and yet manage to cause so much trouble. We work hard to keep the " +
+                    "ecosystem in balance but you humans put so much carbon dioxide in the air " +
+                    "that it's all for nothing. You will have to pay for the crimes of humanity”",
             R.drawable.trees_story,
             "",
             "",
@@ -1242,7 +1260,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "This doesn’t sound good. The tree is clearly ready to kill you. You have to think of a way to get out of this. You have a swiss knife in one of your pockets. Maybe you could try to get the ropes at your feet and then run back the way you came. You would have to be super fast though.\n",
+            "This doesn’t sound good. The tree is clearly ready to kill you. You have " +
+                    "to think of a way to get out of this. You have a swiss knife in one of your " +
+                    "pockets. Maybe you could try to get the ropes at your feet and then run " +
+                    "back the way you came. You would have to be super fast though.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -1253,10 +1274,10 @@ object TreesStory {
             ""
         ),
         Screen( // CHOICE
-            "\"Perhaps, you could try negotiating with the queen. Convince her that not all humans are bad. \n" +
+            "Perhaps, you could try negotiating with the queen. Convince her that not " +
+                    "all humans are bad. \n" +
                     "\n" +
-                    "Think fast, are you going to:\n" +
-                    "\"",
+                    "Think fast, are you going to:\n",
             R.drawable.trees_story,
             "Negotiate",
             "Escape",
@@ -1267,7 +1288,11 @@ object TreesStory {
             ""
         ),
         Screen(
-            "You were your highschool debate champion. You once bargained for a 90% discount at Ralph Lauren, you can do it. “My queen, I ..”, you start to say. “DID I GIVE YOU PERMISSION TO TALK?” the queen roars. “Put him in the prison with the other, let’s give them a taste of human treatment”. The henchmen march behind you and carry you out of the dome room. ",
+            "You were your highschool debate champion. You once bargained for a 90% " +
+                    "discount at Ralph Lauren, you can do it. “My queen, I ..”, you start to " +
+                    "say. “DID I GIVE YOU PERMISSION TO TALK?” the queen roars. “Put him in " +
+                    "the prison with the other, let’s give them a taste of human treatment”. " +
+                    "The henchmen march behind you and carry you out of the dome room. ",
             R.drawable.trees_story,
             "",
             "",
@@ -1278,12 +1303,13 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"What does tree prison even look like, will it have a bathroom?\n" +
+            "What does tree prison even look like, will it have a bathroom?\n" +
                     "\n" +
-                    "You get to the cell and see your two friends already tied up. Fiddlesticks! They got the Skis as well. You are tossed quite roughly into the cell. \n" +
+                    "You get to the cell and see your two friends already tied up. Fiddlesticks! " +
+                    "They got the Skis as well. You are tossed quite roughly into the cell. \n" +
                     "\n" +
-                    "“Bro Ski, Bra Ski. I thought I would never see you again! How did you get here?” you say. \n" +
-                    "\"",
+                    "“Bro Ski, Bra Ski. I thought I would never see you again! How did you get " +
+                    "here?” you say. \n",
             R.drawable.trees_story,
             "",
             "",
@@ -1294,10 +1320,13 @@ object TreesStory {
             ""
         ),
         Screen( // ENDING 7
-            "\"“We fell into the trap as well. The queen got quite mad at us and plans to keep us here forever. We tried to break the bars but we couldn't, our knives won’t cut through this wood” Bra Ski says.  \n" +
+            "“We fell into the trap as well. The queen got quite mad at us and plans " +
+                    "to keep us here forever. We tried to break the bars but we couldn't, our " +
+                    "knives won’t cut through this wood” Bra Ski says.  \n" +
                     "\n" +
-                    "Looks like you are stuck in the dungeons of an old queen. You always had a feeling trees were evil, you should have trusted your instincts and not gone hiking!\n" +
-                    "\"",
+                    "Looks like you are stuck in the dungeons of an old queen. You always had a " +
+                    "feeling trees were evil, you should have trusted your instincts and not " +
+                    "gone hiking!\n",
             R.drawable.trees_story,
             "Return to home",
             "",
@@ -1308,7 +1337,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "“What’s that!” You yell, looking at the ceiling. All the trees look up as well. This is your chance, you reach in your pocket, take your knife and slice through the vines around you. The queen doesn’t run after you but the henchmen start coming for you. ",
+            "“What’s that!” You yell, looking at the ceiling. All the trees look up " +
+                    "as well. This is your chance, you reach in your pocket, take your knife " +
+                    "and slice through the vines around you. The queen doesn’t run after you " +
+                    "but the henchmen start coming for you. ",
             R.drawable.trees_story,
             "",
             "",
@@ -1319,7 +1351,9 @@ object TreesStory {
             ""
         ),
         Screen(
-            "You run towards the entrance, the trees see where you are headed and try to block it. They are all trying to tackle but you manage to dodge their attacks. You’re almost there, the exit is a couple of feet away. ",
+            "You run towards the entrance, the trees see where you are headed and " +
+                    "try to block it. They are all trying to tackle but you manage to dodge " +
+                    "their attacks. You’re almost there, the exit is a couple of feet away.",
             R.drawable.trees_story,
             "",
             "",
@@ -1330,9 +1364,12 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\"Nothing happens. You open your eyes and there is a tree standing in front of you, protecting you. He is incredibly fast, he fights off the other trees, then grabs you from the floor and dashes for the entrance. The tree veers right and starts down a different corridor from which you came.\n" +
+            "Nothing happens. You open your eyes and there is a tree standing in " +
+                    "front of you, protecting you. He is incredibly fast, he fights off the " +
+                    "other trees, then grabs you from the floor and dashes for the entrance. " +
+                    "The tree veers right and starts down a different corridor from which you came.\n" +
                     "\n" +
-                    "Who is this mystery tree, or is it a mystree?\"",
+                    "Who is this mystery tree, or is it a mystree?",
             R.drawable.trees_story,
             "",
             "",
@@ -1343,7 +1380,12 @@ object TreesStory {
             ""
         ),
         Screen(
-            "“Hey, I’m Patreeck by the way. I’m going to get you out of here even if it's the last thing I do” the tree says. You are too stunned to speak. So much is happening. “I used to be a high ranking officer, I was the branch manager for the queen but I couldn't take it anymore. She’s gone too far with her ideas. I couldn’t save the others but I’m going to make sure you survive”.\n",
+            "“Hey, I’m Patreeck by the way. I’m going to get you out of here even if " +
+                    "it's the last thing I do” the tree says. You are too stunned to speak. " +
+                    "So much is happening. “I used to be a high ranking officer, I was the " +
+                    "branch manager for the queen but I couldn't take it anymore. She’s gone " +
+                    "too far with her ideas. I couldn’t save the others but I’m going to make " +
+                    "sure you survive”.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -1354,13 +1396,15 @@ object TreesStory {
             ""
         ),
         Screen( // CHOICE
-            "\"By others you have a sinking feeling that he means Bro Ski and Bra Ski. You don't have time to dwell on that right now\n" +
+            "By “others,“ you have a sinking feeling that he means Bro Ski and Bra Ski. " +
+                    "You don't have time to dwell on that right now\n" +
                     "\n" +
                     "You see a fork in the path coming up. \n" +
                     "\n" +
-                    "“I’m not sure which way to go, just choose one and we’ll stick with it” Patreeck says to you\n" +
+                    "“I’m not sure which way to go, just choose one and we’ll stick with it” " +
+                    "Patreeck says to you\n" +
                     "\n" +
-                    "Do you go:\"",
+                    "Do you go:",
             R.drawable.trees_story,
             "Left",
             "Right",
@@ -1371,7 +1415,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "“LEFT!” you yell. Patreeck takes you both through the left corridor. You hear steps approaching, the trees are catching up to you guys. You are running, you see the exit. It's the light at the end of the tunnel. The trees are close on your heels.",
+            "“LEFT!” you yell. Patreeck takes you both through the left corridor. You " +
+                    "hear steps approaching, the trees are catching up to you guys. You are " +
+                    "running, you see the exit. It's the light at the end of the tunnel. " +
+                    "The trees are close on your heels.",
             R.drawable.trees_story,
             "",
             "",
@@ -1382,12 +1429,13 @@ object TreesStory {
             ""
         ),
         Screen(
-            "\" “Hey, I don’t think we are going to make it out. I will toss you towards the entrance and I’ll stay back and fight, '' he says.\n" +
+            "“Hey, I don’t think we are going to make it out. I will toss you " +
+                    "towards the entrance and I’ll stay back and fight, '' he says.\n" +
                     "\n" +
-                    " “Patreeck, no, don’t leave me!” you say. Patreeck nudges you to the entrance and turns his back to you to fight the trees. \n" +
+                    " “Patreeck, no, don’t leave me!” you say. Patreeck nudges you to the " +
+                    "entrance and turns his back to you to fight the trees. \n" +
                     "\n" +
-                    "“Run, stay safe. Bye brochacho”. You run to the exit.\n" +
-                    "\"",
+                    "“Run, stay safe. Bye brochacho”. You run to the exit.\n",
             R.drawable.trees_story,
             "",
             "",
@@ -1398,8 +1446,10 @@ object TreesStory {
             ""
         ),
         Screen( // ENDING 8
-            "\"You manage to get out of the woods. They never find Bro Ski and Bra Ski so you assume the crazy trees got them. It’s too hard to even think about Patreeck. You go home and decide to do everything you can to save the trees. For Patreeck's sake.\n" +
-                    "\"",
+            "You manage to get out of the woods. They never find Bro Ski and Bra Ski " +
+                    "so you assume the crazy trees got them. It’s too hard to even think about " +
+                    "Patreeck. You go home and decide to do everything you can to save the trees. " +
+                    "For Patreeck's sake.\n",
             R.drawable.trees_story,
             "Return to home",
             "",
@@ -1410,7 +1460,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "“RIGHT!” you shout. Patreeck shifts you to a higher branch and you head down the right corridor. Patreeck takes a stone and throws it down the left corridor while you both hide. The trees arrive at the fork a couple of seconds later and follow the noise from the left. You breathe a sigh of relief. \n",
+            "“RIGHT!” you shout. Patreeck shifts you to a higher branch and you head " +
+                    "down the right corridor. Patreeck takes a stone and throws it down the " +
+                    "left corridor while you both hide. The trees arrive at the fork a couple " +
+                    "of seconds later and follow the noise from the left. You breathe a sigh of relief. \n",
             R.drawable.trees_story,
             "",
             "",
@@ -1421,7 +1474,9 @@ object TreesStory {
             ""
         ),
         Screen(
-            "“It won’t keep them long, we should get going” Patreeck says. Once you are certain all the trees have past y’all, Patreeck runs down the corridor. You manage to reach the exit! You made it!",
+            "“It won’t keep them long, we should get going” Patreeck says. Once you " +
+                    "are certain all the trees have past y’all, Patreeck runs down the corridor. " +
+                    "You manage to reach the exit! You made it!",
             R.drawable.trees_story,
             "",
             "",
@@ -1432,9 +1487,9 @@ object TreesStory {
             ""
         ),
         Screen( // ENDING 9 (FINAL ENDING)
-            "\"“I’m sorry about your friends, but I’m glad you made it out okay!” \n" +
+            "“I’m sorry about your friends, but I’m glad you made it out okay!” \n" +
                     "\n" +
-                    "Are you okay though? You don’t think your life will ever be the same.\"",
+                    "Are you okay though? You don’t think your life will ever be the same.",
             R.drawable.trees_story,
             "Return to home",
             "",
