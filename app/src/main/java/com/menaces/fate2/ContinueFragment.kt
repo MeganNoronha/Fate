@@ -47,7 +47,7 @@ class ContinueFragment : Fragment() {
         continueBtn.setOnClickListener {
             // check if end screen before incrementing
             if (model.isEndScreen()) {
-                val intent = Intent(activity, StoryMenuActivity::class.java)
+                val intent = Intent(activity, StartActivity::class.java)
                 startActivity(intent)
             }
 

@@ -256,7 +256,7 @@ object UnexpectedEncounterStory {
                     "\n" +
                     "“Hey bestie bae!” Priscilla says, throwing up an unsolicited peace sign and duck face. “What’s the tea?”\n" +
                     "\n",
-            R.drawable.facetiming_prissy,
+            R.drawable.anotha_woman_facetime,
             "",
             "",
             1,
@@ -284,7 +284,7 @@ object UnexpectedEncounterStory {
             "“Men named Chad are walking red flags.”\n"
                     + "I stare at her, disappointed. I thought she would support this. I finally " +
                     "found the man of my dreams and the least she could do is grant her blessing.",
-            R.drawable.prissy_shook,
+            R.drawable.prissy_disgusted,
             "",
             "",
             1,
@@ -299,7 +299,7 @@ object UnexpectedEncounterStory {
                     "\n" +
                     "You smile.\n" +
                     "“Thanks Sissy Prissy. I knew I could always count on you.”",
-            R.drawable.facetiming_prissy,
+            R.drawable.anotha_woman_facetime,
             "",
             "",
             1,
@@ -339,7 +339,7 @@ object UnexpectedEncounterStory {
         ),
         Screen( // TRANSITION SCREEN
             "",
-            R.drawable.roller_blading,
+            R.drawable.better_rollerblades,
             "",
             "",
             1,
@@ -396,7 +396,7 @@ object UnexpectedEncounterStory {
                     "“Do you want to exchange them?”\n" +
                     "You can either",
             R.drawable.foot_pain,
-            "Suffer through the badly fitting shoes",
+            "Suffer through the badly fitting roller blades",
             "Get new ones",
             1,
             5,
@@ -884,7 +884,7 @@ object UnexpectedEncounterStory {
         Screen(
             "\"Hello...may I ask for your name and some wood, Mr. Lumberjack\" you ask, " +
                     "curious about the Mystery Man living in the deep woods. He turns around.",
-            R.drawable.chopping_wood,
+            R.drawable.lumberjack_standing,
             "",
             "",
             1,
@@ -897,14 +897,14 @@ object UnexpectedEncounterStory {
             "The lumberjack turns around.\n" +
                     "Scruff, but clean, he flashes you a smile.\n" +
                     "\"My name is Chad and I'd be delighted to give some wood to you.\"\n",
-            R.drawable.flirt,
+            R.drawable.lumberjack_introducing,
             "Return to home",
             "",
             0,
             0,
             false,
             true,
-            "girl flirting with bearded man"
+            "bearded man introducing himself"
         )
 
         )

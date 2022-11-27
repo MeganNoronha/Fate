@@ -869,7 +869,7 @@ object TreesStory {
                     "that definitely sounded more like an animal than a human. You have to " +
                     "get out of this clearing, it’s too open. \n" +
                     "\n" +
-                    "Do you -> Hide or Run \n",
+                    "Do you: \n",
             R.drawable._2_59_raven,
             "Hide",
             "Run",
@@ -975,7 +975,7 @@ object TreesStory {
                     "humans behave, but first you tell me. What do you think of my motivations, " +
                     "haven’t humans harmed the trees for too long?“\n" +
                     "\n" +
-                    "Do you agree or disagree?",
+                    "Do you:",
             R.drawable._7_67_agree_or_disagree,
             "Agree",
             "Disagree",
@@ -1411,14 +1411,12 @@ object TreesStory {
         ),
         Screen( // CHOICE
             "By “others,“ you have a sinking feeling that he means Bro Ski and Bra Ski. " +
-                    "You don't have time to dwell on that right now\n" +
+                    "You don't have time to dwell on that right now.\n" +
                     "\n" +
                     "You see a fork in the path coming up. \n" +
                     "\n" +
                     "“I’m not sure which way to go, just choose one and we’ll stick with it” " +
-                    "Patreeck says to you\n" +
-                    "\n" +
-                    "Do you go:",
+                    "Patreeck says to you. Do you go: \n",
             R.drawable.tm_fork_split_two_96,
             "Left",
             "Right",
