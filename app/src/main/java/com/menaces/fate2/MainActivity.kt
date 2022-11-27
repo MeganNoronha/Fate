@@ -59,15 +59,6 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
-        //mediaPlayer?.release()
-
-//        progressBar = findViewById<ProgressBar>(R.id.p_Bar) as ProgressBar
-//        progressBar!!.max = 1000
-//        var currentProgress = 600
-//        //progressBar!!.progress = currentProgress
-//        ObjectAnimator.ofInt(progressBar, "progress", currentProgress)
-//            .setDuration(2000)
-//            .start()
 
         // loads the continue button fragment
         supportFragmentManager.commit {
@@ -81,14 +72,11 @@ class MainActivity : AppCompatActivity() {
         super.onStop()
         mediaPlayer.pause()
         musicSwitch.isChecked = false
-        //mediaPlayer.release()
-//        mediaPlayer = null
     }
 
 
     // Goes back to story menu instead of previous fragment (device button)
     override fun onBackPressed() {
-        super.onBackPressed()
         backButtonPressed()
     }
 
