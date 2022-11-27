@@ -1493,7 +1493,7 @@ object TreesStory {
             R.drawable.trees_story,
             "Return to home",
             "",
-            1,
+            0,
             0,
             false,
             true,
