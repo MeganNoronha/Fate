@@ -268,8 +268,8 @@ object UnexpectedEncounterStory {
         Screen(
             "\n\n“OMG! Girl, you’re not gonna believe this, but I got a hot new date.” Priscilla looks shocked.\n" +
                     "\n" +
-                    "“No way?? What’s their name, LOL?”" +
-                    "“Chad,” you say, eyes getting dreamy. “He likes when people throw coffee " +
+                    "“No way?? What’s their name, LOL?”\n" +
+                    "\n“Chad,” you say, eyes getting dreamy. “He likes when people throw coffee " +
                     "at him.” Priscilla’s shock turns quickly into disgust.\n",
             R.drawable.prissy_shook,
             "",
@@ -311,7 +311,7 @@ object UnexpectedEncounterStory {
         Screen(
             "\nShe chuckles.\n" +
                     "“Let me know how it goes. I’ll buy a pint of chocolate raisin pistachio ice " +
-                    "cream just in case things don’t turn out the way you wanted it too crying emoji uwu.”\n" +
+                    "cream just in case things don’t turn out the way you wanted it to crying emoji uwu.”\n" +
                     "\n" +
                     "“Until then mwah.”\n" +
                     "\n" +
