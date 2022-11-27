@@ -1308,7 +1308,7 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "“What’s that!” You yell, looking at the ceiling. All the trees look up as well. This is your chance, you reach in your pocket, take your knife and slice through the vines around you. The queen doesn’t run after you but the henchmen start coming for you. ",
             R.drawable.trees_story,
             "",
             "",
@@ -1319,7 +1319,7 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "You run towards the entrance, the trees see where you are headed and try to block it. They are all trying to tackle but you manage to dodge their attacks. You’re almost there, the exit is a couple of feet away. ",
             R.drawable.trees_story,
             "",
             "",
@@ -1330,7 +1330,9 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "\"Nothing happens. You open your eyes and there is a tree standing in front of you, protecting you. He is incredibly fast, he fights off the other trees, then grabs you from the floor and dashes for the entrance. The tree veers right and starts down a different corridor from which you came.\n" +
+                    "\n" +
+                    "Who is this mystery tree, or is it a mystree?\"",
             R.drawable.trees_story,
             "",
             "",
@@ -1341,7 +1343,35 @@ object TreesStory {
             ""
         ),
         Screen(
+            "“Hey, I’m Patreeck by the way. I’m going to get you out of here even if it's the last thing I do” the tree says. You are too stunned to speak. So much is happening. “I used to be a high ranking officer, I was the branch manager for the queen but I couldn't take it anymore. She’s gone too far with her ideas. I couldn’t save the others but I’m going to make sure you survive”.\n",
+            R.drawable.trees_story,
             "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen( // CHOICE
+            "\"By others you have a sinking feeling that he means Bro Ski and Bra Ski. You don't have time to dwell on that right now\n" +
+                    "\n" +
+                    "You see a fork in the path coming up. \n" +
+                    "\n" +
+                    "“I’m not sure which way to go, just choose one and we’ll stick with it” Patreeck says to you\n" +
+                    "\n" +
+                    "Do you go:\"",
+            R.drawable.trees_story,
+            "Left",
+            "Right",
+            1,
+            4,
+            true,
+            false,
+            ""
+        ),
+        Screen(
+            "“LEFT!” you yell. Patreeck takes you both through the left corridor. You hear steps approaching, the trees are catching up to you guys. You are running, you see the exit. It's the light at the end of the tunnel. The trees are close on your heels.",
             R.drawable.trees_story,
             "",
             "",
@@ -1352,7 +1382,35 @@ object TreesStory {
             ""
         ),
         Screen(
+            "\" “Hey, I don’t think we are going to make it out. I will toss you towards the entrance and I’ll stay back and fight, '' he says.\n" +
+                    "\n" +
+                    " “Patreeck, no, don’t leave me!” you say. Patreeck nudges you to the entrance and turns his back to you to fight the trees. \n" +
+                    "\n" +
+                    "“Run, stay safe. Bye brochacho”. You run to the exit.\n" +
+                    "\"",
+            R.drawable.trees_story,
             "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen( // ENDING 8
+            "\"You manage to get out of the woods. They never find Bro Ski and Bra Ski so you assume the crazy trees got them. It’s too hard to even think about Patreeck. You go home and decide to do everything you can to save the trees. For Patreeck's sake.\n" +
+                    "\"",
+            R.drawable.trees_story,
+            "Return to home",
+            "",
+            0,
+            0,
+            false,
+            true,
+            ""
+        ),
+        Screen(
+            "“RIGHT!” you shout. Patreeck shifts you to a higher branch and you head down the right corridor. Patreeck takes a stone and throws it down the left corridor while you both hide. The trees arrive at the fork a couple of seconds later and follow the noise from the left. You breathe a sigh of relief. \n",
             R.drawable.trees_story,
             "",
             "",
@@ -1363,7 +1421,7 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "“It won’t keep them long, we should get going” Patreeck says. Once you are certain all the trees have past y’all, Patreeck runs down the corridor. You manage to reach the exit! You made it!",
             R.drawable.trees_story,
             "",
             "",
@@ -1373,202 +1431,17 @@ object TreesStory {
             false,
             ""
         ),
-        Screen(
-            "",
+        Screen( // ENDING 9 (FINAL ENDING)
+            "\"“I’m sorry about your friends, but I’m glad you made it out okay!” \n" +
+                    "\n" +
+                    "Are you okay though? You don’t think your life will ever be the same.\"",
             R.drawable.trees_story,
-            "",
+            "Return to home",
             "",
             1,
             0,
             false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
+            true,
             ""
         ),
     )
