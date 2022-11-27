@@ -1158,7 +1158,8 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "\"Run: You book it out of there. Whatever is out there is probably much faster than you, you need the lead. You run towards the trees away from the sound you heard. You run as fast as you can, you feel like your heart is going to burst out of your chest. You barely watch where you are going.\n" +
+                    "\"",
             R.drawable.trees_story,
             "",
             "",
@@ -1169,7 +1170,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "\"Suddenly you are falling. You hit some dirt and start sliding down the rest of the way. Frick frack, there was a trap and you ran straight into it. You are going so fast that your fingers burn when you try to stop yourself. \n" +
+                    "\n" +
+                    "You keep sliding down, are you ever going to stop.\n" +
+                    "\"",
             R.drawable.trees_story,
             "",
             "",
@@ -1180,7 +1184,7 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "It felt like you were falling forever. You finally hit the ground and slide across the floor. Before you can move, someone grabs you and ties you hands and feet. “We caught another one!” they say. They lift you up and start marching down the underground tunnel. ",
             R.drawable.trees_story,
             "",
             "",
@@ -1191,7 +1195,7 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "“Let me go!” You scream and try to break free. As your eyes adjust to the darkness, you start to see the stuff around you. There’s a long corridor with great wooden sculptures adorning the sides. “Whoa this is some really nice art work” you say to yourself. “Thanks, I made some of them with my branches” your captor replies. Wait, did they say branches??!\n",
             R.drawable.trees_story,
             "",
             "",
@@ -1202,7 +1206,7 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "You arrive at an underground dome. “My queen, we have another”, The captor tosses you to the floor. “Thank you Palmela”, the queen replies. You look around, there are trees surrounding the entire dome, you are in the middle of the dome, in front of a much bigger tree than the rest. The queen presumably.  ",
             R.drawable.trees_story,
             "",
             "",
@@ -1213,7 +1217,10 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "\"Are the trees talking, is that a thing? Maybe you just don’t go hiking enough, but surely you would have heard stories. \n" +
+                    "\n" +
+                    "“You humans are so simple, you have fallen into my trap like a silly goose” The queen says\n" +
+                    "\"",
             R.drawable.trees_story,
             "",
             "",
@@ -1224,7 +1231,7 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "“Where am I ? What do you want from me?” you ask. “You are in my palace, I am queen Beatreece, a great redwood tree. You humans are mere fertilizer and yet manage to cause so much trouble. We work hard to keep the ecosystem in balance but you humans put so much carbon dioxide in the air that it's all for nothing. You will have to pay for the crimes of humanity”",
             R.drawable.trees_story,
             "",
             "",
@@ -1235,7 +1242,32 @@ object TreesStory {
             ""
         ),
         Screen(
+            "This doesn’t sound good. The tree is clearly ready to kill you. You have to think of a way to get out of this. You have a swiss knife in one of your pockets. Maybe you could try to get the ropes at your feet and then run back the way you came. You would have to be super fast though.\n",
+            R.drawable.trees_story,
             "",
+            "",
+            1,
+            0,
+            false,
+            false,
+            ""
+        ),
+        Screen( // CHOICE
+            "\"Perhaps, you could try negotiating with the queen. Convince her that not all humans are bad. \n" +
+                    "\n" +
+                    "Think fast, are you going to:\n" +
+                    "\"",
+            R.drawable.trees_story,
+            "Negotiate",
+            "Escape",
+            1,
+            4,
+            true,
+            false,
+            ""
+        ),
+        Screen(
+            "You were your highschool debate champion. You once bargained for a 90% discount at Ralph Lauren, you can do it. “My queen, I ..”, you start to say. “DID I GIVE YOU PERMISSION TO TALK?” the queen roars. “Put him in the prison with the other, let’s give them a taste of human treatment”. The henchmen march behind you and carry you out of the dome room. ",
             R.drawable.trees_story,
             "",
             "",
@@ -1246,7 +1278,12 @@ object TreesStory {
             ""
         ),
         Screen(
-            "",
+            "\"What does tree prison even look like, will it have a bathroom?\n" +
+                    "\n" +
+                    "You get to the cell and see your two friends already tied up. Fiddlesticks! They got the Skis as well. You are tossed quite roughly into the cell. \n" +
+                    "\n" +
+                    "“Bro Ski, Bra Ski. I thought I would never see you again! How did you get here?” you say. \n" +
+                    "\"",
             R.drawable.trees_story,
             "",
             "",
@@ -1256,37 +1293,18 @@ object TreesStory {
             false,
             ""
         ),
-        Screen(
-            "",
+        Screen( // ENDING 7
+            "\"“We fell into the trap as well. The queen got quite mad at us and plans to keep us here forever. We tried to break the bars but we couldn't, our knives won’t cut through this wood” Bra Ski says.  \n" +
+                    "\n" +
+                    "Looks like you are stuck in the dungeons of an old queen. You always had a feeling trees were evil, you should have trusted your instincts and not gone hiking!\n" +
+                    "\"",
             R.drawable.trees_story,
+            "Return to home",
             "",
-            "",
-            1,
+            0,
             0,
             false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
-            ""
-        ),
-        Screen(
-            "",
-            R.drawable.trees_story,
-            "",
-            "",
-            1,
-            0,
-            false,
-            false,
+            true,
             ""
         ),
         Screen(
