@@ -508,7 +508,7 @@ object UnexpectedEncounterStory {
                     "stable, but he’s definitely unconscious. Tears began to form around your eyes, " +
                     "quickly turning into a waterfall. Sobbing, you rush to his side. And thus, your " +
                     "profession of love began.",
-            R.drawable.user_professing_love,
+            R.drawable.anotha_woman_crying,
             "",
             "",
             1,
@@ -712,7 +712,7 @@ object UnexpectedEncounterStory {
                     "wishing you had stayed with him instead. Seizing the moment, you fall to the floor.\n" +
                     "\n" +
                     "“Chad, I think I’m in love with you,” you exclaim loud and clear.",
-            R.drawable.user_professing_love,
+            R.drawable.woman_crying_arms_crossed,
             "",
             "",
             1,
@@ -848,7 +848,7 @@ object UnexpectedEncounterStory {
                     "“Yes!” you exclaim with joy. \n" +
                     "\n" +
                     "You and Brad embrace each other like there is no tomorrow. The end.",
-            R.drawable.marriage_with_brad,
+            R.drawable.proposal_bw_chad_steve,
             "Return to home",
             "",
             0,
