@@ -12,22 +12,20 @@ class LoadingScreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_loading_screen)
 
-        // This is used to hide the status bar and make
-        // the splash screen as a full screen activity.
         window.setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
 
-        // we used the postDelayed(Runnable, time) method
-        // to send a message with a delayed time.
-        //Normal Handler is depricated , so we have to change the code little bit
-
-        // Handler().postDelayed({
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this, StartActivity::class.java)
             startActivity(intent)
             finish()
-        }, 4000) // 3000 is the delayed time in milliseconds.
+        }, 4000) // 4000 is the delayed time in milliseconds.
     }
 }
+
+// hides the status bar and make splash screen as a full screen activity.
+// postDelayed(Runnable, time) method to send a message with a delayed time.
+// using .getMainLooper()
+// 4000 is the delayed time in milliseconds.
